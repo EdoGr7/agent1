@@ -1,0 +1,223 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Pinterest-to-Nanobanana Prompt Schema",
+  "description": "Strict schema for every prompt produced by the pinterest-to-nanobanana skill. All fields are required. The natural-language prompt that accompanies each JSON must contain every field value expanded into fluent English without summarization.",
+  "type": "object",
+  "required": [
+    "prompt_n",
+    "improvement_axis",
+    "improvement_note",
+    "subject",
+    "environment",
+    "product",
+    "lighting",
+    "composition",
+    "camera",
+    "realism_blocks",
+    "anti_ai_cues"
+  ],
+  "properties": {
+    "prompt_n": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Which of the 5 prompts this is."
+    },
+    "improvement_axis": {
+      "type": "string",
+      "enum": [
+        "Photoreal Upgrade",
+        "Light Upgrade",
+        "Texture Hero",
+        "Composition Elevation",
+        "Wild Card Improvement"
+      ],
+      "description": "Which of the 5 improvement axes this prompt executes."
+    },
+    "improvement_note": {
+      "type": "string",
+      "description": "Short sentence explaining which Starting Image Delta item this prompt addresses and how."
+    },
+    "subject": {
+      "type": "object",
+      "required": ["cast_reference", "pose", "gaze", "expression", "hands_gesture"],
+      "properties": {
+        "cast_reference": {
+          "type": "string",
+          "description": "The full Protagonist Casting brief from Step 2, inlined verbatim. Includes age range, physical features, face shape, hair, eyebrows, eyes, eyelashes, nose, mouth, teeth, skin character, body presence, unique scroll-stopper, styling direction, default expression."
+        },
+        "pose": {
+          "type": "string",
+          "description": "Specific body position adapted to this scene."
+        },
+        "gaze": {
+          "type": "string",
+          "description": "Direction plus quality plus emotional content of the gaze."
+        },
+        "expression": {
+          "type": "string",
+          "description": "Exact emotional register on the face."
+        },
+        "hands_gesture": {
+          "type": "string",
+          "description": "What the hands are doing, including finger position if visible."
+        }
+      }
+    },
+    "environment": {
+      "type": "object",
+      "required": ["setting", "key_surfaces", "props", "atmospheric_elements"],
+      "properties": {
+        "setting": { "type": "string" },
+        "key_surfaces": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "Each entry: surface + material (e.g., 'travertine floor with warm veining')."
+        },
+        "props": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "atmospheric_elements": {
+          "type": "string",
+          "description": "Haze, dust motes, steam, light leak, etc. Or 'none'."
+        }
+      }
+    },
+    "product": {
+      "type": "object",
+      "required": ["dna_full", "placement"],
+      "properties": {
+        "dna_full": {
+          "type": "string",
+          "description": "The Product DNA FULL string: baseline bamboo viscose string plus the full Bamboo Viscose Fabric Realism Block from references/realism_blocks.md. Used identically in all 5 prompts of the session."
+        },
+        "placement": {
+          "type": "string",
+          "description": "Exact physical placement of the textile in the scene: draped where, pooling where, touching which body part or surface."
+        }
+      }
+    },
+    "lighting": {
+      "type": "object",
+      "required": [
+        "key_direction",
+        "quality",
+        "color_temperature",
+        "shadow_behavior",
+        "highlight_behavior",
+        "time_of_day",
+        "secondary_sources"
+      ],
+      "properties": {
+        "key_direction": {
+          "type": "string",
+          "description": "Precise direction of the key light (e.g., 'from the upper left, 45-degree angle above horizon')."
+        },
+        "quality": {
+          "type": "string",
+          "description": "hard / soft / diffused / directional"
+        },
+        "color_temperature": {
+          "type": "string",
+          "description": "Kelvin range or descriptor (e.g., 'warm 3200K golden')."
+        },
+        "shadow_behavior": {
+          "type": "string",
+          "description": "Soft gradient / hard-edged / pooled under elements / sculpting the face."
+        },
+        "highlight_behavior": {
+          "type": "string",
+          "description": "Specular / diffused / rim / edge-only / satin on skin."
+        },
+        "time_of_day": {
+          "type": "string"
+        },
+        "secondary_sources": {
+          "type": "string",
+          "description": "Fill light, bounce light, ambient glow — described specifically."
+        }
+      }
+    },
+    "composition": {
+      "type": "object",
+      "required": [
+        "framing",
+        "depth_layers",
+        "negative_space",
+        "leading_lines",
+        "key_element_preserved",
+        "aspect_ratio"
+      ],
+      "properties": {
+        "framing": { "type": "string" },
+        "depth_layers": {
+          "type": "string",
+          "description": "Foreground / midground / background with sharpness for each."
+        },
+        "negative_space": { "type": "string" },
+        "leading_lines": { "type": "string" },
+        "key_element_preserved": {
+          "type": "string",
+          "description": "The single soul-element from the Pinterest reference that this variant preserves."
+        },
+        "aspect_ratio": {
+          "type": "string",
+          "enum": ["9:16 vertical", "4:5 vertical", "1:1 square", "16:9 horizontal", "3:2 horizontal", "2:3 vertical"]
+        }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "required": ["body", "lens", "aperture", "shot_label"],
+      "properties": {
+        "body": {
+          "type": "string",
+          "enum": ["Canon R5"],
+          "description": "Fixed to Canon R5 across the skill."
+        },
+        "lens": { "type": "string" },
+        "aperture": { "type": "string" },
+        "shot_label": {
+          "type": "string",
+          "enum": [
+            "editorial portrait",
+            "cinematic film still",
+            "wide cinematic",
+            "wide editorial",
+            "macro editorial",
+            "overhead editorial",
+            "ground level editorial",
+            "through-object editorial"
+          ]
+        }
+      }
+    },
+    "realism_blocks": {
+      "type": "object",
+      "required": ["face", "fabric", "materials", "light_on_surfaces"],
+      "properties": {
+        "face": {
+          "type": "string",
+          "description": "Full Human Face Realism Block from references/realism_blocks.md, inlined verbatim. If no face is visible in the frame, set this to the string 'N/A — no face in frame'."
+        },
+        "fabric": {
+          "type": "string",
+          "description": "Full Bamboo Viscose Fabric Realism Block from references/realism_blocks.md, inlined verbatim. Always required — product is always in frame."
+        },
+        "materials": {
+          "type": "string",
+          "description": "The relevant Environmental Material Realism Blocks for this scene, inlined verbatim. Only include blocks for materials actually present."
+        },
+        "light_on_surfaces": {
+          "type": "string",
+          "description": "Full Light on Skin and Fabric Block from references/realism_blocks.md, inlined verbatim. If no skin is in frame, provide an equivalent light-on-fabric-and-materials description instead."
+        }
+      }
+    },
+    "anti_ai_cues": {
+      "type": "string",
+      "description": "Full Anti-AI Cues Block from references/realism_blocks.md, inlined verbatim."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.*.local
+*.log
+.DS_Store
+.vscode/
+.idea/
+coverage/
+outputs/looniva_canva_carousels/run_*/
+outputs/**/generated_images/
+outputs/**/selected_images/
+outputs/**/input/
+!outputs/looniva_canva_carousels/.gitkeep
+*.tmp

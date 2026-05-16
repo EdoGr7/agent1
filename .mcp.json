@@ -1,0 +1,19 @@
+{
+  "$comment": "Project-local MCP aliases. The actual server endpoints are configured per-environment (harness or Claude Agent SDK). This file is a documentation contract — the orchestrator resolves MCP tool names through CANVA_MCP_PREFIX and HIGHSSFIELD_MCP_PREFIX in .env so the same code works in both contexts.",
+  "mcpServers": {
+    "canva": {
+      "type": "alias",
+      "$description": "Canva MCP. Required tools: generate-design, generate-design-structured, create-design-from-candidate, start-editing-transaction, perform-editing-operations, commit-editing-transaction, cancel-editing-transaction, upload-asset-from-url, get-design, get-design-pages, get-design-content, get-design-thumbnail, get-assets, help.",
+      "$harness_uuid_example": "078073c8-5f90-4af2-837b-55b616263f49",
+      "command": "${CANVA_MCP_COMMAND}",
+      "args": []
+    },
+    "highssfield": {
+      "type": "alias",
+      "$description": "Higgsfield (a.k.a. highssfield) MCP. Required tools: generate_image, job_display, show_medias, show_generations, media_upload, media_confirm, models_explore, balance, list_workspaces, select_workspace.",
+      "$harness_uuid_example": "4378443a-f87e-492f-ae9e-342a2210e1a6",
+      "command": "${HIGHSSFIELD_MCP_COMMAND}",
+      "args": []
+    }
+  }
+}

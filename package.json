@@ -1,0 +1,36 @@
+{
+  "name": "looniva-canva-carousel-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "End-to-end cloud agent: brief + foto prodotto Looniva → 5 Nanobanana prompts via /pinterest-to-nanobanana → 5 immagini Higgsfield MCP → design Canva multi-pagina editabile via Canva MCP.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "bin": {
+    "looniva-canva-carousel": "./dist/bin/looniva-canva.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "looniva:canva-carousel": "tsx src/bin/looniva-canva.ts",
+    "looniva:canva-carousel:built": "node dist/bin/looniva-canva.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.1.0",
+    "commander": "^12.1.0",
+    "pino": "^9.5.0",
+    "pino-pretty": "^11.3.0",
+    "sharp": "^0.33.5",
+    "undici": "^6.21.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.16.10",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2",
+    "vitest": "^2.1.1"
+  }
+}
