@@ -7,6 +7,13 @@ export const SUPPORTED_IMAGE_EXTENSIONS = [
   ".webp",
 ] as const;
 
+export const LogoAssetsInputSchema = z
+  .object({
+    on_light: z.string().min(1).optional(),
+    on_dark: z.string().min(1).optional(),
+  })
+  .optional();
+
 export const LoonivaAgentInputSchema = z
   .object({
     brief: z.string().min(1).optional(),
@@ -21,6 +28,7 @@ export const LoonivaAgentInputSchema = z
     slide_count: z.number().int().min(5).max(12).optional(),
     cta: z.string().min(1).optional(),
     output_dir: z.string().min(1).optional(),
+    logo_image_paths: LogoAssetsInputSchema,
   })
   .refine(
     (input) =>

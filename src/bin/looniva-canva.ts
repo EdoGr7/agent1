@@ -19,6 +19,8 @@ interface CliOpts {
   cta?: string;
   output?: string;
   runId?: string;
+  logoLight?: string;
+  logoDark?: string;
 }
 
 async function main() {
@@ -38,7 +40,9 @@ async function main() {
     .option("-n, --slides <count>", "Slide count (5-12)")
     .option("--cta <string>", "CTA hint")
     .option("-o, --output <dir>", "Output directory")
-    .option("--run-id <id>", "Resume an existing run by ID");
+    .option("--run-id <id>", "Resume an existing run by ID")
+    .option("--logo-light <path>", "Logo asset for light backgrounds (brown letters)")
+    .option("--logo-dark <path>", "Logo asset for dark backgrounds (white letters)");
   program.parse();
   const opts = program.opts<CliOpts>();
 
@@ -65,6 +69,10 @@ async function main() {
     },
   );
 
+  const logos =
+    opts.logoLight || opts.logoDark
+      ? { on_light: opts.logoLight, on_dark: opts.logoDark }
+      : undefined;
   const result = await agent.run({
     brief: opts.brief,
     reference_image_path: opts.reference,
@@ -76,6 +84,7 @@ async function main() {
     slide_count: opts.slides ? Number(opts.slides) : undefined,
     cta: opts.cta,
     output_dir: opts.output,
+    logo_image_paths: logos,
   });
 
   console.log(JSON.stringify(result, null, 2));

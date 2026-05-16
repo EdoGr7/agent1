@@ -95,4 +95,35 @@ describe("buildCanvaLayoutSpec", () => {
     expect(cta.elements.find((e) => e.role === "cta_label" && e.type === "text")).toBeDefined();
     expect(cta.elements.find((e) => e.role === "logo" && e.type === "text")).toBeDefined();
   });
+
+  it("uses the logo image asset (on_dark) for dark backgrounds and (on_light) for light", () => {
+    const spec = buildCanvaLayoutSpec(makeDoc(), {
+      designTitle: "Looniva Test",
+      logoAssets: {
+        onLightCanvaAssetId: "LOGO_LIGHT_BG",
+        onDarkCanvaAssetId: "LOGO_DARK_BG",
+      },
+    });
+    const hookPhoto = spec.design.pages[0]!; // HOOK_PHOTO is dark bg
+    const logoHook = hookPhoto.elements.find((e) => e.role === "logo");
+    expect(logoHook?.type).toBe("image");
+    expect(logoHook && logoHook.type === "image" ? logoHook.asset_id : undefined).toBe(
+      "LOGO_DARK_BG",
+    );
+
+    const cta = spec.design.pages.at(-1)!; // CTA is light bg
+    const logoCta = cta.elements.find((e) => e.role === "logo");
+    expect(logoCta?.type).toBe("image");
+    expect(logoCta && logoCta.type === "image" ? logoCta.asset_id : undefined).toBe(
+      "LOGO_LIGHT_BG",
+    );
+  });
+
+  it("falls back to text logo when no logo assets are provided", () => {
+    const spec = buildCanvaLayoutSpec(makeDoc(), { designTitle: "Looniva Test" });
+    for (const page of spec.design.pages) {
+      const logo = page.elements.find((e) => e.role === "logo");
+      expect(logo?.type).toBe("text");
+    }
+  });
 });

@@ -77,8 +77,9 @@ export class LoonivaCanvaCarouselAgent {
       const generated = await this.stepGenerate(runDir, checkpoint, prompts, manifest);
       const selected = await this.stepSelectAndStage(runDir, checkpoint, generated, manifest, warnings);
       const assets = await this.stepUploadAssets(runDir, checkpoint, selected, manifest);
+      const logoAssets = await this.stepUploadLogos(runDir, checkpoint, input, manifest);
       const slideDoc = await this.stepPlanCopy(runDir, checkpoint, input, assets, manifest, removedClaims);
-      const spec = await this.stepBuildLayoutSpec(runDir, checkpoint, slideDoc, topic);
+      const spec = await this.stepBuildLayoutSpec(runDir, checkpoint, slideDoc, topic, logoAssets);
       const buildResult = await this.stepCreateDesign(checkpoint, spec, manifest);
       const quality = await this.stepQualityCheck(
         checkpoint,
@@ -364,6 +365,36 @@ export class LoonivaCanvaCarouselAgent {
     return updated;
   }
 
+  private async stepUploadLogos(
+    runDir: string,
+    checkpoint: CheckpointManager,
+    input: ValidatedInput,
+    _manifest: ManifestData,
+  ): Promise<{ onLightCanvaAssetId?: string; onDarkCanvaAssetId?: string } | undefined> {
+    const logos = input.logo_image_paths;
+    if (!logos || (!logos.on_light && !logos.on_dark)) return undefined;
+    const out: { onLightCanvaAssetId?: string; onDarkCanvaAssetId?: string } = {};
+    const tasks: Array<[keyof typeof out, string]> = [];
+    if (logos.on_light) tasks.push(["onLightCanvaAssetId", logos.on_light]);
+    if (logos.on_dark) tasks.push(["onDarkCanvaAssetId", logos.on_dark]);
+
+    if (!this.staging.isConfigured()) {
+      throw new AgentError(
+        "CANVA_ASSET_UPLOAD_ERROR",
+        "Logo image provided but TEMP_ASSET_STAGING_URL is not configured; cannot host the logo for Canva upload.",
+      );
+    }
+
+    for (const [key, p] of tasks) {
+      const url = await this.staging.upload(p, checkpoint.data.run_id);
+      const { assetId } = await this.canva.uploadAssetFromUrl(url);
+      out[key] = assetId;
+      logger.info({ logo: key, assetId }, "logo uploaded to Canva");
+    }
+    await writeJson(path.join(runDir, "canva", "canva_logo_assets.json"), out);
+    return out;
+  }
+
   private async stepPlanCopy(
     runDir: string,
     checkpoint: CheckpointManager,
@@ -403,9 +434,11 @@ export class LoonivaCanvaCarouselAgent {
     checkpoint: CheckpointManager,
     doc: import("../schemas/slideCopy.schema.js").SlideCopyDoc,
     topic: string,
+    logoAssets?: { onLightCanvaAssetId?: string; onDarkCanvaAssetId?: string },
   ) {
     const spec = buildCanvaLayoutSpec(doc, {
       designTitle: `Looniva Carousel - ${topic}`.slice(0, 80),
+      logoAssets,
     });
     assertSpecHasEditableElements(spec);
     await writeJson(path.join(runDir, "canva", "canva_layout_spec.json"), spec);

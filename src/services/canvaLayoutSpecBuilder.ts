@@ -28,13 +28,28 @@ const FONT_BUDGET = {
 
 interface BuilderOptions {
   designTitle: string;
+  logoAssets?: {
+    onLightCanvaAssetId?: string;
+    onDarkCanvaAssetId?: string;
+    onLightSourcePath?: string;
+    onDarkSourcePath?: string;
+  };
 }
+
+const DARK_BG_LAYOUTS = new Set([
+  "HOOK_PHOTO",
+  "HOOK_DARK",
+  "BUILD_DARK",
+  "DATA_DARK",
+  "TENSION_PHOTO",
+  "TENSION_DARK",
+]);
 
 export function buildCanvaLayoutSpec(
   doc: SlideCopyDoc,
   opts: BuilderOptions,
 ): CanvaLayoutSpec {
-  const pages: CanvaPageSpec[] = doc.slides.map((slide) => buildPage(slide));
+  const pages: CanvaPageSpec[] = doc.slides.map((slide) => buildPage(slide, opts));
   const spec: CanvaLayoutSpec = {
     design: {
       title: opts.designTitle,
@@ -48,7 +63,7 @@ export function buildCanvaLayoutSpec(
   return parsed;
 }
 
-function buildPage(slide: SlideCopy): CanvaPageSpec {
+function buildPage(slide: SlideCopy, opts: BuilderOptions): CanvaPageSpec {
   const geom = LAYOUTS[slide.layout_type];
   const elements: CanvaElement[] = [];
 
@@ -510,25 +525,49 @@ function buildPage(slide: SlideCopy): CanvaPageSpec {
     }
   }
 
-  elements.push({
-    type: "text",
-    role: "logo",
-    x: geom.logo.x,
-    y: geom.logo.y,
-    w: geom.logo.w,
-    h: geom.logo.h,
-    text: "LOONIVA",
-    style: {
-      font_family: FONT_FAMILY.HEADLINE,
-      font_weight: "Bold",
-      font_size: FONT_SIZES.LOGO.default,
-      color: geom.logo.color,
-      align: geom.logo.align,
+  const isDarkBg = DARK_BG_LAYOUTS.has(slide.layout_type);
+  const logoAssetId = isDarkBg
+    ? opts.logoAssets?.onDarkCanvaAssetId
+    : opts.logoAssets?.onLightCanvaAssetId;
+  const logoSourcePath = isDarkBg
+    ? opts.logoAssets?.onDarkSourcePath
+    : opts.logoAssets?.onLightSourcePath;
+
+  if (logoAssetId || logoSourcePath) {
+    elements.push({
+      type: "image",
+      role: "logo",
+      x: geom.logo.x,
+      y: geom.logo.y,
+      w: geom.logo.w,
+      h: geom.logo.h,
+      asset_id: logoAssetId,
+      source_path: logoSourcePath,
+      fit: "contain",
       opacity: geom.logo.opacity,
-      letter_spacing: 0.18,
-    },
-    editable: true,
-  });
+      editable: true,
+    });
+  } else {
+    elements.push({
+      type: "text",
+      role: "logo",
+      x: geom.logo.x,
+      y: geom.logo.y,
+      w: geom.logo.w,
+      h: geom.logo.h,
+      text: "LOONIVA",
+      style: {
+        font_family: FONT_FAMILY.HEADLINE,
+        font_weight: "Bold",
+        font_size: FONT_SIZES.LOGO.default,
+        color: geom.logo.color,
+        align: geom.logo.align,
+        opacity: geom.logo.opacity,
+        letter_spacing: 0.18,
+      },
+      editable: true,
+    });
+  }
 
   return {
     page_number: slide.slide_number,

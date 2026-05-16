@@ -37,7 +37,13 @@ export async function validateInput(
     }
   }
 
-  for (const optional of [input.reference_image_path, input.protagonist_image_path]) {
+  const optionalPaths = [
+    input.reference_image_path,
+    input.protagonist_image_path,
+    input.logo_image_paths?.on_light,
+    input.logo_image_paths?.on_dark,
+  ];
+  for (const optional of optionalPaths) {
     if (!optional) continue;
     if (!hasSupportedExtension(optional)) {
       throw new AgentError(
