@@ -1,0 +1,118 @@
+{
+  "topic": "Il thread count non significa nulla",
+  "brief": "Smontare il mito del thread count come metrica di qualita' delle lenzuola. Spiegare cosa misura davvero un tessuto premium e cosa fa Looniva al posto di stampare un numero gonfiato.",
+  "register": "Spiegazione",
+  "pillar": "02 - Il lusso adulto e' invisibile",
+  "cta": "Scopri Looniva",
+  "slides": [
+    {
+      "slide_number": 1,
+      "visual_brain_stage": "HOOK",
+      "layout_type": "HOOK_PHOTO",
+      "headline": "Il thread count non significa nulla",
+      "subtitle": "Ecco spiegato perche'.",
+      "assigned_image_axis": "PHOTOREAL UPGRADE"
+    },
+    {
+      "slide_number": 2,
+      "visual_brain_stage": "CONTEXT",
+      "layout_type": "BUILD_LIGHT",
+      "headline": "Cos'e' il thread count",
+      "subtitle": "Il numero stampato sulle etichette.",
+      "items": [
+        {
+          "label": "Definizione",
+          "body": "Somma dei fili in un pollice quadrato di tessuto, sommando trama e ordito."
+        },
+        {
+          "label": "La promessa",
+          "body": "Piu' fili, secondo il marketing, dovrebbero significare piu' morbidezza, piu' resistenza, piu' valore."
+        },
+        {
+          "label": "Il problema",
+          "body": "Il numero, da solo, non descrive nessuna di queste qualita'."
+        }
+      ]
+    },
+    {
+      "slide_number": 3,
+      "visual_brain_stage": "BUILD",
+      "layout_type": "DATA_DARK",
+      "headline": "Come si gonfia un numero",
+      "dato_numerico": {
+        "number": "800",
+        "unit": "thread count dichiarati",
+        "context": "Pratica del ply count: 4 fili sottili attorcigliati in uno e contati come 4. Cosi' un tessuto a 200 thread reali diventa un tessuto a 800 thread sull'etichetta."
+      },
+      "items": [
+        {
+          "label": "Conteggio onesto",
+          "body": "Trama piu' ordito in un pollice quadrato, fili contati una sola volta."
+        },
+        {
+          "label": "Conteggio gonfiato",
+          "body": "Moltiplicare per il ply genera numeri spettacolari senza alcuna differenza qualitativa."
+        }
+      ]
+    },
+    {
+      "slide_number": 4,
+      "visual_brain_stage": "TENSION",
+      "layout_type": "TENSION_PHOTO",
+      "headline": "Quello che il numero non dice",
+      "subtitle": "Lunghezza della fibra, torsione del filo, struttura del tessuto, finitura.",
+      "assigned_image_axis": "WILD CARD IMPROVEMENT"
+    },
+    {
+      "slide_number": 5,
+      "visual_brain_stage": "BUILD",
+      "layout_type": "BUILD_LIGHT",
+      "headline": "Cosa misurare davvero",
+      "subtitle": "Quattro fattori che decidono come si dorme.",
+      "items": [
+        {
+          "label": "Materiale",
+          "body": "La fibra di partenza decide la mano del tessuto piu' di qualunque conteggio."
+        },
+        {
+          "label": "Lunghezza fibra",
+          "body": "Una fibra piu' lunga produce un filo piu' liscio, meno pelucchi, piu' resistenza nel tempo."
+        },
+        {
+          "label": "Struttura",
+          "body": "Sateen e percalle, dalla stessa fibra, danno comportamenti opposti al tatto."
+        }
+      ]
+    },
+    {
+      "slide_number": 6,
+      "visual_brain_stage": "PAYOFF",
+      "layout_type": "PAYOFF_LIGHT",
+      "headline": "Cosa fa Looniva",
+      "items": [
+        {
+          "label": "Fibra",
+          "body": "Viscosa di bambu' organica con fibra lunga, presa di mano fluida e cadente."
+        },
+        {
+          "label": "Verifica",
+          "body": "OEKO-TEX Standard 100 sull'assenza di sostanze nocive nel tessuto finito."
+        },
+        {
+          "label": "Trasparenza",
+          "body": "Filiera tracciabile dichiarata. Nessun thread count gonfiato come argomento di vendita."
+        }
+      ],
+      "payoff_claim": "Per questo Looniva non stampa un thread count in copertina. Stampiamo l'origine.",
+      "assigned_image_axis": "TEXTURE HERO"
+    },
+    {
+      "slide_number": 7,
+      "visual_brain_stage": "CTA",
+      "layout_type": "CTA",
+      "headline": "Scegli con consapevolezza.",
+      "bridge_sentence": "Il punto non e' il numero. E' la coerenza tra cio' che dici e cio' che fai.",
+      "cta_label": "Scopri Looniva"
+    }
+  ]
+}
