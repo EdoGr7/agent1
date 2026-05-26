@@ -1,0 +1,58 @@
+{
+  "assets": [
+    {
+      "file": "bg_steppa_aperta.png",
+      "tipo": "background",
+      "descrizione": "Steppa aperta, colline grigie erbose, orizzonte, luce diffusa fredda",
+      "tag": ["steppa", "pianura", "paesaggio", "orizzonte", "grigio", "outdoor", "aperto", "luce fredda"]
+    },
+    {
+      "file": "cavallo_frontale.png",
+      "tipo": "soggetto_animale",
+      "descrizione": "Cavallo marrone mantello lucido, primo piano frontale, sfondo grigio neutro",
+      "tag": ["cavallo", "animale", "frontale", "marrone", "primo piano"]
+    },
+    {
+      "file": "cavallo_tre_quarti.png",
+      "tipo": "soggetto_animale",
+      "descrizione": "Cavallo marrone, posa tre quarti, sfondo grigio neutro",
+      "tag": ["cavallo", "animale", "tre quarti", "marrone", "movimento"]
+    },
+    {
+      "file": "cavallo_laterale.png",
+      "tipo": "soggetto_animale",
+      "descrizione": "Cavallo marrone, profilo laterale, sfondo grigio neutro",
+      "tag": ["cavallo", "animale", "laterale", "marrone", "galoppo"]
+    },
+    {
+      "file": "modella_viso_01.png",
+      "tipo": "modella",
+      "descrizione": "Modella, capelli scuri lisci, pelle calda, sguardo diretto non sorridente, primo piano viso",
+      "tag": ["modella", "viso", "dark hair", "pelle calda", "sguardo diretto", "editoriale", "no smile"]
+    },
+    {
+      "file": "modella_viso_02.png",
+      "tipo": "modella",
+      "descrizione": "Modella, capelli scuri lisci leggermente spostati, pelle calda, sguardo frontale, primo piano viso",
+      "tag": ["modella", "viso", "dark hair", "pelle calda", "frontale", "editoriale"]
+    },
+    {
+      "file": "prodotto_copripiumino_arrotolato.png",
+      "tipo": "prodotto",
+      "descrizione": "Copripiumino Looniva avvolto/arrotolato, colorway ivory/grigio chiaro, fondo neutro caldo",
+      "tag": ["prodotto", "copripiumino", "arrotolato", "ivory", "grigio chiaro", "lenzuola", "bamboo"]
+    },
+    {
+      "file": "prodotto_lenzuolo_piegato.png",
+      "tipo": "prodotto",
+      "descrizione": "Lenzuolo Looniva piegato flat, colorway ivory/grigio chielo, piega netta, cucitura visibile",
+      "tag": ["prodotto", "lenzuolo", "piegato", "ivory", "piega netta", "cucitura", "bamboo", "set essential"]
+    },
+    {
+      "file": "prodotto_federa_ivory.png",
+      "tipo": "prodotto",
+      "descrizione": "Federa Looniva, colorway ivory/grigio chiaro, posizionata su fondo neutro caldo",
+      "tag": ["prodotto", "federa", "ivory", "cuscino", "bamboo", "soft"]
+    }
+  ]
+}
