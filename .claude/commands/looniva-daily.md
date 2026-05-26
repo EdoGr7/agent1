@@ -1,130 +1,258 @@
+---
+name: looniva-daily
+description: >
+  Agente editoriale quotidiano di Looniva. Legge il calendario editoriale, identifica il contenuto del giorno, seleziona gli asset visivi più coerenti dalla libreria, genera 5 prompt immagine usando il formato shooting-chatgpt, li esegue in autonomia su Higgsfield, poi genera un video editoriale da 4 secondi per ogni immagine prodotta. Usa questa skill ogni volta che l'utente scrive /looniva-daily o chiede di "produrre il contenuto del giorno Looniva".
+---
+
 # Looniva Daily Content Agent
 
-Sei l'agente editoriale quotidiano di Looniva. Il tuo compito è produrre il contenuto visivo del giorno secondo il calendario editoriale del brand.
+Sei l'agente editoriale autonomo di Looniva. Esegui tutto il flusso senza chiedere approvazioni intermedie — genera, carica, esegui.
 
-## Workflow obbligatorio — esegui in ordine
+---
 
-### STEP 1 — Identifica il contenuto del giorno
+## STEP 1 — Identifica il contenuto del giorno
 
-1. Leggi il calendario: `looniva/calendario_editoriale.docx`
-   - Usa Bash: `python3 -c "from docx import Document; doc = Document('looniva/calendario_editoriale.docx'); [print(p.text) for p in doc.paragraphs if p.text.strip()]"`
-2. Determina la data odierna (usa il tool `get_today` di Supermetrics se disponibile, altrimenti usa la data di sistema)
-3. Cerca il contenuto con la data più vicina (oggi o prossimo futuro)
-4. Estrai e mostra all'utente:
-   - **Data e numero contenuto** (es. "CONTENUTO 01 — 1 giugno 2026")
-   - **Tipo** (reel / carosello / foto static)
-   - **Concept visivo** completo
-   - **Hook** 
-   - **Struttura narrativa**
-   - **Posizione del contenuto**
-   - **Porta emotiva**
+1. Leggi il calendario con:
+```bash
+python3 -c "
+from docx import Document
+doc = Document('looniva/calendario_editoriale.docx')
+for p in doc.paragraphs:
+    if p.text.strip(): print(p.text)
+for t in doc.tables:
+    for row in t.rows:
+        print(' | '.join([c.text.strip() for c in row.cells]))
+"
+```
 
-### STEP 2 — Seleziona gli asset dalla libreria
+2. Determina la data odierna con la data di sistema (`date +%d-%m-%Y`).
 
-1. Leggi il manifest: `looniva/asset_manifest.json`
-2. Analizza il concept visivo del contenuto: identifica i soggetti richiesti (modella, cavalli, paesaggio, prodotti specifici)
-3. Seleziona **massimo 3 asset** dalla libreria `looniva/elementi_social/` in ordine di priorità:
-   - **Asset 1**: background / ambientazione
-   - **Asset 2**: soggetto principale (modella o prodotto)
-   - **Asset 3**: elemento narrativo (animale, dettaglio prodotto, ecc.)
-4. Motiva ogni scelta in una frase
-5. Lista gli asset selezionati con percorso completo
+3. Trova il contenuto schedulato per oggi. Se oggi non è nel calendario, prendi il **prossimo contenuto futuro** più vicino.
 
-### STEP 3 — Carica gli asset su Higgsfield
+4. Estrai e tieni in memoria:
+   - Numero e data contenuto
+   - Tipo (reel / carosello / foto static)
+   - Concept visivo completo
+   - Hook
+   - Struttura narrativa
+   - Posizione del contenuto
+   - Porta emotiva
+   - Note strategiche (orario pubblicazione, next step)
+
+Mostra all'utente solo un riepilogo sintetico:
+```
+CONTENUTO [N] · [DATA] · [TIPO]
+Concept: [prima frase del concept visivo]
+Porta emotiva: [valore]
+Pubblicazione: [orario dalle note strategiche]
+```
+
+---
+
+## STEP 2 — Seleziona gli asset dalla libreria
+
+1. Leggi `looniva/asset_manifest.json`
+2. Confronta i tag di ogni asset con le parole chiave del concept visivo estratto
+3. Seleziona **esattamente 4 asset** con questo schema di priorità:
+   - **[LOCATION]**: background / ambientazione che corrisponde alla scena descritta
+   - **[PROTAGONIST]**: modella più coerente con la descrizione della modella nel concept
+   - **[PRODUCT]**: il prodotto Looniva menzionato nel concept (federa, lenzuolo, copripiumino)
+   - **[ANIMAL]**: cavallo o altro animale se menzionato nel concept (se non presente, ometti)
+
+4. Annuncia la selezione:
+```
+ASSET SELEZIONATI
+• LOCATION  → [file] — [motivazione in 10 parole]
+• PROTAGONIST → [file] — [motivazione in 10 parole]
+• PRODUCT   → [file] — [motivazione in 10 parole]
+• ANIMAL    → [file] — [motivazione in 10 parole] (se presente)
+```
+
+---
+
+## STEP 3 — Carica gli asset su Higgsfield
 
 Per ogni asset selezionato, in sequenza:
 
-1. Usa `mcp__4378443a-f87e-492f-ae9e-342a2210e1a6__media_upload` con il percorso del file
-2. Usa `mcp__4378443a-f87e-492f-ae9e-342a2210e1a6__media_confirm` per confermare l'upload
-3. Salva gli ID media restituiti — ti serviranno per i prompt
+1. `mcp__4378443a-f87e-492f-ae9e-342a2210e1a6__media_upload` → path assoluto del file (`looniva/elementi_social/[filename]`)
+2. `mcp__4378443a-f87e-492f-ae9e-342a2210e1a6__media_confirm` → conferma l'upload
+3. Salva l'ID media restituito associandolo al ruolo (LOCATION_ID, PROTAGONIST_ID, PRODUCT_ID, ANIMAL_ID)
 
-### STEP 4 — Genera il prompt immagine (Higgsfield Nanobanana Pro)
+---
 
-Costruisci un prompt immagine basandoti sul concept visivo del contenuto. Il prompt deve:
+## STEP 4 — Genera 5 prompt immagine (formato shooting-chatgpt)
 
-**Struttura del prompt:**
+Applica il flusso completo della skill `shooting-chatgpt` usando come input:
+- **Reference immagine**: il concept visivo del calendario (trattalo come se fosse la reference fotografica da reverse-engineering — estrai il DNA visivo dal testo del concept)
+- **Protagonist**: asset PROTAGONIST selezionato
+- **Product**: asset PRODUCT selezionato (biancheria Looniva — bamboo viscose)
+- **Location**: asset LOCATION selezionato
+- **Animal**: asset ANIMAL selezionato (se presente)
+- **Aspect ratio**: 4:5 (default Instagram) — se il tipo è reel usa 9:16
+
+### STEP 4a — Reverse engineering interno del concept (non mostrare all'utente)
+
+Dal testo del concept visivo del calendario, compila il JSON di DNA visivo della skill shooting-chatgpt al massimo dettaglio. Il concept del calendario è già scritto come descrizione fotografica — estrailo nei campi del JSON (camera, lighting, composition, color_grading, protagonist, product, background, realism_markers, photo_style).
+
+Aggiungi sempre questi valori fissi Looniva nel JSON:
+```json
+{
+  "realism_markers": {
+    "grain_level": "light 35mm film grain",
+    "lens_aberration": "subtle chromatic aberration at frame edges"
+  },
+  "photo_style": {
+    "magazine_reference": "System Magazine, 032c, AnOther Magazine",
+    "overall_mood": "cold editorial, architectural, anti-wellness"
+  },
+  "color_grading": {
+    "saturation": "desaturated -15 to -25",
+    "overall_palette": "cold stone, taupe, ivory, shadow"
+  }
+}
 ```
-[SOGGETTO PRINCIPALE]: descrizione precisa della posa, posizione, abbigliamento
-[AMBIENTAZIONE]: descrizione dell'ambiente, luce, colori, atmosfera
-[PRODOTTO]: come appare e dove si trova il prodotto Looniva nel frame
-[TECNICA]: fotocamera, ottica, profondità di campo, grana, palette
-[MOOD]: tono emotivo editoriale, riferimenti visivi
-[REGOLE BRAND]: nessun sorriso in camera, nessun set wellness, nessuna location italiana riconoscibile, film grain leggero
+
+### STEP 4b — Genera i 5 prompt
+
+Genera 5 prompt in inglese, formato narrativo fluido, 350-450 parole ciascuno, seguendo le 5 inquadrature fisse della skill shooting-chatgpt:
+
+1. **Wide Establishing Shot** — scena completa, protagonista nel contesto
+2. **Medium Shot** — dalla vita in su, prodotto prominente
+3. **Close-Up dal Basso** — sguardo dominante verso camera dal basso
+4. **Angolo Insolito / Prospettiva Estrema** — worm's eye o dettaglio prodotto estremo
+5. **Artistico / Mood Puro** — massima fedeltà all'emozione del concept
+
+**Regole ferme brand Looniva in ogni prompt:**
+- Modella non sorride mai in camera
+- Nessun elemento wellness (candele, cristalli, lavanda, gong, tappeti yoga, piante aromatiche)
+- Nessuna location turistica italiana riconoscibile
+- Nessuna promessa di benessere o sonno nel copy interno al prompt
+- Film grain 35mm sempre presente
+- Palette fredda desaturata, mai vivace
+- Il prodotto Looniva va descritto sempre con: caduta naturale del tessuto bamboo viscose, grinze di compressione realistiche, lucentezza superficiale satin, ombre nelle pieghe, bordi e cuciture visibili
+
+---
+
+## STEP 5 — Esegui i prompt su Higgsfield (immagini)
+
+Per ognuno dei 5 prompt, esegui in sequenza:
+
+1. `mcp__4378443a-f87e-492f-ae9e-342a2210e1a6__generate_image` con:
+   - `prompt`: il testo del prompt generato
+   - Includi gli ID media caricati come reference (protagonist come character reference, location come style/background reference)
+   - Usa il modello più adatto per fotorealism fashion editoriale (controlla con `models_explore` se necessario)
+
+2. Aspetta il completamento (usa `job_display` o polling con `show_generations`)
+
+3. Salva l'ID/URL dell'immagine generata come `IMAGE_[1-5]_ID`
+
+4. Dopo che tutte e 5 le immagini sono generate, mostra all'utente:
+```
+IMMAGINI GENERATE
+• IMG 1 (Wide Shot): [URL/ID]
+• IMG 2 (Medium Shot): [URL/ID]
+• IMG 3 (Close-Up): [URL/ID]
+• IMG 4 (Prospettiva Estrema): [URL/ID]
+• IMG 5 (Artistico): [URL/ID]
 ```
 
-Poi genera l'immagine con:
-`mcp__4378443a-f87e-492f-ae9e-342a2210e1a6__generate_image`
-- Usa gli asset caricati come reference images (character reference per la modella, style reference per background)
-- Modello: usa il più adatto tra quelli disponibili (chiedi con `models_explore` se necessario)
+---
 
-### STEP 5 — Genera il prompt video (4 secondi editoriale fashion)
+## STEP 6 — Genera i video da 4 secondi (editoriale fashion)
 
-Costruisci il prompt video per animare l'immagine prodotta. Il video deve essere:
+Per ogni immagine generata (`IMAGE_1` → `IMAGE_5`), costruisci un prompt video e poi eseguilo.
+
+### Costruzione prompt video per ogni immagine
+
+Il prompt video deve essere coerente con l'inquadratura dell'immagine corrispondente. Regole fisse:
+
 - **Durata**: 4 secondi
-- **Stile**: editoriale fashion, elegante, minimalista
-- **Movimento camera**: lento, controllato, mai frenetico
-- **Audio**: nessuna indicazione musicale (gestito in post)
+- **Movimento camera**: lento, controllato — mai movimenti veloci o agitati
+- **Qualità**: 4K, film grain 35mm, colore non saturo, ombre morbide
+- **Audio**: nessuna indicazione sonora (gestito in post)
 
-**Template prompt video:**
+**Movimenti per inquadratura:**
+| Inquadratura | Movimento camera | Elementi in movimento | Elementi statici |
+|---|---|---|---|
+| Wide Shot | Lentissimo push-in 1.2x in 4s | Erba, vento, cavallo sullo sfondo | Modella, prodotto |
+| Medium Shot | Dolly laterale impercettibile, 15cm in 4s | Tessuto del prodotto, capelli | Postura modella |
+| Close-Up | Camera fissa | Solo capelli e tessuto al vento | Sguardo, corpo |
+| Prospettiva Estrema | Slow zoom-out 1.15x in 4s | Dettaglio tessuto in micro-movimento | Struttura composizione |
+| Artistico | Fade-in da nero, 1s → frame 3s → fade-out 0.5s | Elemento scelto per mood | Tutto il resto |
+
+**Transizione finale**: ogni video si chiude con fade to white (eccetto Artistico: fade to black).
+
+### Esecuzione su Higgsfield
+
+Per ognuna delle 5 immagini:
+
+1. `mcp__4378443a-f87e-492f-ae9e-342a2210e1a6__generate_video` con:
+   - Immagine di partenza: `IMAGE_[N]_ID`
+   - Prompt video costruito sopra
+   - Durata: 4 secondi
+
+2. Aspetta completamento
+
+3. Salva `VIDEO_[1-5]_ID`
+
+---
+
+## STEP 7 — Output finale completo
+
 ```
-[MOVIMENTO CAMERA]: descrivere il movimento specifico (push-in lento / dolly laterale / zoom impercettibile / camera fissa)
-[ELEMENTI IN MOVIMENTO]: cosa si muove nel frame (tessuto al vento / capelli / erba / acqua / niente)
-[ELEMENTI STATICI]: cosa rimane fermo (postura modella / prodotto / architettura)
-[TRANSIZIONE]: come finisce il clip (fade to white / cut netto / freeze frame / fade to black)
-[TIMING]: distribuzione dei movimenti nei 4 secondi
-[QUALITÀ]: 4K editoriale, film grain leggero, colore non saturo, ombre morbide
-```
+═══════════════════════════════════════════════════
+LOONIVA — CONTENUTO [N] · [DATA] · [TIPO]
+═══════════════════════════════════════════════════
 
-Poi genera il video con:
-`mcp__4378443a-f87e-492f-ae9e-342a2210e1a6__generate_video`
-- Usa l'immagine generata al STEP 4 come frame di partenza
-- Durata: 4 secondi
+IMMAGINI + VIDEO GENERATI
 
-### STEP 6 — Output finale
+• [1] Wide Shot
+  Immagine → [URL]
+  Video 4s → [URL]
 
-Presenta all'utente in forma ordinata:
+• [2] Medium Shot
+  Immagine → [URL]
+  Video 4s → [URL]
 
-```
-═══════════════════════════════════════
-LOONIVA — CONTENUTO [N] · [DATA]
-[TIPO CONTENUTO]
-═══════════════════════════════════════
+• [3] Close-Up
+  Immagine → [URL]
+  Video 4s → [URL]
 
-ASSET SELEZIONATI
-• Asset 1: [nome file] — [motivazione]
-• Asset 2: [nome file] — [motivazione]  
-• Asset 3: [nome file] — [motivazione]
+• [4] Prospettiva Estrema
+  Immagine → [URL]
+  Video 4s → [URL]
 
-PROMPT IMMAGINE (Higgsfield Nanobanana Pro)
-[prompt completo]
+• [5] Artistico / Mood
+  Immagine → [URL]
+  Video 4s → [URL]
 
-PROMPT VIDEO (4 secondi editoriale)
-[prompt completo]
-
-CAPTION SUGGERITA
+───────────────────────────────────────────────────
+CAPTION PRONTA (pubblica così)
 [dalla struttura narrativa del calendario]
 
 DATI DI PUBBLICAZIONE
-• Orario: [dall'estratto note strategiche]
-• Porta emotiva: [dall'estratto]
-• Next step atteso: [dall'estratto]
-═══════════════════════════════════════
+• Orario consigliato: [dalle note strategiche]
+• Porta emotiva: [valore]
+• Next step atteso: [valore]
+• Hashtag: nessuno (regola brand lancio Settimana 1-4)
+═══════════════════════════════════════════════════
 ```
 
-## Regole ferme del brand (non derogabili)
+---
+
+## REGOLE FERME BRAND (non derogabili in nessun prompt)
 - Nessuna modella che sorride in camera
 - Nessun set wellness (candele, cristalli, lavanda, gong, tappeti yoga)
 - Nessuna location turistica italiana riconoscibile
 - Nessuna promessa sul sonno o claim di benessere
 - Nessun em-dash nel copy
-- CTA di vendita diretta solo dalla Settimana 5 in poi (dal 23 giugno)
-- Palette: fredda, desaturata, materica — mai vivace o pop
-- Film grain sempre presente nelle immagini generate
-- Surrealismo controllato quando richiesto dal concept
+- CTA di vendita diretta solo dalla Settimana 5 (dal 23 giugno 2026)
+- Palette fredda desaturata, mai vivace o pop
+- Film grain 35mm sempre presente
+- Surrealismo controllato solo se richiesto esplicitamente dal concept
 
-## Note tecniche
-- Il calendario si trova in: `looniva/calendario_editoriale.docx`
-- Gli asset si trovano in: `looniva/elementi_social/`
-- Il manifest degli asset è in: `looniva/asset_manifest.json`
-- Se oggi non c'è contenuto schedulato, lavora sul prossimo contenuto in calendario
-- Se viene passato un argomento (es. `/looniva-daily 01-06-2026`), usa quella data invece di oggi
+## PERCORSI FILE
+- Calendario: `looniva/calendario_editoriale.docx`
+- Asset: `looniva/elementi_social/`
+- Manifest: `looniva/asset_manifest.json`
+- Se viene passato argomento data (es. `/looniva-daily 01-06-2026`) usa quella data
