@@ -1,11 +1,12 @@
 #!/usr/bin/env node
 import { Command } from "commander";
-import { AeromexicoDisputeAgent } from "../agents/aeromexicoDisputeAgent.js";
+import { runInteractiveCli, runDisputeTask, DISPUTE_TASKS } from "../agents/aeromexicoDisputeAgent.js";
+import type { DisputeTaskName } from "../agents/aeromexicoDisputeAgent.js";
 
 interface CliOpts {
-  prompt?: string;
+  task?: string;
   model?: string;
-  apiKey?: string;
+  maxTurns?: string;
 }
 
 async function main() {
@@ -13,26 +14,36 @@ async function main() {
   program
     .name("aeromexico-dispute")
     .description(
-      "Agente interattivo per la gestione della disputa rimborso con Aeroméxico (caso WPRZZP, Edoardo Guarise).",
+      "Agente autonomo per la disputa Aeroméxico (WPRZZP). Connesso a Gmail via MCP.\n" +
+      "Task predefiniti: monitor | status | escalate | profeco | ecc-net",
     )
-    .option("-p, --prompt <text>", "Esegui un singolo prompt e stampa la risposta (modalità non interattiva)")
-    .option("-m, --model <model>", "Modello Claude da usare", "claude-opus-4-8")
-    .option("-k, --api-key <key>", "Anthropic API key (default: ANTHROPIC_API_KEY env var)");
+    .option(
+      "-t, --task <name>",
+      "Esegui un task predefinito e termina (monitor|status|escalate|profeco|ecc-net)",
+    )
+    .option("-m, --model <model>", "Modello Claude da usare")
+    .option("--max-turns <n>", "Numero massimo di turni agentici", "20");
 
   program.parse();
   const opts = program.opts<CliOpts>();
-
-  const agent = new AeromexicoDisputeAgent({
+  const agentOpts = {
     model: opts.model,
-    apiKey: opts.apiKey,
-  });
+    maxTurns: opts.maxTurns ? parseInt(opts.maxTurns, 10) : 20,
+  };
 
-  if (opts.prompt) {
-    const reply = await agent.runSingle(opts.prompt);
-    console.log(reply);
-  } else {
-    await agent.runInteractive();
+  if (opts.task) {
+    const key = opts.task as DisputeTaskName;
+    const prompt = DISPUTE_TASKS[key];
+    if (!prompt) {
+      console.error(`Task sconosciuto: "${opts.task}". Valori validi: ${Object.keys(DISPUTE_TASKS).join(", ")}`);
+      process.exit(1);
+    }
+    await runDisputeTask(prompt, agentOpts);
+    console.log("\n");
+    return;
   }
+
+  await runInteractiveCli(agentOpts);
 }
 
 main().catch((err) => {

@@ -1,163 +1,214 @@
-import Anthropic from "@anthropic-ai/sdk";
+import { query } from "@anthropic-ai/claude-agent-sdk";
 import * as readline from "node:readline/promises";
 import { stdin as input, stdout as output } from "node:process";
 
 // ─── Case Context ──────────────────────────────────────────────────────────────
 
-const CASE_CONTEXT = `
+export const CASE_CONTEXT = `
 ## CASO: Disputa rimborso con Aeroméxico — Edoardo Guarise
 
 ### Dati identificativi
-- **Passeggero**: Edoardo Guarise
-- **Email**: gedoardo02@gmail.com
-- **Nazionalità**: Italiana (consumatore europeo)
-- **Codice prenotazione**: WPRZZP
-- **Numero biglietto**: 1392164552191
-- **Riferimento transazione American Express**: AT26110042000010032070
-- **Importo addebitato**: 3.114,00 MXN
-- **Data addebito**: 20 aprile 2026
-- **Numero caso Aeroméxico**: 06660417
-- **Tipo tariffa**: Tarifa Básica / Light (non rimborsabile)
+- Passeggero: Edoardo Guarise | Email: gedoardo02@gmail.com | Nazionalità: Italiana
+- Codice prenotazione: WPRZZP
+- Numero biglietto: 1392164552191
+- Riferimento transazione AMEX: AT26110042000010032070
+- Importo addebitato: 3.114,00 MXN il 20 aprile 2026
+- Numeri caso Aeroméxico: 06660417 e 06661450
+- Email assistenza Aeroméxico: amcustomersupport@aeromexico.com
+- Tipo tariffa: Tarifa Básica / Light (non rimborsabile secondo Aeroméxico)
 
-### Cronologia degli eventi
-1. **20 aprile 2026**: Prenotazione acquistata direttamente su aeromexico.com, pagamento con carta American Express processato correttamente. La prenotazione appariva attiva nell'app Aeroméxico.
-2. **24 aprile 2026**: Edoardo non può prendere il volo di andata (MEX → LAP) a causa di un infortunio fisico. Prende un altro volo con compagnia alternativa per raggiungere La Paz.
-3. **27 aprile 2026**: Al momento del check-in per il volo di ritorno (AM367, LAP → MEX), il check-in online risulta impossibile. Si reca al banco check-in in aeroporto e gli viene comunicato che il biglietto non è stato emesso ("no se emitió el boleto").
-4. **27 aprile 2026**: Contatta Aeroméxico via WhatsApp. Un agente di Aeroméxico conferma in chat scritta che "la reserva se encuentra en un estatus en el que el pago no ha sido confirmado adecuadamente, por lo que el total de la compra se te reembolsará de manera automática en un periodo de 7 a 15 días después de tu último vuelo no volado."
-5. **Maggio 2026 (attorno al 15 maggio)**: Dopo più di 20 giorni senza ricevere alcun rimborso, Edoardo apre formalmente una pratica reclami. Invia comunicazione formale via WhatsApp e poi via email, citando la promessa dell'agente e le azioni che intraprenderà (PROFECO, SECTUR, ECC-Net).
-6. **18 maggio 2026 (risposta Aeroméxico)**: Edgar E., Esecutivo Atención a Clientes, risponde via email negando il rimborso, adducendo che la tariffa Básica non permette rimborsi e che i segmenti successivi vengono automaticamente annullati quando il primo non viene utilizzato.
-7. **18 maggio 2026 (risposta Edoardo)**: Edoardo risponde contestando la risposta, sottolineando che il problema principale era che il biglietto sembrava non essere stato emesso correttamente, e che ha agito in buona fede basandosi sulle informazioni mostrate nei sistemi Aeroméxico.
-8. **Risposta successiva Aeroméxico**: Seconda risposta di Edgar E. che modifica la narrativa: ora afferma che il biglietto era validamente emesso, e che il problema era solo la cancellazione automatica per no-show sul primo segmento. Nega nuovamente qualsiasi rimborso.
-9. **Situazione attuale (29 maggio 2026)**: Il caso è bloccato. Aeroméxico si rifiuta di rimborsare.
+### Cronologia
+- 20/04/2026: Acquisto su aeromexico.com, addebito AMEX processato, prenotazione attiva in app
+- 24/04/2026: Mancato imbarco volo MEX→LAP per infortunio fisico; preso volo alternativo
+- 27/04/2026: Check-in volo ritorno AM367 (LAP→MEX) impossibile sia online che in aeroporto
+- 27/04/2026: Agente WhatsApp Aeroméxico scrive: "tu reserva se encuentra en un estatus en el que
+  el pago no ha sido confirmado adecuadamente, por lo que el total de la compra se te reembolsará
+  de manera automática en un periodo de 7 a 15 días después de tu último vuelo no volado."
+- 18/05/2026: Risposta formale Edgar E. (caso 06660417): nega rimborso per tariffa non rimborsabile
+- 22/05/2026: Seconda risposta Edgar E. (caso 06661450): conferma diniego rimborso
+- 29/05/2026: Agente ha creato 4 bozze Gmail e inviato notifica formale azioni legali
 
-### Punti di forza della posizione di Edoardo
-1. **AMMISSIONE SCRITTA DI AEROMÉXICO**: Il 27 aprile, un agente ufficiale Aeroméxico via WhatsApp ha scritto esplicitamente che il pagamento "no había sido confirmado adecuadamente" e ha promesso un rimborso automatico entro 7-15 giorni. Questo costituisce un'ammissione di responsabilità e una promessa vincolante.
-2. **CONTRADDIZIONE INTERNA**: Aeroméxico prima dice (agente WhatsApp, 27/4) che il biglietto non era stato emesso correttamente → poi dice (email, 18/5) che il biglietto era validamente emesso ma annullato per no-show. Queste due versioni sono incompatibili.
-3. **BUONA FEDE DEL PASSEGGERO**: La prenotazione appariva attiva nell'app. Edoardo non è stato mai notificato di problemi. Ha agito in buona fede presentandosi per il volo di ritorno.
-4. **INFORTUNIO FISICO**: Il mancato utilizzo del volo di andata non è stato volontario ma dovuto a cause di forza maggiore (infortunio).
-5. **CONSUMATORE EUROPEO**: Come cittadino italiano, Edoardo ha accesso a tutele europee aggiuntive (ECC-Net, Codice del Consumo italiano).
-6. **CHARGEBACK AMEX**: Il servizio non è stato erogato (non ha potuto imbarcarsi sul volo di ritorno). Questo costituisce una base valida per un chargeback con American Express.
+### Punto di forza principale
+CONTRADDIZIONE DOCUMENTATA: agente WhatsApp (27/4) ha ammesso "pago no confirmado adecuadamente"
+e promesso rimborso automatico. Le risposte formali successive dicono invece che il boleto era
+"validamente emesso". Queste versioni sono incompatibili — in entrambi i casi Aeroméxico è in torto.
 
-### Posizione di Aeroméxico
-- Sostengono che la tariffa Básica è non rimborsabile e non modificabile
-- Sostengono che la cancellazione automatica del volo di ritorno è prevista dal contratto di trasporto
-- Negano qualsiasi responsabilità per la promessa dell'agente WhatsApp
-- Seconda versione: il biglietto era validamente emesso (contraddicendo la prima versione dell'agente)
-
-### Canali di escalation disponibili
-1. **Chargeback American Express** — PRIORITÀ ALTA. Contesta direttamente il pagamento. American Express ha politiche di protezione acquisti robuste. La finestra temporale è tipicamente 60-120 giorni dall'addebito (20 aprile → scadenza circa luglio-agosto 2026).
-2. **PROFECO** (Procuraduría Federal del Consumidor, Messico) — Organismo messicano di protezione del consumatore. Aeromexico è obbligata a rispondervi. Sito: profeco.gob.mx.
-3. **SECTUR** (Secretaría de Turismo, Messico) — Regolatore del turismo messicano.
-4. **ECC-Net** (European Consumer Centres Network) — Come consumatore europeo che ha acquistato da un'impresa straniera. Centro italiano: ecc-net.it.
-5. **AGCOM / Codacons / Altroconsumo** (Italia) — Associazioni consumatori italiane.
-6. **Social media pressure** — Twitter/X @aeromexico, Instagram. Le compagnie aeree rispondono velocemente ai reclami pubblici documentati.
-7. **Arbitrato o azione legale** — Ultima ratio, ma la promessa scritta dell'agente rafforza molto la posizione.
-
-### Documenti disponibili
-- Screenshot chat WhatsApp con Aeroméxico (inclusa promessa rimborso 27 aprile)
-- Email formale di diniego rimborso (Edgar E., 18 maggio 2026)
-- Numero prenotazione, numero biglietto, riferimento transazione
-- (Da raccogliere se non già disponibili: certificato medico dell'infortunio, biglietto volo alternativo, estratto conto AMEX con addebito)
+### Canali di escalation (in ordine di priorità)
+1. Chargeback American Express (scadenza ~18 agosto 2026) — richiede azione manuale utente nell'app
+2. PROFECO — denuncia presso procura messicana consumatori
+3. ECC-Net Italia — centro europeo consumatori (info@ecc-net.it)
+4. SECTUR — segreteria turismo messico
+5. Social media — @aeromexico su X/Twitter e Instagram
 `;
 
-const SYSTEM_PROMPT = `Sei un agente esperto nella gestione di dispute con compagnie aeree, con specializzazione in diritto dei consumatori messicano, europeo e internazionale. Stai assistendo Edoardo Guarise nella sua disputa contro Aeroméxico per ottenere un rimborso di 3.114,00 MXN.
+// ─── Gmail MCP tool IDs available in this Claude Code session ────────────────
+
+const GMAIL_MCP = "mcp__0879d95b-25ed-46af-9c58-5535a1907006";
+
+// ─── Dispute Agent using claude-agent-sdk query() ────────────────────────────
+
+export interface DisputeAgentOptions {
+  maxTurns?: number;
+  model?: string;
+}
+
+/**
+ * Runs a single autonomous task using the claude-agent-sdk query() loop,
+ * which has full access to Gmail MCP tools and any other MCP servers
+ * connected to the Claude Code session.
+ */
+export async function runDisputeTask(
+  taskPrompt: string,
+  opts: DisputeAgentOptions = {},
+): Promise<string> {
+  const systemContext = `Sei un agente esperto nella gestione di dispute con compagnie aeree.
+Hai accesso agli strumenti Gmail MCP (prefisso ${GMAIL_MCP}__) per leggere email, creare bozze
+e cercare thread. Usali attivamente per svolgere i compiti assegnati.
 
 ${CASE_CONTEXT}
 
-## Il tuo ruolo
-Puoi fare le seguenti cose su richiesta di Edoardo:
-- **Analizzare** la situazione e consigliare la strategia migliore
-- **Redigere lettere formali** (email a Aeroméxico, reclamo PROFECO, ECC-Net, ecc.)
-- **Preparare la documentazione** per il chargeback con American Express
-- **Simulare le controargomentazioni** di Aeroméxico e preparare risposte
-- **Indicare i passi successivi** con istruzioni concrete
-- **Rispondere a domande** su procedure, tempistiche, diritti del consumatore
+REGOLE OPERATIVE:
+- Usa SEMPRE gmail search per verificare lo stato attuale prima di agire
+- Crea bozze (create_draft) per tutte le email — NON inviare direttamente
+- Quando crei una bozza, conferma sempre il draft ID restituito
+- Rispondi in italiano con un riepilogo conciso di cosa hai fatto e cosa resta da fare
+- Segnala se trovi nuove risposte di Aeroméxico nel Gmail che richiedono attenzione
+`;
 
-## Linee guida
-- Usa sempre un tono professionale ma fermo nelle lettere formali
-- Cita sempre gli elementi specifici del caso (numero prenotazione, date, importi)
-- Sottolinea sempre come punto di forza principale la CONTRADDIZIONE nelle dichiarazioni di Aeroméxico e la PROMESSA SCRITTA dell'agente del 27 aprile
-- Quando redigi lettere in spagnolo, usa uno spagnolo formale e preciso
-- Per le comunicazioni con enti italiani/europei, usa l'italiano formale
-- Priorità strategica: PRIMA il chargeback AMEX (più veloce ed efficace), POI PROFECO, POI ECC-Net
+  const fullPrompt = `${systemContext}\n\n## TASK\n${taskPrompt}`;
 
-Rispondi sempre in italiano a meno che non ti venga chiesto esplicitamente di redigere un documento in altra lingua.`;
+  const collected: string[] = [];
 
-// ─── Agent ────────────────────────────────────────────────────────────────────
+  const iter = query({
+    prompt: fullPrompt,
+    options: {
+      cwd: process.cwd(),
+      ...(opts.model ? { model: opts.model } : {}),
+      ...(opts.maxTurns ? { maxTurns: opts.maxTurns } : { maxTurns: 20 }),
+    },
+  });
 
-export interface DisputeAgentOptions {
-  /** Anthropic API key. Defaults to ANTHROPIC_API_KEY env var. */
-  apiKey?: string;
-  /** Claude model to use. */
-  model?: string;
-  /** If true, run a single prompt and exit (non-interactive). */
-  singlePrompt?: string;
-}
-
-export class AeromexicoDisputeAgent {
-  private readonly client: Anthropic;
-  private readonly model: string;
-  private readonly conversationHistory: Anthropic.MessageParam[] = [];
-
-  constructor(opts: DisputeAgentOptions = {}) {
-    this.client = new Anthropic({ apiKey: opts.apiKey ?? process.env.ANTHROPIC_API_KEY });
-    this.model = opts.model ?? "claude-opus-4-8";
-  }
-
-  async chat(userMessage: string): Promise<string> {
-    this.conversationHistory.push({ role: "user", content: userMessage });
-
-    const response = await this.client.messages.create({
-      model: this.model,
-      max_tokens: 4096,
-      system: SYSTEM_PROMPT,
-      messages: this.conversationHistory,
-    });
-
-    const assistantText =
-      response.content
-        .filter((b): b is Anthropic.TextBlock => b.type === "text")
-        .map((b) => b.text)
-        .join("") || "(nessuna risposta)";
-
-    this.conversationHistory.push({ role: "assistant", content: assistantText });
-    return assistantText;
-  }
-
-  async runInteractive(): Promise<void> {
-    const rl = readline.createInterface({ input, output });
-
-    console.log("\n" + "═".repeat(70));
-    console.log("  AGENTE DISPUTA AEROMÉXICO — Edoardo Guarise");
-    console.log("  Caso: WPRZZP | Importo: 3.114,00 MXN | Rif: AT26110042000010032070");
-    console.log("═".repeat(70));
-    console.log("\nComandi rapidi:");
-    console.log("  'strategia'    → Piano d'azione completo e prioritizzato");
-    console.log("  'chargeback'   → Lettera per chargeback American Express");
-    console.log("  'profeco'      → Come presentare denuncia PROFECO");
-    console.log("  'email amex'   → Email di follow-up formale ad Aeroméxico");
-    console.log("  'ecc-net'      → Reclamo al Centro Europeo Consumatori");
-    console.log("  'exit'         → Esci dall'agente\n");
-    console.log("Scrivi la tua domanda o usa un comando rapido:\n");
-
-    while (true) {
-      const userInput = await rl.question("Tu: ");
-      const trimmed = userInput.trim();
-
-      if (!trimmed || trimmed.toLowerCase() === "exit" || trimmed.toLowerCase() === "esci") {
-        console.log("\nSessione terminata. In bocca al lupo per la disputa!\n");
-        rl.close();
-        break;
+  for await (const message of iter as AsyncIterable<unknown>) {
+    const m = message as {
+      type: string;
+      message?: { content?: Array<{ type: string; text?: string }> };
+    };
+    if (m.type === "assistant" && m.message?.content) {
+      for (const block of m.message.content) {
+        if (block.type === "text" && block.text) {
+          process.stdout.write(block.text);
+          collected.push(block.text);
+        }
       }
-
-      process.stdout.write("\nAgente: ");
-      const reply = await this.chat(trimmed);
-      console.log(reply);
-      console.log();
     }
   }
 
-  async runSingle(prompt: string): Promise<string> {
-    return this.chat(prompt);
+  return collected.join("\n\n");
+}
+
+// ─── Preset autonomous tasks ──────────────────────────────────────────────────
+
+export const DISPUTE_TASKS = {
+  /** Controlla il Gmail per nuove risposte e crea bozza di replica se necessario */
+  monitor: `
+    1. Cerca nel Gmail tutti i thread con Aeroméxico usando query: "from:aeromexico.com OR to:aeromexico.com OR subject:WPRZZP"
+    2. Identifica messaggi ricevuti negli ultimi 7 giorni che non abbiano ancora una risposta
+    3. Se trovi nuove risposte di Aeroméxico al caso, crea una bozza di replica professionale
+       citando sempre la contraddizione documentata (agente WhatsApp vs risposte formali)
+    4. Riporta un riepilogo: cosa hai trovato, cosa hai creato, cosa richiede attenzione umana
+  `,
+
+  /** Crea bozza escalation finale ad Aeroméxico */
+  escalateAeromexico: `
+    1. Cerca nel Gmail l'ultimo thread con amcustomersupport@aeromexico.com
+    2. Crea una bozza di risposta formale come reply all'ultimo messaggio ricevuto
+    3. La lettera deve: citare la contraddizione documentata, notificare PROFECO+AMEX+ECC-Net,
+       fissare ultimatum di 5 giorni lavorativi, essere in spagnolo formale
+    4. Conferma draft ID e oggetto della bozza creata
+  `,
+
+  /** Crea bozza denuncia PROFECO */
+  profecoComplaint: `
+    1. Crea una bozza Gmail indirizzata a consumerinfo@profeco.gob.mx con cc gedoardo02@gmail.com
+    2. Oggetto: "QUEJA FORMAL – Aeroméxico – Prácticas engañosas – Reserva WPRZZP"
+    3. Il corpo deve contenere: dati passeggero, cronologia completa, citazione verbatim della
+       promessa WhatsApp del 27 aprile, contraddizione documentata, base legale (LFPC art. 7, 10, 39),
+       e lista documenti allegati
+    4. Conferma draft ID
+  `,
+
+  /** Crea bozza reclamo ECC-Net Italia */
+  eccNetComplaint: `
+    1. Crea una bozza Gmail indirizzata a info@ecc-net.it con cc gedoardo02@gmail.com
+    2. Oggetto: "Reclamo formale contro Aeroméxico – Servizio non reso – Prenotazione WPRZZP"
+    3. Il corpo in italiano deve descrivere il caso completo, i passi già intrapresi,
+       e chiedere assistenza nella trattativa come consumatore europeo
+    4. Conferma draft ID
+  `,
+
+  /** Stato completo della disputa */
+  status: `
+    1. Cerca nel Gmail tutti i thread relativi al caso (query: "aeromexico OR WPRZZP OR AT26110042000010032070")
+    2. Elenca: ultimi messaggi ricevuti e loro date, bozze presenti relative al caso, azioni completate
+    3. Valuta se ci sono nuove risposte che richiedono azione immediata
+    4. Fornisci una raccomandazione chiara sul prossimo passo più urgente
+  `,
+} as const;
+
+export type DisputeTaskName = keyof typeof DISPUTE_TASKS;
+
+// ─── Interactive CLI ──────────────────────────────────────────────────────────
+
+export async function runInteractiveCli(opts: DisputeAgentOptions = {}): Promise<void> {
+  const rl = readline.createInterface({ input, output });
+
+  console.log("\n" + "═".repeat(70));
+  console.log("  AGENTE DISPUTA AEROMÉXICO — Edoardo Guarise  [Gmail connesso]");
+  console.log("  Caso: WPRZZP | 3.114,00 MXN | Rif: AT26110042000010032070");
+  console.log("═".repeat(70));
+  console.log("\nComandi autonomi (l'agente agisce direttamente sul tuo Gmail):");
+  console.log("  monitor          → Controlla nuove risposte e crea bozze di replica");
+  console.log("  status           → Stato completo della disputa nel Gmail");
+  console.log("  escalate         → Crea bozza escalation finale ad Aeroméxico");
+  console.log("  profeco          → Crea bozza denuncia PROFECO");
+  console.log("  ecc-net          → Crea bozza reclamo ECC-Net Italia");
+  console.log("  <testo libero>   → Esegui task personalizzato con accesso Gmail");
+  console.log("  exit             → Esci\n");
+
+  while (true) {
+    const userInput = await rl.question("Tu: ");
+    const trimmed = userInput.trim().toLowerCase();
+
+    if (!trimmed || trimmed === "exit" || trimmed === "esci") {
+      console.log("\nSessione terminata.\n");
+      rl.close();
+      break;
+    }
+
+    let taskPrompt: string;
+    switch (trimmed) {
+      case "monitor":
+        taskPrompt = DISPUTE_TASKS.monitor;
+        break;
+      case "status":
+        taskPrompt = DISPUTE_TASKS.status;
+        break;
+      case "escalate":
+        taskPrompt = DISPUTE_TASKS.escalateAeromexico;
+        break;
+      case "profeco":
+        taskPrompt = DISPUTE_TASKS.profecoComplaint;
+        break;
+      case "ecc-net":
+      case "eccnet":
+        taskPrompt = DISPUTE_TASKS.eccNetComplaint;
+        break;
+      default:
+        taskPrompt = userInput.trim();
+    }
+
+    console.log("\nAgente: ");
+    await runDisputeTask(taskPrompt, opts);
+    console.log("\n");
   }
 }
