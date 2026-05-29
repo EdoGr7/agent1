@@ -16,10 +16,13 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "looniva:canva-carousel": "tsx src/bin/looniva-canva.ts",
-    "looniva:canva-carousel:built": "node dist/bin/looniva-canva.js"
+    "looniva:canva-carousel:built": "node dist/bin/looniva-canva.js",
+    "aeromexico:dispute": "tsx src/bin/aeromexico-dispute.ts",
+    "aeromexico:dispute:built": "node dist/bin/aeromexico-dispute.js"
   },
   "dependencies": {
     "@anthropic-ai/claude-agent-sdk": "^0.1.0",
+    "@anthropic-ai/sdk": "^0.51.0",
     "commander": "^12.1.0",
     "pino": "^9.5.0",
     "pino-pretty": "^11.3.0",
