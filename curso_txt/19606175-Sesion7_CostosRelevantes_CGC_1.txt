@@ -1,0 +1,619 @@
+CON 34122 · ITAM Maestría · Abril–Junio 2026
+
+Costos Relevantes
+para la Toma de Decisiones
+Caso Integrado: Disney FY2026 — El Año de las Decisiones Difíciles
+Prof. Orlando Garciacano
+SESIÓN 7 DE 12
+
+Control Diagnóstico · Análisis Diferencial · Costos Relevantes · Costos Hundidos · Costo de Oportunidad
+
+Agenda de la Sesión
+01
+
+CON 34122 · Sesión 7
+
+Apertura
+
+04
+
+El sesgo del costo hundido — MagicLens AR ($85M)
+
+02
+
+Marco Conceptual
+
+Make vs. Buy — Proyecto Fantasía vs. Proyecto Aurora
+
+05
+
+Relevante · Hundido · Oportunidad
+
+03
+
+Decisión 2
+
+Decisión 3
+Eliminación de línea — ¿Cerrar Disney+ Latinoamérica?
+
+Decisión 1
+
+06
+
+Pedido especial — Magic Kingdom + Programa Escolar Florida
+
+Decisión 4
+Recurso escaso — 600K horas de animación
+
+Palanca Simons: Control Diagnóstico · Conexión IR: Capital Financiero, Manufacturado y Social
+
+A P E R T U R A
+
+El Sesgo del
+Costo Hundido
+¿Qué hacemos con los $85 millones?
+
+Apertura — MagicLens AR: ¿Qué Hacemos con los $85 Millones?
+
+La Situación
+
+CON 34122 · Sesión 7
+
+Análisis Diferencial (solo lo futuro)
+Concepto
+
+MagicLens
+
+TechVision
+
+Inversión futura
+
+$25M
+
+$40M
+
+Disney Parks invierte 3 años y $85 millones en "MagicLens AR". El
+sistema no está listo.
+
+Tiempo al mercado
+
+18 meses
+
+6 meses
+
+TechVision ofrece su plataforma AR ya probada:
+✓ Lista en 6 meses
+✓ Precio: $40 millones
+
+$85M ya gastados
+
+IRRELEVANTE
+
+IRRELEVANTE
+
+Decisión
+
+—
+
+✓ ELEGIR
+
+Continuar con MagicLens requiere:
+✗ $25 millones adicionales
+✗ 18 meses más de desarrollo
+
+Los $85M son COSTO HUNDIDO.
+No pueden recuperarse. No deben influir la decisión. La comparación correcta es únicamente
+$25M vs. $40M de inversión futura.
+
+Sunk Cost Fallacy: El error cognitivo más costoso en las organizaciones
+
+Marco Conceptual — El Tridente de la Decisión
+
+COSTO RELEVANTE
+
+COSTO HUNDIDO
+
+CON 34122 · Sesión 7
+
+COSTO DE OPORTUNIDAD
+
+Es FUTURO y DIFIERE entre alternativas
+
+Ya fue incurrido. No puede recuperarse
+
+Beneficio perdido de la alternativa desechada
+
+✓ Siempre entra en el análisis
+
+✗ Nunca entra en el análisis
+
+✓ Siempre entra (aunque sea implícito)
+
+Ej. Disney:
+
+Ej. Disney:
+
+Ej. Disney:
+
+CV adicional de visitantes en MK
+
+$85M del sistema MagicLens AR
+
+CMU de Proyecto Aurora si se produce Fantasía
+
+Regla de oro: Solo entran costos FUTUROS que DIFIEREN entre alternativas
+
+D E C I S I Ó N
+
+1
+
+Pedido Especial
+Magic Kingdom
+¿Aceptar 180,000 estudiantes a $95/entrada?
+
+Decisión 1 — Pedido Especial: Magic Kingdom · Programa Escolar Florida
+Datos Clave (de S6)
+
+CON 34122 · Sesión 7
+
+Análisis Diferencial — Con Capacidad Ociosa
+
+Precio normal
+
+$185/visitante
+
+Precio especial propuesto
+
+$95/visitante
+
+Costo Variable
+
+$62/visitante
+
+Costos Fijos Totales
+
+$2,170M
+
+Visitantes FY2024
+
+52.2M
+
+Capacidad
+
+55.0M
+
+Capacidad ociosa
+
+2.8M visitantes
+
+Grupo escolar propuesto
+
+180,000 visitantes
+
+Condiciones que deben cumplirse
+
+1. Hay capacidad ociosa suficiente (2.8M > 180K)
+2. El precio especial cubre los CV ($95 > $62)
+3. El cliente especial NO canibaliza el mercado normal
+
+Concepto
+
+Cálculo
+
+Monto
+
+Ingresos incrementales
+
+180,000 × $95
+
+$17,100,000
+
+Costos variables incr.
+
+180,000 × $62
+
+($11,160,000)
+
+CM Incremental
+$5,940,000
+
+✓ ACEPTAR
+
+Dimensión ASG — Capital Social
+
+¿Cuánto vale el Capital Social de incluir 180,000 estudiantes de bajos recursos? El Marco IR
+requiere reportarlo. La NIIF S1 y estándares GRI 413 cubren impactos en comunidades — la NIIF
+S2 es específica para riesgos climáticos y no aplica aquí.
+
+CF son irrelevantes con capacidad ociosa · El precio mínimo = CV = $62 · Si no hay capacidad ociosa el análisis cambia radicalmente
+
+D E C I S I Ó N
+
+2
+
+Make vs. Buy
+Proyecto Fantasía
+El costo de oportunidad que lo cambia todo
+
+Decisión 2 — Make vs. Buy: ¿Producir o Licenciar Proyecto Fantasía?
+Sin costo de oportunidad (Aurora)
+
+CON 34122 · Sesión 7
+
+Con costo de oportunidad (Proyecto Aurora)
+
+Costo Relevante
+
+Producir
+
+Licenciar
+
+Licencia al estudio externo
+
+—
+
+$58,000,000
+
+MPD
+
+$12,500,000
+
+—
+
+MOD
+
+$25,200,000
+
+—
+
+GIF Variable
+
+$3,720,000
+
+—
+
+GIF Fijo Identificable
+
+$600,000
+
+—
+
+GIF Fijo Común
+
+Irrelevante
+
+Irrelevante
+
+TOTAL
+
+$42,020,000
+
+$58,000,000
+
+Sin Aurora → PRODUCIR ahorra $15.98M
+
+Concepto
+
+Producir
+
+Licenciar
+
+Costos relevantes directos
+
+$42,020,000
+
+$58,000,000
+
+Costo de Oportunidad
+(CMU perdida de Aurora)
+
+$26,040,000
+(62K h × $420/h)
+
+—
+
+TOTAL RELEVANTE
+
+$68,060,000
+
+$58,000,000
+
+Con Aurora → LICENCIAR ahorra $10.06M · ¡La decisión se invierte!
+
+El costo de oportunidad ($26.04M de CMU de Aurora) NO aparece en ningún sistema contable — pero determina la decisión correcta. Este es el momento exacto donde los costos
+dejan de ser contabilidad y se convierten en estrategia.
+
+Scope 3 ASG: licenciar convierte la producción en emisiones de la cadena de suministro · Capital Manufacturado del Marco IR
+
+D E C I S I Ó N
+
+3
+
+Eliminación de Línea
+Disney+ Latinoamérica
+¿Cerrar un segmento con pérdida de $45M mejora el resultado?
+
+Decisión 3 — Eliminación de Línea: ¿Cerrar Disney+ Latinoamérica?
+Concepto
+
+Global
+
+LATAM
+
+Resto
+
+Ingresos
+
+$1,200M
+
+$180M
+
+$1,020M
+
+Costos Variables
+
+($420M)
+
+($68M)
+
+($352M)
+
+Contribución Marginal
+
+$780M
+
+$112M
+
+$668M
+
+CF Identificables
+
+($458M)
+
+($95M)
+
+($363M)
+
+U. antes CF Comunes
+
+$322M
+
++$17M
+
+$305M
+
+CF Comunes asignados
+
+($180M)
+
+($63M)
+
+($117M)
+
+Utilidad / Pérdida
+
+$142M
+
+($46M)
+
+$188M
+
+Si se cierra LATAM…
+
+CON 34122 · Sesión 7
+
+La lección correcta
+
+Efecto del Cierre
+
+Monto
+
+Ahorro CF Identificables LATAM
+
++$95,000,000
+
+Pérdida CM LATAM
+
+−$112,000,000
+
+CF Comunes (NO se ahorran)
+
+$0
+
+Impacto neto: EMPEORA en
+
+−$17,000,000
+
+La «pérdida de $46M» lleva a pensar en cerrar. Pero el análisis muestra que cerrar EMPEORA la
+utilidad consolidada en $17M.
+La CM ($112M) supera los CF identificables ($95M): el segmento contribuye $17M neto a los CF
+comunes. Cerrar no los elimina — los redistribuye al resto.
+
+CM > CF Identificables → NO cerrar · CF Comunes se redistribuyen, no desaparecen · Capital Social: 650M personas en LATAM
+
+D E C I S I Ó N
+
+4
+
+Recurso Escaso
+600K Horas de
+Animación
+CMU total vs. CMU por hora — la regla que invierte el ranking
+
+Decisión 4 — Recurso Escaso: Asignación de 600,000 Horas de Animación
+Proyecto
+
+CMU Total
+
+Horas Requeridas
+
+CMU / Hora
+
+Ranking ✓
+
+Moana 2 (Ord. 101)
+
+$106,500,000
+
+95,000 h
+
+$1,121/h
+
+2°
+
+Proy. Fantasía (Ord. 102)
+
+$92,300,000
+
+62,000 h
+
+$1,489/h
+
+1° ✓ MÁXIMO
+
+Proy. Aurora (nuevo)
+
+$130,200,000
+
+130,000 h
+
+$1,002/h
+
+3°
+
+CON 34122 · Sesión 7
+
+Asignación Óptima (600,000 h)
+
+El error intuitivo
+Aurora tiene la CMU total más alta ($130.2M) pero es la PEOR por hora ($1,002/h). La
+restricción es el tiempo de animación — hay que maximizar CMU por unidad de restricción,
+no por proyecto.
+
+Proyecto
+
+Horas
+
+CMU Generada
+
+1° Fantasía
+
+62,000
+
+$92,300,000
+
+2° Moana 2
+
+95,000
+
+$106,500,000
+
+3° Aurora
+
+443,000 (resto)
+
+$443,900,000
+
+TOTAL
+
+600,000
+
+$642,700,000
+
+Restricción No Financiera ASG
+Proyecto Aurora usa servidores 100% renovables. Moana 2 usa mix energético convencional. Con costo de carbono de $50/ton CO₂e y diferencia de 45 ton/1,000h: costo carbono Moana 2 =
+$213,750 adicionales. La CMU efectiva de Moana baja de $1,121 a $1,119/h. El ranking no cambia — pero con mayor precio de carbono, podría cambiar. Las VCFs de Simons incluyen métricas no
+financieras.
+
+Regla: Maximizar CMU/hora de recurso escaso · Capital Humano del IR · Control Diagnóstico con VCFs financieras Y no financieras
+
+Síntesis — Correlación Simons · Marco IR · Herramientas Sesión 7
+Tipo de Decisión
+
+Concepto Central
+
+Palanca Simons
+
+Capital IR
+
+Caso Disney
+
+Costo Hundido
+
+Ignorar lo irrecuperable
+
+Sistemas de Límites
+
+Capital Manufacturado
+
+MagicLens AR $85M
+
+Pedido Especial
+
+CMU incremental s/ CF
+
+Control Diagnóstico
+
+Capital Social
+
+Magic Kingdom Escolar
+
+Make vs. Buy
+
+Costo de Oportunidad real
+
+Control Diagnóstico
+
+Capital Mfdo. / Natural
+
+Fantasía vs. Aurora
+
+Eliminación de Línea
+
+CM positiva ≠ cierre
+
+Control Diagnóstico
+
+Capital Social / Reput.
+
+Disney+ Latinoamérica
+
+Recurso Escaso
+
+CMU / unidad restricción
+
+Control Diagnóstico
+
+Capital Humano
+
+600K h animación
+
+CON 34122 · Sesión 7
+
+Control Diagnóstico en la era ASG
+Las Variables Críticas de Funcionamiento (VCFs) que Simons propone no son solo financieras. En cada una de las cuatro decisiones de hoy, existe una dimensión ASG (huella de carbono, capital
+social, riesgo de cadena de suministro) que puede modificar la decisión correcta. Ese es el argumento más sólido para integrar el pensamiento de costos con el pensamiento integrado.
+
+De la contabilidad de costos a la gestión estratégica — el puente que esta sesión construye
+
+Reflexión para tu empresa
+
+Conecta hoy con tu
+Trabajo Final
+1
+
+¿Qué tipo de decisión relevante existe en tu empresa hoy?
+
+2
+
+¿Cuáles serían los costos relevantes vs. los hundidos?
+
+3
+
+¿Existe una dimensión ASG que debería cuantificarse pero no se cuantifica?
+
+4
+
+¿Cómo aparece (o debería aparecer) en el Informe Integrado de tu empresa?
+
+

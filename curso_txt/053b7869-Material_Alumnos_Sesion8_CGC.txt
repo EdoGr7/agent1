@@ -1,0 +1,719 @@
+CON 34122 · Control y Gestión de Costos
+
+MATERIAL DE PRE-LECTURA
+Sesión 8
+Costeo Basado en Actividades (ABC)
+Lee este material ANTES de la sesión
+Caso: Classic Brass · Contexto: The Walt Disney Company
+ITAM Maestría · Abril–Junio 2026 · Prof. Orlando Garciacano
+
+Cómo usar este material
+Este documento está diseñado para ser leído antes de la Sesión 8. A diferencia de los materiales de otras
+sesiones, aquí encontrarás la teoría completa — no solo los ejercicios. El objetivo es que llegues a clase
+habiendo entendido el marco conceptual, para que el tiempo en el aula se dedique a los momentos de mayor
+riqueza intelectual: la comparación entre sistemas, la interpretación de los resultados, y la conexión con tu
+propia empresa.
+Estructura: Parte I (Teoría) · Parte II (Caso Classic Brass) · Parte III (Extensión ASG y reflexión final). Si llegas
+habiendo leído la Parte I completa y las Tablas 1–6 del Excel, la sesión será considerablemente más rica.
+
+PARTE I — Marco Conceptual del
+Costeo ABC
+1. El Problema que ABC Vino a Resolver
+El Costeo Basado en Actividades (ABC, por sus siglas en inglés Activity-Based Costing) no surgió de un
+ejercicio académico. Surgió de una crisis práctica: a finales de los años 1980, empresas manufactureras
+en Estados Unidos y Europa comenzaron a perder competitividad frente a productores japoneses.
+Cuando los consultores investigaron, encontraron que muchas compañías americanas estaban tomando
+decisiones estratégicas equivocadas — descontinuando productos rentables y expandiendo productos
+que perdían dinero — porque sus sistemas de costos les estaban mintiendo.
+El culpable era el sistema de costeo tradicional, que llevaba un siglo sin cambios sustanciales. Robert
+Kaplan y Robin Cooper, de Harvard Business School, documentaron el problema y propusieron ABC
+como solución. Su trabajo, publicado en 1987–1991, cambió la práctica de la contabilidad gerencial para
+siempre.
+
+1.1 El Supuesto Roto del Costeo Tradicional
+El costeo tradicional asigna los Gastos Indirectos de Fabricación (GIF) a los productos usando una sola
+base volumétrica — normalmente horas de mano de obra directa (MOD), horas-máquina (HM), o
+unidades producidas. Este enfoque tiene un supuesto implícito que en el siglo XIX tenía sentido pero
+que hoy rara vez se cumple:
+
+El supuesto implícito del costeo tradicional
+"Todos los productos consumen los recursos indirectos de la empresa en la misma proporción en que
+consumen el factor de volumen elegido (MOD, HM o unidades)."
+
+¿Por qué tenía sentido en el siglo XIX? En esa época, las fábricas producían pocos productos
+estandardizados, la mano de obra directa representaba el 60–70% del costo total, y los gastos generales
+eran una fracción pequeña y relativamente homogénea. Asignar GIF por horas de MOD era una
+simplificación razonable.
+
+¿Por qué ya no funciona? En la economía actual, tres cambios estructurales han roto ese supuesto:
+Cambio estructural
+
+Impacto en el costeo
+
+Automatización y menor MOD directa
+
+La MOD ya no es el driver dominante; los GIF automatizados son
+enormes y no varían con MOD
+
+Diversificación de productos
+
+Una empresa puede tener desde productos simples de alto
+volumen hasta productos customizados de bajo volumen — con
+estructuras de costo radicalmente distintas
+
+Complejidad de la cadena de valor
+
+Los costos de ventas, marketing, logística y soporte al cliente son
+tan relevantes como los costos de fabricación — y el costeo
+tradicional los ignora en el costo del producto
+
+1.2 La Distorsión: Subsidiación Cruzada
+Cuando el supuesto del costeo tradicional es falso, ocurre una subsidiación cruzada: los productos de
+alto volumen y baja complejidad (que usan relativamente poco de los recursos de overhead sofisticados)
+terminan subsidiando a los productos de bajo volumen y alta complejidad (que usan mucho de esos
+recursos). Esto produce dos errores simétricamente opuestos:
+Producto
+
+Lo que el sistema
+tradicional dice
+
+Lo que ABC revela
+
+Error en decisiones
+
+Alto volumen / baja
+complejidad
+
+Menos rentable de lo real
+
+Más rentable que el
+tradicional indica
+
+Se descontinúa o subinvierte en un producto
+ganador
+
+Bajo volumen / alta
+complejidad
+
+Más rentable de lo real
+
+Menos rentable (puede
+perder dinero)
+
+Se mantiene o expande
+un producto que destruye
+valor
+
+La pregunta que debes hacerte sobre tu empresa
+¿Cuál es el producto o servicio de tu empresa que el sistema de costos actual "parece" muy rentable? ¿Y el que
+"parece" menos rentable? ¿Tienes certeza de que esa percepción es correcta? ABC a menudo invierte
+exactamente esa percepción.
+
+2. Los Conceptos Fundamentales de ABC
+2.1 Actividad
+En ABC, una actividad es cualquier evento, tarea o unidad de trabajo que consume recursos de la
+organización. Las actividades son la unidad fundamental del sistema.
+Ejemplos de actividades en Classic Brass: "procesar una orden de compra de cliente", "diseñar una
+variante del producto", "operar una máquina por una hora", "mantener la relación con un cliente
+activo", "pagar la renta del edificio".
+
+2.2 Grupo de Costos por Actividad (Cost Pool)
+Un grupo de costos por actividad (también llamado cost pool o "cubeta de costos") es el conjunto de
+todos los costos asociados a una actividad específica. Todos los recursos que una actividad consume se
+acumulan en su grupo correspondiente.
+En Classic Brass hay 5 grupos: Órdenes de Compra, Diseño de Productos, Tamaño de la Orden,
+Actividades con Clientes, y Otros. Cada grupo acumula costos de distintos departamentos (Producción,
+Administración, Marketing) según qué porcentaje del tiempo de cada departamento se dedica a esa
+actividad.
+
+2.3 Inductor de Costo (Cost Driver / Medida de Actividad)
+El inductor de costo (en inglés cost driver o medida de actividad) es el factor que determina cuánto de
+una actividad consume un objeto de costo. Es, en esencia, la causa del costo.
+Un buen inductor de costo tiene una relación causal directa con el costo de la actividad. Kaplan y Cooper
+identifican dos tipos:
+Tipo de
+Inductor
+
+Descripción
+
+Ejemplo Classic Brass
+
+Cuándo usar
+
+Transaccional
+
+Cuenta el número de veces
+que se ejecuta la actividad
+
+# de órdenes de compra
+procesadas
+
+Cuando el costo de la actividad
+es uniforme cada vez que
+ocurre
+
+De duración
+
+Mide el tiempo requerido
+para ejecutar la actividad
+
+Horas de diseño por
+producto
+
+Cuando el costo varía
+significativamente entre
+ejecuciones (una orden simple
+≠ una orden compleja)
+
+2.4 Objeto de Costo
+El objeto de costo es cualquier elemento al que se quiere asignar un costo: puede ser un producto, una
+línea de productos, un cliente, un canal de distribución, un mercado geográfico, o incluso un proyecto.
+Esta flexibilidad es una de las grandes ventajas de ABC sobre el costeo tradicional.
+En Classic Brass, los objetos de costo son: el producto SS (Standard Shelf), el producto CCH (Custom
+Chrome Housing), y los clientes individuales (como Windward Yachts).
+
+3. Los Cinco Niveles de Actividad — La Taxonomía
+Central de ABC
+Esta es quizás la contribución conceptual más importante de Kaplan y Cooper. Identificaron que las
+actividades de una empresa se pueden clasificar en cinco niveles según el factor que las dispara. Esta
+clasificación tiene implicaciones directas sobre cómo se comportan los costos y qué decisiones
+gerenciales son apropiadas.
+
+Nivel 1 — Actividades a Nivel Unidad
+Se ejecutan cada vez que se produce una unidad. Su costo varía directamente con el volumen de
+producción. Son los únicos costos que el costeo tradicional asigna correctamente — precisamente
+porque usa bases volumétricas.
+Ejemplos: consumo de energía por hora-máquina, desgaste de herramientas por unidad, inspección de
+cada unidad producida.
+En Classic Brass: La energía proporcional a las horas-máquina de producción.
+En Disney: Electricidad consumida por los servidores de render por cada hora de animación procesada.
+
+Nivel 2 — Actividades a Nivel Lote
+Se ejecutan una vez por cada lote u orden, independientemente del número de unidades en ese lote.
+Su costo NO varía con el volumen de unidades, sino con el número de lotes u órdenes.
+Esta es la primera ruptura con el costeo tradicional: si una empresa procesa 100 órdenes de 1 unidad y 1
+orden de 100 unidades, el costeo tradicional asigna el mismo costo de procesamiento a ambas
+(proporcionalmente por unidad). ABC reconoce que la empresa ejecutó 100 actividades de
+procesamiento de órdenes en el primer caso y solo 1 en el segundo.
+En Classic Brass: El SS genera 600 órdenes de clientes al año y el CCH genera 400. Cada orden requiere el
+mismo trabajo de procesamiento independientemente del tamaño del pedido.
+En Disney: La configuración de cada corrida de impresión de merchandise (posters, playeras, etc.) para
+una película específica.
+
+Nivel 3 — Actividades a Nivel Producto
+Se ejecutan para sostener la existencia de una línea de producto, sin importar cuántas unidades se
+produzcan ni cuántos pedidos se procesen. Si se descontinúa el producto, estos costos desaparecen; si
+se mantiene, permanecen sin importar el volumen.
+Esta es la segunda ruptura fundamental: el costeo tradicional no tiene forma de asignar correctamente
+los costos de nivel Producto porque no están relacionados con el volumen. Los distribuye por HM o
+MOD — y distorsiona completamente la rentabilidad de productos complejos.
+En Classic Brass — la clave del ejercicio: El CCH requiere 400 diseños al año. El SS requiere cero diseños
+(es estándar). Bajo el sistema tradicional, ambos recibían GIF por sus horas-máquina. ABC revela que los
+$252,000 de costo de diseño pertenecen íntegramente al CCH — no al SS.
+En Disney: La campaña publicitaria de Moana 2 existe para sostener esa película específica. No varía con
+el número de espectadores ni con el número de funciones.
+
+Nivel 4 — Actividades a Nivel Cliente
+Se ejecutan para sostener la relación con un cliente específico, no atadas a ningún producto o pedido
+particular. Incluyen visitas de ventas, soporte técnico personalizado, gestión de cuentas clave, y
+actividades similares.
+La existencia de este nivel permite que ABC responda una pregunta que el costeo por producto no
+puede: ¿cuánto cuesta un cliente? Un cliente que hace muchos pedidos pequeños, requiere servicio
+frecuente y pide diseños especiales puede ser significativamente menos rentable que un cliente que
+hace pocos pedidos grandes de productos estándar — aunque el precio sea igual.
+En Classic Brass: La empresa tiene 250 clientes activos. Cada cliente consume $1,470 de recursos de
+atención al año, independientemente de cuánto compre.
+En Disney+: El programa de gestión de cuentas premium de Disney+ (atención personalizada, contenido
+exclusivo, soporte prioritario) existe para retener a clientes de alto valor independientemente de qué
+contenido consuman.
+
+Nivel 5 — Actividades de Mantenimiento Organizacional
+Son los costos de sostener la organización en su conjunto: la renta del edificio corporativo, la alta
+dirección, los sistemas de TI generales, la seguridad física de las instalaciones. Estos costos no pueden
+asignarse de forma causal a ningún producto, lote, producto o cliente específico — porque benefician a
+toda la organización.
+ABC los reconoce como costos del período organizacional y no los asigna a productos ni clientes. El
+costeo tradicional sí los asigna — de forma arbitraria, lo que contribuye a la distorsión.
+En Classic Brass: La renta de planta ($80,000), parte de la renta del edificio administrativo ($60,000) y
+una fracción de los salarios gerenciales. Estos $490,500 aparecen en el grupo "Otros" y no se asignan a
+SS ni a CCH.
+
+La regla de oro de los cinco niveles
+Los costos de cada nivel solo deben asignarse a objetos de costo del mismo nivel o superior. En particular:
+✓ Los costos de nivel Lote deben asignarse por número de lotes/órdenes — nunca por unidades.
+✓ Los costos de nivel Producto deben asignarse por producto — nunca por volumen de unidades.
+✓ Los costos de nivel Cliente deben asignarse por cliente — nunca por producto.
+✗ Los costos de Mantenimiento Organizacional NO se asignan a productos ni clientes.
+
+4. El Proceso de Asignación en Dos Etapas
+La mecánica operativa de ABC se organiza en dos etapas secuenciales. Entender cada etapa con
+precisión es esencial para poder trabajar el ejercicio de Classic Brass.
+
+4.1 Primera Etapa: De Recursos a Grupos de Actividad
+En la primera etapa, cada línea de costo del estado de resultados se distribuye entre los grupos de
+actividad según la fracción de ese recurso que cada actividad consume. Esta distribución se realiza
+mediante entrevistas con los responsables de cada departamento, análisis de tiempos, o estudios de
+actividad.
+El resultado es que el 100% de los costos queda asignado a algún grupo de actividad. No queda ningún
+costo "flotando" — cada peso tiene un destino explícito.
+PRIMERA ETAPA — FÓRMULA:
+Costo en Grupo_i = Costo Total del Recurso × % que Actividad_i consume
+del Recurso
+EJEMPLO Classic Brass — Sueldos Indirectos de Fabricación ($500,000):
+→ Órdenes de Compra:
+$500,000 × 25% = $125,000
+→ Diseño de Productos:
+$500,000 × 40% = $200,000
+→ Tamaño de la Orden:
+$500,000 × 20% = $100,000
+→ Actividades con Clientes: $500,000 × 10% = $50,000
+→ Otros:
+$500,000 × 5% = $25,000
+─────────────────────────────────────────────────────
+TOTAL:
+$500,000 ✓
+
+Una diferencia crítica con el costeo tradicional
+El costeo tradicional solo distribuye los costos de manufactura (GIF). ABC distribuye TODOS los costos —
+incluyendo los de administración y marketing — porque reconoce que esos costos también son causados por
+las decisiones sobre productos y clientes. En Classic Brass, esto añade $810,000 de costos (Administración
+$510,000 + Marketing $300,000) al análisis, que el sistema tradicional habría excluido del costo del producto.
+
+4.2 Cálculo del Índice de Actividad
+Una vez completada la primera etapa, se calcula el índice de actividad (también llamado tasa de
+actividad) para cada grupo. Este índice es el "precio unitario" de cada actividad — cuánto cuesta una
+unidad de la medida de actividad.
+ÍNDICE DE ACTIVIDAD — FÓRMULA:
+Índice de Actividad = Costo Total del Grupo ÷ Volumen Total de la
+Medida
+EJEMPLO Classic Brass:
+Órdenes de Compra:
+$320,000 ÷ 1,000 órdenes = $320 por orden
+Diseño de Productos:
+$252,000 ÷
+400 diseños
+= $630 por
+diseño
+Tamaño de la Orden:
+$380,000 ÷ 20,000 HM
+= $19 por HM
+Actividades con Clientes: $367,500 ÷
+250 clientes = $1,470 por
+cliente
+Otros:
+$490,500 ÷
+No aplica
+= Sin asignación
+
+Estos índices tienen una interpretación directa en el lenguaje del negocio: "cada orden de cliente que
+Classic Brass procesa le cuesta $320 en recursos de overhead. Cada diseño de producto le cuesta $630.
+Cada hora-máquina le cuesta $19 en recursos indirectos."
+
+4.3 Segunda Etapa: De Grupos de Actividad a Objetos de Costo
+En la segunda etapa, el índice de actividad se multiplica por el volumen de actividad consumida por cada
+objeto de costo. Esto produce el costo de overhead asignado a cada producto, cliente o canal.
+SEGUNDA ETAPA — FÓRMULA:
+Costo Asignado al Objeto = Índice de Actividad × Volumen de Actividad
+del Objeto
+EJEMPLO Classic Brass — Asignación al CCH:
+Órdenes de Compra:
+$320 × 400 órdenes = $128,000
+Diseño de Productos: $630 × 400 diseños = $252,000 ← el momento
+crítico
+Tamaño de la Orden:
+$19 × 2,500 HM
+= $47,500
+────────────────────────────────────────────────────
+TOTAL GIF asignado al CCH:
+= $427,500
+Bajo el sistema TRADICIONAL, el CCH recibía solo:
+$1,000,000 × (2,500 HM ÷ 20,000 HM) = $125,000
+Diferencia: $427,500 - $125,000 = $302,500 adicionales bajo ABC
+
+¿Por qué el CCH recibe $302,500 más bajo ABC?
+Porque el costeo tradicional "veía" al CCH como un producto pequeño (solo 2,500 de las 20,000 HM totales =
+12.5%). Por eso le asignaba poco overhead.
+ABC revela que el CCH no es "pequeño" en absoluto: requiere 400 de los 400 diseños de la empresa (100% del
+grupo de diseño) y 400 de las 1,000 órdenes (40%). Es un producto de alta complejidad que consume recursos
+de overhead de forma desproporcionada a su volumen.
+
+5. Una Diferencia Fundamental: Qué Costos Incluye
+ABC
+ABC tiene una diferencia filosófica importante con respecto al costeo tradicional en cuanto a qué costos
+deben formar parte del costo del producto:
+Tipo de costo
+
+Costeo Tradicional
+
+Costeo ABC
+
+Razón
+
+Costos de manufactura
+(MPD, MOD, GIF)
+
+Sí — todos, incluso los
+no causales del
+producto
+
+Sí — pero solo los que
+son causales del
+producto (excluyendo
+los de mantenimiento
+organizacional)
+
+ABC no asigna costos de nivel
+Organizacional aunque sean
+de manufactura
+
+Costos de
+administración y venta
+
+No — son costos del
+período, no del
+producto
+
+Sí — los que pueden
+razonablemente
+relacionarse con
+productos o clientes
+
+Si un costo de marketing
+existe para sostener una línea
+de producto, ABC lo asigna a
+ese producto
+
+Capacidad ociosa
+
+Incluida en el costo
+unitario (distorsiona
+hacia arriba)
+
+Excluida — se asigna
+solo sobre capacidad
+utilizada
+
+El costo de capacidad ociosa
+no debe "cargarle" a los
+productos que sí se
+produjeron
+
+Implicación práctica: el denominador importa
+Al excluir la capacidad ociosa, ABC produce costos unitarios más estables en el tiempo. Si la demanda cae un
+20%, el costo unitario bajo ABC no sube automáticamente porque el denominador (volumen utilizado) es la
+capacidad real, no la total. Esto hace que los costos ABC sean más útiles para decisiones de precio a largo
+plazo.
+
+6. Cuándo Implementar ABC (y Cuándo No)
+ABC no es siempre la respuesta correcta. Tiene costos de implementación y mantenimiento
+significativos. Kaplan y Cooper sugieren que el beneficio de implementar ABC supera el costo cuando se
+cumplen algunas de estas condiciones:
+Condición
+
+¿Por qué sugiere que ABC vale la pena?
+
+Diversidad de productos alta
+
+Diferentes productos tienen estructuras de consumo de overhead
+radicalmente distintas
+
+Alta proporción de GIF sobre costo
+total
+
+A mayor peso de los GIF, mayor el impacto de la distorsión en el costo
+unitario
+
+Competencia intensa por precio
+
+Errores en el costo unitario llevan a errores en precios que la
+competencia puede explotar
+
+Gerentes cuestionan los costos
+actuales
+
+Si los directivos "no creen" los números que produce el sistema, algo
+está mal
+
+Márgenes inexplicables
+
+Productos que deberían ser rentables dan pérdidas, o viceversa, sin
+razón aparente
+
+Decisiones de mezcla de productos
+frecuentes
+
+Qué producir más o menos requiere costos unitarios confiables
+
+¿Y cuándo NO implementar ABC?
+Empresas con un solo producto (o muy pocos, muy similares), con GIF bajos en relación al costo total, o en
+mercados estables donde el precio lo fija el mercado y no el costo, pueden no justificar la inversión. El costeo
+tradicional es perfectamente adecuado para esos contextos.
+
+PARTE II — Caso Classic Brass: El
+Ejercicio Completo
+Descripción de la empresa
+Classic Brass es una empresa manufacturera que produce dos productos: el Standard Shelf (SS), un producto
+de alto volumen (30,000 unidades) y diseño estándar; y el Custom Chrome Housing (CCH), un producto de
+bajo volumen (1,200 unidades) que se fabrica con diseño personalizado en cada pedido.
+La empresa tiene 250 clientes activos, opera con tres departamentos (Producción, Administración y
+Marketing), y tiene identificados 5 grupos de actividad. Su herramienta de análisis es el archivo Excel adjunto
+con 16 tablas. A continuación encontrarás las preguntas guía para cada bloque de tablas.
+
+Módulo 1 — Diagnóstico Inicial: ¿Cuál es el
+problema? (Tablas 1–3)
+Antes de cualquier cálculo, el Estado de Resultados (Tabla 1) muestra que Classic Brass tiene una utilidad
+operativa de apenas ($1,250) — prácticamente en equilibrio. Pero no dice nada sobre qué producto
+genera valor y cuál lo destruye. Las Tablas 2 y 3 establecen la arquitectura del sistema ABC.
+Preguntas guía — Tablas 1–3:
+1. Con solo la Tabla 1, ¿qué decisiones podría tomar un gerente? ¿Qué información crítica le falta?
+2. ¿Por qué ABC incluye los gastos de Administración ($510,000) y Marketing ($300,000) en el análisis
+del costo de los productos? ¿No son éstos costos del período?
+3. De los 5 grupos de actividad (Tabla 2), ¿cuál corresponde a qué nivel de la taxonomía de cinco
+niveles? Clasifícalos antes de ver la solución.
+Grupo de Actividad
+
+Nivel de Actividad (Unidad/Lote/Producto/Cliente/Organiz.)
+
+Módulo 2 — Primera Etapa de Asignación (Tablas 4–6)
+La Tabla 4 contiene los porcentajes de distribución de cada recurso a cada grupo de actividad. La Tabla 5
+muestra los montos resultantes en pesos. La Tabla 6 calcula los índices de actividad.
+Preguntas guía — Tablas 4–6:
+4. ¿Cómo se determinan los porcentajes de la Tabla 4? ¿Son exactos o estimaciones? ¿Qué
+implicaciones tiene eso para la precisión del sistema ABC?
+5. Verifica uno de los totales de la Tabla 5. ¿Por qué es importante que la suma de los grupos iguale el
+total de cada recurso?
+6. Calcula el índice de actividad para el grupo "Diseño de Productos". Interpreta el resultado en palabras
+de negocio.
+Grupo de
+Actividad
+
+Costo Total
+
+Volumen de
+Medida
+
+Índice
+
+Interpretación en negocio
+
+Módulo 3 — Segunda Etapa: Productos (Tablas 7–10)
+La Tabla 7 es el diagrama de flujo completo del sistema. Las Tablas 8–10 aplican los índices a los
+productos SS y CCH para calcular el costo total bajo ABC y el margen por producto.
+Pregunta conceptual clave — antes de ver las Tablas 8–10:
+7. Sin ver los resultados aún: ¿qué producto esperas que tenga mayor costo bajo ABC? ¿Por qué? ¿Cuál
+crees que es más rentable?
+
+Preguntas guía — Tablas 8–10:
+8. ¿Por qué el SS recibe $0 de costo de Diseño de Productos? ¿Qué dice eso sobre la naturaleza de ese
+producto?
+9. Completa la comparación de costos entre SS y CCH usando la Tabla 10:
+Concepto
+
+SS
+
+CCH
+
+Módulo 4 — Segunda Etapa: Clientes (Tablas 9 y 11)
+Una de las ventajas más poderosas de ABC sobre el costeo por producto es que puede llegar al nivel
+cliente. La Tabla 9 muestra el costo asignado al cliente Windward Yachts.
+Contexto del cliente: Windward Yachts realizó 3 órdenes en el año (dos de 150 SS y una de un CCH), usó
+177 horas-máquina, y es uno de los 250 clientes activos.
+Preguntas guía — Tablas 9 y 11:
+10. ¿Qué información de gestión obtienes al tener el margen por cliente que no obtienes con el margen
+por producto solamente?
+11. Si Windward Yachts tiene un margen de $699, ¿eso es bueno o malo para Classic Brass? ¿Qué
+factores considerarías para tomar una decisión?
+
+Módulo 5 — La Comparación Definitiva (Tabla 12)
+El momento central del ejercicio
+La Tabla 12 muestra los márgenes bajo el sistema tradicional y bajo ABC en paralelo. Este es el momento
+donde todo el trabajo previo cobra sentido. Lee con cuidado antes de responder las preguntas.
+
+Antes de ver la Tabla 12, responde:
+12. Bajo el costeo tradicional (GIF asignado por horas-máquina), ¿cuánto GIF recibiría el CCH? Calcula:
+$1,000,000 × (2,500 HM ÷ 20,000 HM) = ?
+
+13. ¿Y bajo ABC? Suma los costos de los tres grupos asignables al CCH.
+
+Después de ver la Tabla 12:
+14. Completa el cuadro comparativo:
+Métrica
+
+Costeo Tradicional
+
+Costeo ABC
+
+Diferencia
+
+15. ¿Por qué la utilidad operativa total es idéntica bajo ambos sistemas? ¿Qué nos dice eso sobre la
+naturaleza de ABC?
+
+16. Si fueras el CEO de Classic Brass y solo tuvieras los resultados del costeo tradicional, ¿qué haría con
+el CCH? ¿Y con ABC?
+
+Módulo 6 — Códigos de Ajuste (Tabla 16)
+La Tabla 16 añade una dimensión dinámica al análisis: no solo dice cuánto cuesta el CCH, sino cuán
+evitables son esos costos si se decidiera cerrarlo. Esta clasificación conecta directamente con las
+decisiones de eliminación de línea que viste en la Sesión 7.
+Color
+
+Nombre
+
+Comportamiento
+
+¿Son evitables si se cierra el CCH?
+
+VERDE
+
+Costos
+automáticamente
+ajustables
+
+Se reducen solos cuando baja
+la actividad
+
+Sí — inmediatamente y sin acción
+gerencial
+
+AMARILLO
+
+Costos ajustables con
+acción gerencial
+
+Pueden reducirse, pero
+requieren decisión activa
+(despidos, cancelación de
+contratos)
+
+Sí — pero requieren decisiones
+explícitas de gestión
+
+ROJO
+
+Costos difícilmente
+ajustables
+
+Comprometidos a largo plazo
+(rentas, depreciación)
+
+No — permanecen aunque se cierre el
+CCH
+
+Preguntas guía — Tabla 16:
+17. El CCH tiene un margen ABC de ($49,500). Consultando la Tabla 16, ¿qué costos son Verdes
+(evitables inmediatamente)? ¿Cuánto suma ese monto?
+
+18. Si toda la pérdida del CCH fuera explicada por costos Rojos (no evitables), ¿cambiaría tu
+recomendación de cerrarlo o mantenerlo? ¿Por qué?
+
+19. Conecta esta clasificación con el concepto de costos evitables de la Sesión 7. ¿Verde/Amarillo/Rojo
+es equivalente a qué distinción que ya conoces?
+
+PARTE III — Extensión ASG y Reflexión
+Final
+ABC Ambiental: Los Mismos Inductores para
+Emisiones de Carbono
+Una de las aplicaciones más innovadoras de ABC en el contexto actual es el costeo ambiental: usar
+exactamente la misma lógica de inductores para asignar emisiones de CO₂e, consumo de agua, o
+generación de residuos a productos y clientes. El principio es simple:
+
+Del peso al kilogramo de CO₂e
+En lugar de preguntar "¿cuánto cuesta esta actividad?", el ABC ambiental pregunta "¿cuántas emisiones
+genera esta actividad?". Los mismos cost drivers que asignan pesos asignan también toneladas de CO₂e.
+
+Ejemplo numérico hipotético — Classic Brass:
+Supón que cada hora-máquina en Classic Brass genera 0.012 ton CO₂e (Scope 2, por electricidad) y que
+cada envío genera 0.008 ton CO₂e (Scope 3, por transporte).
+Preguntas guía:
+20. ¿Cuántas toneladas de CO₂e serían asignables al SS? ¿Y al CCH? Usa los inductores del ejercicio.
+Inductor /
+Actividad
+
+Volumen SS
+
+Volumen CCH
+
+Factor de
+Emisión
+
+CO₂e SS
+
+CO₂e CCH
+
+21. ¿En qué Scope (1, 2 o 3) clasificarías las emisiones de cada grupo de actividad de Classic Brass?
+
+22. ¿Qué implicaciones tendría para Classic Brass reportar estas emisiones bajo NIIF S2 (IFRS S2)? ¿Qué
+información necesitarías recopilar adicionalmente?
+
+Reflexión Final para el Trabajo Final del Curso
+Instrucción
+Responde estas preguntas por escrito antes de la Sesión 8. Las discutiremos en clase.
+1. ¿Tu empresa usa costeo tradicional o alguna variante de ABC? ¿Cómo se asignan los costos indirectos
+actualmente?
+2. Identifica al menos 3 actividades relevantes en tu empresa que podrían formar grupos de actividad ABC.
+Para cada una, propón un inductor de costo apropiado.
+3. ¿Existe algún producto, servicio o cliente que bajo tu sistema actual parezca muy rentable, pero que
+sospechas que podría no serlo con una asignación más precisa? ¿Por qué lo sospechas?
+4. ¿Cómo podría aplicarse la lógica del ABC Ambiental en tu empresa para asignar emisiones de carbono a
+productos o clientes? ¿Qué inductores ambientales serían relevantes?
+
+Síntesis — Correlación Simons · Marco
+IR · Sesión 8
+Palanca Simons
+
+Elemento IR
+
+Herramienta S8
+
+Aplicación concreta
+
+Sistemas de Límites
+
+Riesgo de información
+incorrecta ·
+Materialidad
+
+Tabla 16 — Códigos de
+ajuste V/A/R
+
+Proteger contra decisiones
+de cierre basadas en costos
+distorsionados
+
+Control Diagnóstico
+
+KPIs financieros —
+margen real por
+producto
+
+Tablas 10–12 — Márgenes
+ABC vs. tradicional
+
+Revelar que SS es más
+rentable y CCH pierde
+dinero
+
+Control Diagnóstico
+
+KPIs no financieros —
+emisiones por producto
+
+ABC Ambiental —
+inductores de carbono
+
+Asignar Scope 2/3 a
+productos con la misma
+lógica que los pesos
+
+Control Interactivo
+
+Asignación estratégica
+de capacidad a LP
+
+Base para S10–12
+
+¿Qué capacidad sostener?
+Depende del costo real por
+actividad
+
+

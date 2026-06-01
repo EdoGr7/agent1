@@ -1,0 +1,755 @@
+CON 34122 · ITAM Maestría · Abril–Junio 2026
+
+Costeo Basado
+en Actividades (ABC)
+Del volumen a las actividades — la corrección de la distorsión
+Caso: Classic Brass · Contexto: The Walt Disney Company
+
+Prof. Orlando Garciacano
+SESIÓN 8 DE 12
+
+ABC · Grupos de Actividad · Índice de Actividad · Distorsión del Costeo Tradicional · ABC Ambiental
+
+Agenda de la Sesión
+
+01
+
+CON 34122 · Sesión 8
+
+¿Por qué falla el sistema tradicional?
+
+04
+
+Segunda etapa · Márgenes ABC · Comparación definitiva con el sistema
+tradicional
+
+El problema de las bases de asignación por volumen · Disney como ilustración
+
+02
+
+Marco conceptual ABC
+
+05
+
+5 niveles de actividad · 2 etapas de asignación · El índice de actividad
+
+03
+
+Classic Brass — Tablas 1–7
+
+Classic Brass — Tablas 13–16
+Análisis profundo · Códigos de ajuste verde/amarillo/rojo
+
+06
+
+Diagnóstico · Primera etapa · Diagrama de flujo
+
+Classic Brass — Tablas 8–12
+
+ABC Ambiental y cierre
+ABC como herramienta de costeo de emisiones · NIIF S2 · Reflexión trabajo final
+
+Control Diagnóstico (Simons) · Capital Manufacturado (Marco IR) · NIIF S2 (ABC Ambiental)
+
+E L
+
+P R O B L E M A
+
+¿Por qué falla el
+costeo tradicional?
+
+El Problema — ¿Por qué Falla el Costeo Tradicional en Empresas Complejas?
+
+CON 34122 · Sesión 8
+
+El supuesto implícito que casi nunca se cumple:
+«Todos los productos consumen los recursos indirectos en la misma proporción que consumen volumen de producción.»
+
+Parks & Experiences
+
+Studios
+
+Disney+ Streaming
+
+Alto capital fijo. Los costos NO varían proporcionalmente
+con visitantes. Un día de parque vacío cuesta casi lo mismo
+que uno lleno.
+
+Alto costo de diseño por proyecto. Moana 2 consume
+enormes recursos de diseño. Una secuela menor consume
+una fracción. Asignar por horas distorsiona el costo por
+título.
+
+Estructura radicalmente distinta: tecnología, licencias,
+marketing digital. Asignarle GIF de producción por
+cualquier base volumétrica sería absurdo.
+
+Classic Brass tiene exactamente el mismo problema: dos productos con estructuras de consumo radicalmente distintas. El SS es de alto volumen/baja complejidad; el CCH es de bajo volumen/alta
+complejidad. El sistema tradicional los trata igual. ABC los diferencia.
+
+La subsidiación cruzada es el error más costoso del costeo tradicional — y el más invisible
+
+M A R C O
+
+C O N C E P T U A L
+
+Los 5 Niveles
+y las 2 Etapas
+
+Marco Conceptual ABC — Los 5 Niveles de Actividad
+Nivel
+
+CON 34122 · Sesión 8
+
+Definición
+
+Classic Brass
+
+Disney
+
+1
+UNIDAD
+
+Cada vez que se produce una unidad
+
+Energía por
+hora-máquina
+
+Electricidad por
+hora de render
+
+2
+LOTE
+
+Cada orden o lote, sin importar tamaño
+
+Procesar una
+orden de cliente
+
+Configurar una
+corrida de impresión
+
+3
+PRODUCTO
+
+Sostener una línea de producto
+
+Diseñar
+el producto CCH
+
+Campaña publicitaria
+de una película
+
+4
+CLIENTE
+
+Sostener una relación con cliente
+
+Atención a
+Windward Yachts
+
+Programa fidelización
+Disney+
+
+5
+ORGANIZACI
+ÓN
+
+Sostener la empresa en general
+
+Renta de
+planta general
+
+Corporativo
+Disney
+
+El costeo tradicional solo conoce el Nivel 1 (Unidad) — ABC reconoce los 5 niveles
+
+Marco Conceptual ABC — Las Dos Etapas de Asignación
+Sueldos Indirectos
+$500,000
+
+Depreciación Equipo
+$300,000
+
+Energía, Gas y Agua
+$120,000
+
+CON 34122 · Sesión 8
+
+Renta de Planta
+$80,000
+
+Gastos Adm.
+$510,000
+
+Gastos Marketing
+$300,000
+
+↓ PRIMERA ETAPA: Porcentajes de consumo por actividad ↓
+
+Órdenes
+de Compra
+$320,000
+
+Diseño de
+Productos
+$252,000
+
+Tamaño
+de la Orden
+$380,000
+
+Actividades
+con Clientes
+$367,500
+
+Otros
+$490,500
+
+$320
+por orden
+
+$630
+por diseño
+
+$19
+por HM
+
+$1,470
+por cliente
+
+No aplica
+
+↓ SEGUNDA ETAPA: Índice × Volumen de actividad por objeto de costo ↓
+
+Producto SS
+30,000 unidades
+
+Producto CCH
+1,200 unidades
+
+Clientes
+250 activos
+
+Mantenimiento
+Organizacional
+
+El punto crítico del Diseño de Productos:
+SS: 0 diseños × $630 = $0
+CCH: 400 diseños × $630 = $252,000
+
+El costeo tradicional no ve esta diferencia — asigna GIF por horas-máquina y el CCH
+«parece» rentable.
+
+$1,810,000 de costos totales fluyen a través de las 2 etapas hacia productos, clientes y organización
+
+C L A S S I C
+
+B R A S S
+
+Tablas 1–7
+Diagnóstico y Primera
+Etapa
+
+Classic Brass — Diagnóstico Inicial · Tablas 1–3
+Estado de Resultados (Tabla 1)
+
+CON 34122 · Sesión 8
+
+Los 5 Grupos de Actividad (Tabla 2)
+
+Concepto
+
+Monto
+
+#
+
+Grupo
+
+Medida
+
+Nivel
+
+Ventas
+
+$3,200,000
+
+1
+
+Órdenes de Compra
+
+# órdenes de clientes
+
+Lote
+
+Materia Prima
+
+($975,000)
+
+2
+
+Diseño de Productos
+
+# diseños
+
+Producto
+
+Mano de Obra
+
+($351,250)
+3
+
+Tamaño de la Orden
+
+Horas-Máquina
+
+Unidad
+
+4
+
+Actividades con Clientes
+
+# clientes activos
+
+Cliente
+
+5
+
+Otros
+
+No aplica
+
+Organización
+
+GIF
+
+($1,000,000)
+
+Utilidad Bruta
+
+$873,750
+
+Gastos Adm. y Ventas
+
+($875,000)
+
+Utilidad Operativa
+
+($1,250)
+
+¿Qué producto causa la pérdida?
+→ El Estado de Resultados no puede responder esta pregunta.
+
+ABC incluye costos de Administración y Marketing en los grupos de actividad — no solo
+manufactura. Esto es radicalmente diferente al costeo tradicional.
+
+Classic Brass: 2 productos · 5 grupos de actividad · 3 departamentos · 250 clientes activos · ventas $3.2M
+
+Classic Brass — Primera Etapa de Asignación · Tablas 4–6
+
+CON 34122 · Sesión 8
+
+Tabla 5 — Resultado de la Primera Etapa (en pesos)
+Recurso
+
+Órdenes Compra
+
+Diseño Prod.
+
+Tam. Orden
+
+Act. Clientes
+
+Otros
+
+Total
+
+Sueldos Ind. Fabric.
+
+$125,000
+
+$200,000
+
+$100,000
+
+$50,000
+
+$25,000
+
+$500,000
+
+Depreciación Equipo
+
+$60,000
+
+$0
+
+$180,000
+
+$0
+
+$60,000
+
+$300,000
+
+Energía, Gas y Agua
+
+$0
+
+$12,000
+
+$60,000
+
+$0
+
+$48,000
+
+$120,000
+
+Sueldos Adm.
+
+$60,000
+
+$20,000
+
+$40,000
+
+$120,000
+
+$160,000
+
+$400,000
+
+Sueldos Marketing
+
+$55,000
+
+$20,000
+
+$0
+
+$150,000
+
+$25,000
+
+$250,000
+
+TOTALES
+
+$320,000
+
+$252,000
+
+$380,000
+
+$367,500
+
+$490,500
+
+$1,810,000
+
+Tabla 6 — Índices de Actividad
+
+El índice en palabras:
+
+Grupo
+
+Costo Total
+
+Volumen
+
+Índice
+
+Órdenes de Compra
+
+$320,000
+
+1,000 órdenes
+
+$320 / orden
+
+Diseño de Productos
+
+$252,000
+
+400 diseños
+
+$630 / diseño
+
+Tamaño de la Orden
+
+$380,000
+
+20,000 HM
+
+$19 / HM
+
+Actividades Clientes
+
+$367,500
+
+250 clientes
+
+$1,470 / cliente
+
+Otros
+
+$490,500
+
+No aplica
+
+Sin asignar
+
+«Cada orden de cliente que Classic Brass procesa cuesta $320
+en recursos indirectos.»
+«Cada diseño de producto cuesta $630.»
+«Cada hora-máquina cuesta $19 en recursos indirectos.»
+
+Los $490,500 del grupo 'Otros' no se asignarán a productos ni clientes — son costos de mantenimiento organizacional
+
+C L A S S I C
+
+B R A S S
+
+Tablas 8–12
+Segunda Etapa y La
+Gran Revelación
+
+Classic Brass — La Comparación Definitiva · Tabla 12
+
+CON 34122 · Sesión 8
+
+Concepto
+
+Costeo TRADICIONAL
+
+Costeo ABC
+
+Diferencia
+
+SS — Margen de producto
+
+$615,750
+
+$906,250
+
++$290,500
+
+CCH — Margen de producto
+
+$258,000
+
+($49,500)
+
+-$307,500
+
+Utilidad Operativa Total
+
+($1,250)
+
+($1,250)
+
+$0
+
+El SS es MÁS rentable de lo que parecía
+
+El CCH PIERDE dinero — el tradicional lo ocultaba
+
+El costeo tradicional le cargaba demasiados GIF (proporcional a sus 17,500 HM — 87.5% del
+total). ABC revela que el SS no requiere ningún diseño y solo 600 de las 1,000 órdenes. Su
+costo indirecto real es mucho menor.
+
+El CCH usa pocas horas-máquina (2,500 HM — 12.5% del total), así que el sistema
+tradicional le asignaba pocos GIF. Pero ABC revela que consume 400 diseños ($252,000) y
+400 órdenes ($128,000). Costos que antes recibía el SS.
+
+→ El SS es el producto que sostiene a la empresa.
+
+→ El CCH es el producto que destruye valor.
+
+La utilidad total es la misma bajo ambos sistemas — ABC redistribuye, no inventa costos
+
+C L A S S I C
+
+B R A S S
+
+Tablas 13–16
+Códigos de Ajuste
+
+Classic Brass — Códigos de Ajuste · Tabla 16 (Análisis del CCH)
+
+CON 34122 · Sesión 8
+
+El CCH pierde $49,500 bajo ABC. ¿Debe cerrarse? La Tabla 16 responde esta pregunta.
+
+VERDE
+
+AMARILLO
+
+ROJO
+
+Se ajustan automáticamente
+con cambios en actividad
+
+Podrían ajustarse con
+acción gerencial
+
+Muy difíciles de ajustar;
+comprometidos a LP
+
+Materia Prima: $69,500
+GIF (Envíos): $5,000
+
+Mano de Obra: $87,500
+Sueldos Ind. Fab.: $262,500
+Energía: $19,500
+Sueldos Adm.: $49,000
+Sueldos Mkt: $42,000
+
+Depreciación Equipo: $46,500
+Renta de Planta: $0
+
+Total: $74,500
+
+Total: $468,500
+
+Total: $46,500
+
+Margen Verde: +$465,500
+
+Margen Amarillo: -$3,000
+
+Margen Rojo: -$49,500
+
+Si cierras el CCH, estos costos
+desaparecen inmediatamente
+
+Requieren decisión activa
+para ser evitados
+
+Permanecen aunque
+se cierre el CCH
+
+Conexión S7: Verde = costos relevantes evitables · Rojo = costos fijos no evitables (CF comunes de la decisión de eliminación)
+
+E X T E N S I Ó N
+
+A S G
+
+ABC
+Ambiental
+
+Extensión ASG — ABC como Herramienta de Costeo Ambiental
+
+CON 34122 · Sesión 8
+
+Los mismos inductores de costo pueden ser inductores de impacto ambiental
+Grupo de Actividad
+
+Cost Driver Financiero
+
+Cost Driver Ambiental
+
+Scope GEI
+
+Tamaño de la Orden / Producción
+
+Horas-Máquina
+
+kWh por hora-máquina → ton CO₂e
+
+Scope 2 (energía)
+
+Diseño de Productos
+
+# diseños
+
+Viajes del equipo de diseño
+
+Scope 3 (viajes negocio)
+
+Actividades con Clientes
+
+# clientes activos
+
+Envíos y logística por cliente
+
+Scope 3 (transporte)
+
+Mantenimiento Organizacional
+
+No asignable
+
+Consumo energético de planta
+
+Scope 1 (emisiones directas)
+
+Ejemplo Disney — Render de Animación
+
+Conexión NIIF S2 y Simons
+
+Si cada hora de render genera 0.045 ton CO₂e (Scope 2):
+Moana 2: 95,000 h × 0.045 = 4,275 ton CO₂e
+Proy. Fantasía: 62,000 h × 0.045 = 2,790 ton CO₂e
+Proy. Aurora: 130,000 h × 0.045 = 5,850 ton CO₂e
+El mismo ABC que asigna costos financieros
+asigna también la huella de carbono.
+
+NIIF S2 requiere reportar emisiones Scope 1, 2 y 3. ABC ambiental provee la metodología de
+asignación para que esas emisiones se asignen correctamente a productos, clientes y líneas.
+Control Diagnóstico (Simons): si el GIF financiero distorsionado produce VCFs incorrectas, el
+GEI distorsionado produce VCFs ambientales incorrectas. ABC corrige ambas distorsiones.
+
+ABC Ambiental: mismo marco, misma lógica — del peso al kilogramo de CO₂e · NIIF S2 · Control Diagnóstico Simons
+
+Síntesis — Correlación Simons · IR · Sesión 8
+Palanca Simons
+
+Herramienta S8
+
+Aplicación Classic Brass / Disney
+
+Sistemas de Límites
+
+Tabla 16 — Códigos de ajuste
+
+Saber qué costos son evitables protege contra decisiones de cierre erróneas (conexión S7)
+
+Control Diagnóstico
+
+Tablas 10–12 — Márgenes ABC reales
+
+El margen real de SS y CCH — las VCFs que el sistema tradicional distorsionaba
+
+Control Diagnóstico
+
+ABC Ambiental — Inductores de carbono
+
+Asignar emisiones a productos con la misma lógica que se asignan pesos
+
+Control Interactivo
+
+Base para S10–12
+
+¿Qué capacidad sostener? Depende de conocer el costo real por actividad
+
+Reflexión para tu empresa
+
+1
+
+¿Tu empresa usa costeo tradicional o ABC? ¿Hay distorsiones conocidas en el costo unitario?
+
+2
+
+Identifica 3 grupos de actividad relevantes. ¿Cuál sería el inductor más apropiado para cada uno?
+
+3
+
+¿Existe algún producto/cliente que parece muy rentable pero podría no serlo con asignación precisa?
+
+4
+
+¿Cómo podría aplicarse ABC Ambiental en tu empresa para asignar emisiones a productos o clientes?
+
+

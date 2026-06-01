@@ -1,0 +1,868 @@
+ITAM
+
+Sesión 6
+
+CONTROL Y
+GESTIÓN
+DE COSTOS
+
+Costeo Absorbente,
+Costeo Directo y
+Análisis CVU
+El modelo que conecta costos, volumen y rentabilidad
+
+Prof. Orlando Garciacano · ITAM Maestría
+
+CON 34122 · Sesión 6
+
+Agenda de la Sesión
+Control Diagnóstico — 4 módulos
+
+M1
+
+Costeo Absorbente vs. Directo
+
+M2
+
+Weber Aerospace — 3 meses, 2 métodos
+
+M3
+
+Modelo CVU Completo
+PE en $, utilidad objetivo, margen de seguridad, mezcla por
+ingresos
+
+Estado de Contribución y Apalancamiento
+MC, RMC, GAO — la palanca de doble filo
+
+M4
+
+Punto de Equilibrio Verde
+CVU aplicado al Capital Natural — PE de carbono
+
+SESIÓN 6
+
+·
+
+CON 34122
+
+Costeo Absorbente
+vs. Costeo Directo
+
+Weber Aerospace — El mismo negocio, dos historias distintas
+
+CON 34122 · Sesión 6
+
+La única diferencia: el GIF Fijo
+Todo lo demás (MPD, MOD, GIF Variable) se trata exactamente igual en ambos métodos
+
+ABSORBENTE
+
+DIRECTO (Variable)
+
+▸
+
+GIF Fijo = Costo de PRODUCTO
+
+▸
+
+GIF Fijo = Costo de PERÍODO
+
+▸
+
+Se queda en inventario del Balance General
+
+▸
+
+Va íntegro al P&L en el período que ocurre
+
+▸
+
+Sale al P&L cuando la unidad se vende
+
+▸
+
+Utilidad NO cambia al producir más o menos
+
+▸
+
+Utilidad varía con la producción
+
+▸
+
+Solo cambia cuando cambian las ventas
+
+▸
+
+Requerido por NIF / IFRS para reportes externos
+
+▸
+
+Superior para decisiones gerenciales internas
+
+REGLA DE ORO: Prod > Ventas → Abs > Directo | Prod < Ventas → Abs < Directo | Prod = Ventas → Utilidades iguales
+
+Caso: Weber Aerospace — Costeo Absorbente vs. Directo
+
+CON 34122 · Sesión 6
+
+Aviones de aviación ligera · Datos mensuales FY2024
+
+Estructura de Costos
+Precio de Venta
+
+Producción y Ventas (aviones)
+$100,000
+
+Por avión
+
+Materia Prima Directa (MPD)
+
+$19,000
+
+Por avión
+
+Mano de Obra Directa (MOD)
+
+$5,000
+
+Por avión
+
+$1,000
+
+Por avión
+
+Costo Variable Total
+
+$25,000
+
+Por avión
+
+GIF Fijo (depreciación planta)
+
+$70,000
+
+Por mes
+
+GIF Variable
+
+Gastos de Venta Variable
+
+$10,000
+
+Por avión
+
+Gastos de Admón. Fijos
+
+$20,000
+
+Por mes
+
+Concepto
+
+Enero
+
+Febrero
+
+Marzo
+
+Inv. Inicial (II)
+
+0
+
+0
+
+1
+
+Producción
+
+1
+
+2
+
+4
+
+Ventas
+
+1
+
+1
+
+5
+
+Inv. Final (IF)
+
+0
+
+1
+
+0
+
+¿En Febrero se producen 2 aviones pero solo se vende 1.
+¿Qué pasa con el GIF Fijo del avión que quedó en inventario?
+¿Va al P&L de Febrero... o se queda en el Balance General?
+
+→ Depende del método de costeo.
+GIF Fijo unitario: Enero $70K÷1 = $70,000 · Febrero $70K÷2 = $35,000 · Marzo $70K÷4 =
+$17,500
+
+CON 34122 · Sesión 6
+
+Resultados: Absorbente vs. Directo — Weber Aerospace
+Utilidad Operativa por período · Trimestre Enero–Marzo FY2024
+
+Utilidad Operativa ($)
+
+Conciliación — ¿Por qué difieren?
+
+250000
+
+Concepto
+
+200000
+
+Ventas (aviones × $100K)
+
+150000
+100000
+
+Enero
+$100K
+
+Febrero
+$100K
+
+Marzo
+$500K
+
+Trim.
+$700K
+
+UO — Directo
+
+($25K)
+
+($25K)
+
+$235K
+
+$185K
+
++ GIF diferido
+
+$0
+
++$35K
+
+–$35K
+
+$0
+
+($25K)
+
+$10K
+
+$200K
+
+$185K
+
+50000
+UO — Absorbente
+
+0
+-50000
+Enero
+
+Febrero
+Absorbente
+
+Marzo
+Directo
+
+Trimestre
+
+GIF Fijo diferido = GIF Fijo unitario × (Inv. Final – Inv. Inicial)
+Feb: ($70K÷2) × (1–0) = $35,000 → Abs $35K MÁS que Directo
+Mar: ($70K÷4) × (0–1) = –$17,500 liberados → Abs $35K MENOS
+
+Feb: Prod(2) > Ventas(1) → GIF Fijo del avión en inventario → Absorbente $35K MAYOR que Directo
+
+Mar: Prod(4) < Ventas(5) → Se vende avión del inventario; su GIF sale → Absorbente $35K MENOR que Directo
+
+Nota: el trimestre inicia y termina con inventario = 0 → el GIF diferido se cancela → ambos métodos generan la MISMA utilidad total: $185,000
+
+SESIÓN 6
+
+·
+
+CON 34122
+
+Estado de Contribución
+y Apalancamiento
+Operativo
+La plataforma del CVU — MC, RMC y el GAO
+
+CON 34122 · Sesión 6
+
+El Formato de Contribución y el GAO
+El formato directo reorganiza costos por comportamiento, no por función
+
+Estado de Resultados — Contribución
+
+Fórmulas clave
+
+Ventas
+
+CMU
+
+= Precio – Costo Variable Unitario
+
+precio × unidades vendidas
+
+RMC
+
+= CMU / Precio (o MC Total / Ventas)
+
+(–) Costos Variables Totales
+
+PE (u)
+
+= Costos Fijos Totales / CMU
+
+manufactura + período
+
+PE ($)
+
+= Costos Fijos Totales / RMC
+
+= MARGEN DE CONTRIBUCIÓN
+lo que cubre los fijos y genera utilidad
+
+Grado de Apalancamiento Operativo (GAO)
+(–) Costos Fijos Totales
+GIF Fijo + gastos fijos período
+
+= UTILIDAD OPERATIVA
+
+GAO = Margen de Contribución Total / Utilidad Operativa
+Si GAO = 3 → un aumento del 10% en ventas = 30% más utilidad
+Si GAO = 3 → una caída del 10% en ventas = 30% menos utilidad
+
+GAO alto = más costos fijos = mayor riesgo Y mayor oportunidad
+
+SESIÓN 6
+
+·
+
+CON 34122
+
+Modelo CVU
+Completo
+
+Magic Kingdom · PE en $ · Utilidad Objetivo · Margen de Seguridad · Mezcla
+
+Caso: Disney Experiences — Magic Kingdom FY2025
+
+CON 34122 · Sesión 6
+
+El Director de Experiences necesita calcular el Punto de Equilibrio del parque
+
+$185
+
+$62
+
+$123
+
+$2.17B
+
+Precio por visitante
+(entrada + gasto en parque)
+
+Costo Variable unitario
+(alimentos, personal adicional)
+
+CMU por visitante
+(Precio – CV)
+
+Costos Fijos Totales
+(depreciación, seguros, marketing)
+
+Visitantes reales FY2024: 52,200,000
+
+|
+
+Capacidad máxima: 55,000,000
+
+El Director de Disney Experiences necesita saber:
+
+a)
+
+¿Cuántos visitantes necesita Magic Kingdom para no perder dinero? → Punto de Equilibrio
+
+b)
+
+¿Qué tan lejos del PE está hoy? → Margen de Seguridad
+
+c)
+
+Si cae el turismo, ¿qué tan rápido se deteriora la utilidad? → GAO
+
+d)
+
+¿Cuántos visitantes se necesitan para $5,000M de utilidad operativa (meta FY2026)?
+
+|
+
+RMC = 66.49%
+
+CON 34122 · Sesión 6
+
+Solución CVU — Magic Kingdom
+CF = $2,170M · CMU = $123 · RMC = 66.49% · Volumen = 52.2M visitantes
+
+CVU — Ingresos vs. Costos ($M)
+
+Resultados clave
+
+12000
+
+PE Visitantes
+
+17,642,276
+
+CF ÷ CMU
+
+8000
+
+PE en Pesos
+
+$3.26B
+
+CF ÷ RMC (66.49%)
+
+6000
+
+Utilidad Real
+
+$4,251M
+
+52.2M×$123–$2.17B
+
+4000
+2000
+
+Margen Seguridad
+
+66.2%
+
+10000
+
+34.6M visitantes holgura
+
+0
+0
+
+GAO
+
+1.51×
+
+MC Total ÷ UO
+
+Para $5B (FY2026)
+
+58.3M vis.
+
+(CF+$5B) ÷ $123
+
+10M
+
+20M
+Ingreso Total
+
+30M
+
+40M
+
+52.2M
+
+55M
+
+Costo Total
+
+Margen de Seguridad 66.2% → el parque puede perder 34.6M de sus 52.2M visitantes antes de llegar al PE.
+GAO 1.51: un +10% en visitantes genera +15.1% en Utilidad Operativa.
+
+CON 34122 · Sesión 6
+
+CVU con Mezcla — Disney Experiences FY2025
+El PE en pesos cambia cuando cambia el mix, aunque los costos fijos no se muevan
+
+Herramienta: trabajamos en PESOS (ingresos), no en unidades — el denominador común es el peso de venta, homogéneo entre líneas de producto.
+
+E
+
+LLP Lightning Lane Premier
+
+Entrada Estándar
+
+CP
+
+Club Premier Resort
+
+Precio de Venta
+
+$185
+
+Precio de Venta
+
+$285
+
+Precio de Venta
+
+$850
+
+Costo Variable
+
+$62
+
+Costo Variable
+
+$88
+
+Costo Variable
+
+$255
+
+CMU
+
+$123
+
+CMU
+
+$197
+
+CMU
+
+$595
+
+RMC
+
+66.49%
+
+RMC
+
+69.12%
+
+RMC
+
+70.00%
+
+55%
+
+Mix de Ventas
+
+Mix de Ingresos actual:
+
+30%
+
+Mix de Ventas
+
+55% E
+
+Costos Fijos Totales Disney Experiences: $2,170,000,000
+RMC Ponderada actual = 0.55×66.49% + 0.30×69.12% + 0.15×70.00% = 67.74%
+
+30% LLP
+
+15%
+
+Mix de Ventas
+
+Pregunta clave:
+
+Si Disney desplaza clientes hacia LLP y CP
+(premiumización), ¿cómo cambia el PE
+en pesos? ¿Por qué?
+
+15%
+
+CON 34122 · Sesión 6
+
+El Mix importa: Premiumización reduce el PE
+Mismo nivel de ventas totales, mismos costos fijos — pero el mix cambia el PE en pesos
+
+Mix Actual (FY2025)
+
+Mix Premiumizado (escenario)
+
+E 55% · LLP 30% · CP 15%
+
+E 40% · LLP 40% · CP 20%
+
+Línea
+
+Ventas
+
+RMC
+
+MC ($)
+
+Línea
+
+Ventas
+
+RMC
+
+MC ($)
+
+E (55%)
+
+$5,060M
+
+66.49%
+
+$3,365M
+
+E (40%)
+
+$3,680M
+
+66.49%
+
+$2,447M
+
+LLP (30%)
+
+$2,760M
+
+69.12%
+
+$1,908M
+
+LLP (40%)
+
+$3,680M
+
+69.12%
+
+$2,543M
+
+CP (15%)
+
+$1,380M
+
+70.00%
+
+$966M
+
+CP (20%)
+
+$1,840M
+
+70.00%
+
+$1,288M
+
+TOTAL
+
+$9,200M
+
+67.74%
+
+$5,240M
+
+TOTAL
+
+$9,200M
+
+68.24%
+
+$6,278M
+
+PE en Pesos
+
+RMC Ponderada
+
+PE en Pesos
+
+RMC Ponderada
+
+$3,203M
+
+67.74%
+
+$3,180M
+
+68.24%
+
+Premiumización: RMC sube 67.74% → 68.24% · PE baja $23M ($3,203M → $3,180M) · Con los MISMOS costos fijos y las MISMAS ventas totales
+
+SESIÓN 6
+
+·
+
+CON 34122
+
+Punto de Equilibrio
+Verde
+
+CVU aplicado al Capital Natural — emisiones de carbono como VCF
+
+CON 34122 · Sesión 6
+
+El PE Verde — Disney y el Precio del Carbono
+Disney Sustainability Report FY2024 · NIIF S1/S2
+
+1.49M ton
+
+$76M
+
+$306M
+
+$3,333/t
+
+Emisiones Scope 1+2
+(FY2024)
+
+Costo al precio base
+$51/ton → 1.5% UAII
+
+Costo al precio alto
+$205/ton → 6.2% UAII
+
+Precio que vacía la
+UAII completa ($4.97B)
+
+Precio del Carbono ($/ton) vs. % UAII afectada
+120
+
+CVU Verde — Cálculos
+$831/ton
+
+100
+
+Umbral 25% (SEC)
+
+80
+
+PE Verde (100% UAII)
+
+$3,333/ton
+
+Con meta –46% (2030)
+
+~807K ton
+
+Costo 2030 a $205/ton
+
+$165M
+
+Ahorro vs. hoy a $205
+
+$141M
+
+60
+40
+20
+0
+$0
+
+$51
+
+$100
+
+$205
+
+$400
+
+$600
+
+Emisiones actuales (% UAII)
+
+$831
+
+$1000 $1500 $2000 $2500 $3333
+
+Con meta 2030 (–46%)
+
+Cumplir la meta 2030 ahorra
+$141M/año al precio alto.
+
+CON 34122 · Sesión 6
+
+Conexión con los Levers of Control — Simons
+Las herramientas de la Sesión 6 viven en el Control Diagnóstico
+
+01
+
+02
+
+03
+
+04
+
+Sistemas de Creencias
+
+Sistemas de Límites
+
+Control Diagnóstico
+
+Control Interactivo
+
+Marco IR · Propósito · 6 capitales
+
+GRI / SASB / TCFD · Costos de riesgo
+
+CVU · Abs/Dir · PE Verde ·
+Presupuestos · ABC · Variaciones
+
+Costos relevantes LP · NIIF S1/S2 ·
+Escenarios
+
+AQUÍ / Estamos hoy
+
+Sesiones 4–9
+
+El PE financiero y el PE Verde son la misma herramienta del Control Diagnóstico aplicada a diferentes capitales del Marco IR
+
+IDEAS CLAVE DE LA SESIÓN 6
+
+El GIF Fijo — la bisagra
+
+El Estado de Contribución
+
+El Margen de Seguridad y el Mix
+
+El PE Verde
+
+En el absorbente se esconde en
+inventario hasta que la unidad se
+vende. En el directo siempre sale al
+P&L en el período que ocurre. La
+utilidad absorbente puede
+manipularse produciendo más sin
+vender.
+
+Reorganiza costos por
+comportamiento, no por función. Es la
+plataforma del CVU. Sin MC no hay
+PE, no hay análisis de sensibilidad, no
+hay decisiones de precio ni de
+volumen.
+
+El MS es la VCF más directa del CVU. Y
+el mix de productos no es un
+supuesto fijo: cambiarlo hacia mayor
+RMC reduce el PE en pesos aunque
+los CF no varíen — esa es la esencia
+de la premiumización.
+
+El modelo CVU no es solo financiero.
+Las emisiones tienen punto de
+equilibrio, umbral de materialidad y
+costo regulatorio. Una VCF emergente
+bajo NIIF S1/S2.
+
+Próxima Sesión 7 — Costos Relevantes para la Toma de Decisiones: costos hundidos, oportunidad, make vs. buy, precios especiales, eliminación de líneas
+
+

@@ -1,0 +1,447 @@
+CON 34122 · Control y Gestión de Costos
+
+MATERIAL DE REFERENCIA
+Sesión 7
+Costos Relevantes para la Toma de Decisiones
+Caso Integrado: Disney FY2026 — El Año de las Decisiones Difíciles
+Elaborado por: Orlando Garciacano C.
+ITAM Maestría · Abril–Junio 2026
+
+Contexto del Caso: Disney FY2026
+El escenario
+El segundo trimestre de FY2026 no está siendo fácil para The Walt Disney Company. Los inversores presionan
+por eficiencia, el presupuesto corporativo está bajo revisión, y la CFO ha convocado al equipo de análisis de
+costos a resolver CUATRO decisiones críticas antes de la próxima reunión del Consejo.
+Tú eres parte de ese equipo. Tu trabajo es preparar el análisis diferencial de cada decisión con los datos
+disponibles, identificar qué costos son relevantes (y cuáles no), y proporcionar una recomendación justificada
+para cada caso.
+Nota importante: En todas las decisiones, ignora los impuestos. Trabaja con las cifras antes de impuestos.
+
+Marco Conceptual: El Tridente de la
+Decisión
+Antes de analizar cualquier decisión, necesitas clasificar los costos involucrados en alguna de estas tres
+categorías:
+Tipo
+
+Definición
+
+¿Entra en el análisis?
+
+Costo Relevante
+
+Es futuro Y difiere entre las alternativas
+
+✓ Siempre
+
+Costo Hundido
+
+Ya fue incurrido; no puede recuperarse
+
+✗ Nunca
+
+Costo de
+Oportunidad
+
+Beneficio perdido de la alternativa desechada
+
+✓ Siempre
+
+La regla de oro
+Solo entran en tu análisis los costos e ingresos que son FUTUROS y que DIFIEREN entre las alternativas. Los
+costos hundidos son irrelevantes aunque sean muy grandes. Los costos de oportunidad son relevantes aunque
+no aparezcan en ningún estado financiero.
+
+Apertura: ¿Qué hacemos con los $85
+Millones?
+El Sistema "MagicLens AR"
+Disney Parks lleva 3 años desarrollando "MagicLens AR", un sistema de realidad aumentada para
+experiencias en parques. Se han invertido $85 millones y el sistema aún no está listo.
+TechVision Inc. acaba de ofrecer su plataforma AR —ya probada y lista para integrar en 6 meses— por
+$40 millones. Continuar con MagicLens requeriría $25 millones adicionales y 18 meses más de
+desarrollo.
+Pregunta de apertura
+¿Qué deben hacer con los $85 millones ya invertidos en MagicLens? ¿Cómo afectan (o no afectan) tu
+recomendación?
+
+Tu análisis
+Concepto
+
+Recomendación:
+
+Justificación:
+
+Continuar MagicLens
+
+Comprar TechVision
+
+Decisión 1 · Pedido Especial — Magic
+Kingdom y el Programa Escolar
+Contexto
+El Departamento de Educación de Florida hace una propuesta a Magic Kingdom: llevar a 180,000 estudiantes
+de escuelas públicas de bajos recursos durante los próximos 12 meses, a un precio especial de $95 por
+entrada.
+El precio normal de entrada es de $185/visitante. La capacidad del parque es de 55 millones de visitantes al
+año y en FY2024 se recibieron 52.2 millones.
+
+Dato
+
+Valor
+
+Precio normal / visitante
+
+$185
+
+Precio propuesto / visitante (programa escolar)
+
+$95
+
+Costo Variable / visitante
+
+$62
+
+Costos Fijos Totales del parque
+
+$2,170,000,000
+
+Visitantes actuales FY2024
+
+52,200,000
+
+Capacidad máxima
+
+55,000,000
+
+Visitantes adicionales propuestos
+
+180,000
+
+Ejercicio 1A — Análisis Diferencial
+Completa el siguiente análisis incremental para evaluar si Disney debe aceptar el pedido especial:
+Concepto
+
+¿Se debe aceptar el pedido especial?
+
+Cálculo
+
+Monto $
+
+Ejercicio 1B — Cambio de Condición
+Nuevo escenario
+Supón ahora que Magic Kingdom ya opera al 100% de su capacidad (55 millones de visitantes). Para atender el
+grupo escolar habría que rechazar a 180,000 visitantes regulares que pagarían precio normal. ¿Cambia tu
+recomendación?
+
+Concepto
+
+Monto $
+
+Conclusión:
+
+Reflexión ASG — Conexión con el Informe Integrado
+Pregunta de reflexión: ¿Cómo valorarías el Capital Social que genera este programa para Disney?
+¿Existe un "precio mínimo sostenible" que debería incluir factores no financieros? ¿Cómo reflejarías esta
+decisión en un Informe Integrado?
+
+Decisión 2 · Make vs. Buy — Producir o
+Licenciar "Proyecto Fantasía"
+Contexto
+"Proyecto Fantasía" es la nueva película de animación en desarrollo. Disney Animation puede producirla
+internamente (usando los datos de S5) o licenciarla a un estudio externo. Además, si se libera la capacidad de
+Fantasía, esas horas pueden usarse en un tercer proyecto: "Proyecto Aurora".
+
+Dato
+
+Valor
+
+Horas de animación requeridas para Fantasía
+
+62,000 horas
+
+Materiales Directos (MPD)
+
+$12,500,000
+
+Mano de Obra Directa (MOD)
+
+$25,200,000
+
+GIF Variable
+
+$3,720,000
+
+GIF Fijo Identificable al proyecto
+
+$600,000
+
+GIF Fijo Común (no asignable)
+
+Irrelevante
+
+Precio de licencia al estudio externo
+
+$58,000,000
+
+CMU estimada de Proyecto Aurora
+
+$420 / hora de animación
+
+Ejercicio 2A — Sin Costo de Oportunidad
+Compara ambas alternativas considerando únicamente los costos relevantes directos (sin Aurora):
+Costo Relevante
+
+Conclusión 2A:
+
+Producir Internamente
+
+Licenciar Externamente
+
+Ejercicio 2B — Con Costo de Oportunidad (Proyecto Aurora)
+Ahora añade el costo de oportunidad de no poder realizar Aurora si se produce Fantasía internamente:
+Concepto
+
+Producir Internamente
+
+Licenciar Externamente
+
+Conclusión 2B:
+
+¿Por qué cambia la decisión entre 2A y 2B? Explica:
+
+Reflexión ASG — Scope 3 y Cadena de Suministro
+Pregunta de reflexión: Si licencian a un estudio externo, esa producción se convierte en emisiones de
+Alcance 3 (Scope 3) de Disney. ¿Cómo cambiaría el análisis si Disney asignara un costo de carbono de
+$50 por tonelada de CO₂e a las emisiones adicionales del estudio externo? ¿Qué capital del Marco IR se
+ve afectado?
+
+Decisión 3 · Eliminación de Línea — ¿Cerrar
+Disney+ Latinoamérica?
+Contexto
+El CFO de Disney está preocupado por Disney+ Latinoamérica, que reporta pérdida operativa de $46 millones
+en FY2026. Propone cerrar el segmento para mejorar los resultados consolidados. Como analista de costos,
+debes evaluar si esa decisión realmente mejora el resultado global.
+
+Estado de Resultados por Segmento (antes del cierre)
+Concepto
+
+Disney+ Global
+
+Disney+ LATAM
+
+Disney+ Resto
+
+Ingresos
+
+$1,200,000,000
+
+$180,000,000
+
+$1,020,000,000
+
+Costos Variables
+
+($420,000,000)
+
+($68,000,000)
+
+($352,000,000)
+
+Contribución Marginal
+
+$780,000,000
+
+$112,000,000
+
+$668,000,000
+
+Costos Fijos Identificables
+
+($458,000,000)
+
+($95,000,000)
+
+($363,000,000)
+
+Utilidad antes de CF Comunes
+
+$322,000,000
+
+($17,000,000)
+
+$305,000,000
+
+Costos Fijos Comunes asignados
+
+($180,000,000)
+
+($63,000,000)
+
+($117,000,000)
+
+Ejercicio 3A — Análisis del Impacto Real del Cierre
+¿Cuánto REALMENTE mejora (o empeora) la utilidad operativa consolidada si se cierra Disney+ LATAM?
+Construye el análisis diferencial:
+Efecto del Cierre
+
+¿Debe Disney cerrar Disney+ LATAM?
+
+¿Por qué la "pérdida de $46M" NO significa lo que parece? Explica:
+
+Monto $
+
+Ejercicio 3B — Punto de Indiferencia
+¿A qué nivel de costos fijos identificables sería indiferente entre cerrar o mantener el segmento LATAM?
+(Es decir: ¿cuándo el ahorro de CF iguala exactamente la CM que se pierde?)
+
+Reflexión ASG — Capital Social y Mercados Emergentes
+Pregunta de reflexión: ¿Cómo valorarías el Capital Social de mantener Disney+ disponible para 650
+millones de personas en Latinoamérica? ¿Qué información adicional debería incluir el Informe Integrado
+de Disney para que esta decisión sea más transparente para sus stakeholders?
+
+Decisión 4 · Recurso Escaso — Asignación
+de Horas de Animación
+Contexto
+Disney Animation tiene disponibles exactamente 600,000 horas de animación en FY2026. Tres proyectos
+compiten por esas horas. Tu tarea es determinar la asignación óptima que maximice la Contribución Marginal
+total.
+
+Proyecto
+
+Ingresos Totales
+
+Costos Variables
+
+CMU Total
+
+Horas Requeridas
+
+Moana 2 (Orden 101)
+
+$180,000,000
+
+$73,500,000
+
+$106,500,000
+
+95,000 h
+
+Proyecto Fantasía (Orden
+102)
+
+$140,000,000
+
+$47,700,000
+
+$92,300,000
+
+62,000 h
+
+Proyecto Aurora (nuevo)
+
+$210,000,000
+
+$79,800,000
+
+$130,200,000
+
+130,000 h
+
+Ejercicio 4A — Ranking por CMU/Hora
+Calcula la CMU por hora de animación para cada proyecto y establece el ranking de prioridad:
+Proyecto
+
+CMU Total
+
+Horas Requeridas
+
+CMU / Hora
+
+Ranking
+
+Ejercicio 4B — Asignación Óptima de las 600,000 Horas
+Basándote en el ranking anterior, determina cuántas horas asignarías a cada proyecto y cuál sería la
+CMU total máxima:
+Proyecto
+
+CMU Total Óptima:
+
+Horas Asignadas
+
+CMU/h
+
+CMU Generada
+
+Ejercicio 4C — La Restricción No Financiera
+Nuevo dato
+El equipo de sustentabilidad informa que Proyecto Aurora usa servidores de render con energía 100%
+renovable, mientras Moana 2 usa servidores convencionales. La diferencia en intensidad de carbono es de 45
+ton CO₂e por cada 1,000 horas. El costo interno de carbono de Disney es de $50/tonelada.
+
+¿Cuánto modifica esto la CMU efectiva de Moana 2? ¿Cambia el ranking?
+
+Síntesis: Correlación Simons · IR · S7
+Tipo de Decisión
+
+Concepto Central
+
+Palanca Simons
+
+Capital IR
+
+Costo hundido (AR
+MagicLens)
+
+Ignorar lo irrecuperable
+
+Sistemas de Límites
+
+Capital Manufacturado
+
+Pedido especial (Magic
+Kingdom)
+
+CMU incremental con
+capacidad ociosa
+
+Control Diagnóstico
+
+Capital Social
+
+Make vs. Buy
+(Fantasía/Aurora)
+
+Costo de oportunidad real
+
+Control Diagnóstico
+
+Capital Mfdo. / Natural
+
+Eliminación de línea
+(LATAM)
+
+CM positiva ≠ decisión de
+cierre
+
+Control Diagnóstico
+
+Capital Social /
+Reputación
+
+Recurso escaso (horas
+animación)
+
+Maximizar CMU / unidad de
+restricción
+
+Control Diagnóstico
+
+Capital Humano
+
+Reflexión para el Trabajo Final
+Instrucción
+Piensa en tu empresa o sector. Identifica UNA decisión real del tipo analizado hoy. Responde brevemente:
+1. ¿Qué tipo de decisión es (pedido especial, make vs. buy, eliminación de línea o recurso escaso)?
+2. ¿Cuáles serían los costos relevantes vs. los costos hundidos en tu caso?
+3. ¿Existe alguna dimensión ASG que normalmente no se cuantifica pero que debería entrar en el análisis?
+4. ¿Cómo aparece (o debería aparecer) esta decisión en el Informe Integrado de tu empresa?
+
+
