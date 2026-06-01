@@ -1,0 +1,1175 @@
+CONTROL Y GESTIÓN DE COSTOS
+CON 34122 | Maestría | ITAM
+
+Sesión 4
+Conceptos Básicos de Costos
+Del lenguaje contable al pensamiento integrado
+Profesor: Orlando Garciacano C. | Período: Abril – Junio 2026
+
+"No se puede gestionar lo que no se mide
+— y no se puede medir lo que no se entiende."
+— Peter Drucker
+
+Elaborado por: Orlando Garciacano C.
+
+Página 1 | 17
+
+1. Objetivos de la Sesión
+Al finalizar esta sesión, serás capaz de:
+• Distinguir con precisión los tres niveles de contabilidad (Financiera, Administrativa, de
+Costos) y posicionar el Marco IR como el cuarto lente integrador de información
+financiera y no financiera.
+• Aplicar las cinco dimensiones de clasificación de costos simultáneamente al mismo
+costo, comprendiendo que la clasificación correcta depende de la pregunta de gestión.
+• Identificar y clasificar los objetos de costo de una empresa de servicios diversificada a
+cinco niveles: segmento, geografía, línea de negocio, actividad y métrica ASG.
+• Reconocer que los costos ASG son costos reales con comportamientos clasificables,
+responsables identificables y relevancia estratégica para la toma de decisiones.
+• Conectar las cinco dimensiones de clasificación con el Sistema de Control Diagnóstico
+de Simons y con el análisis que pedirá el trabajo final del curso.
+
+2. El Mapa del Territorio Contable
+Una confusión frecuente al estudiar costos es la sensación de que existen múltiples
+'contabilidades' que compiten entre sí. La realidad es más simple y más poderosa: son
+diferentes lentes sobre la misma realidad económica de una organización, cada una
+respondiendo a una pregunta de gestión distinta.
+
+2.1 Los Tres Niveles Clásicos
+Contabilidad
+Financiera
+
+Contabilidad
+Administrativa
+
+Contabilidad de Costos
+
+¿Para quién?
+
+Usuarios externos:
+accionistas, reguladores,
+acreedores
+
+Usuarios internos:
+directivos, gerentes,
+analistas
+
+Usuarios internos,
+principalmente
+operaciones y control
+
+¿Qué pregunta
+responde?
+
+¿Cuánto vale la empresa
+y qué tan rentable fue?
+
+¿Qué decisiones debo
+tomar para gestionar
+mejor?
+
+¿Cuánto cuesta producir o
+prestar este servicio?
+
+Marco
+normativo
+
+IFRS/NIF — obligatorio y
+estandarizado
+
+Sin norma obligatoria —
+flexibilidad total
+
+Principios contables +
+decisiones de diseño
+interno
+
+Horizonte
+temporal
+
+Principalmente histórico
+(período ya cerrado)
+
+Presente y futuro:
+planeación y control
+
+Histórico y
+predeterminado
+(estándar/presupuesto)
+
+Unidad de
+análisis
+
+La empresa como un
+todo
+
+Segmentos, productos,
+clientes, proyectos
+
+Objetos de costo
+específicos y granulares
+
+Ejemplo Disney
+
+Estado de Resultados
+consolidado: $91,361M
+ingresos FY2024
+
+¿Debemos construir un
+nuevo parque en India?
+
+¿Cuánto cuesta atender a
+1 visitante en Magic
+Kingdom?
+
+Elaborado por: Orlando Garciacano C.
+
+Página 2 | 17
+
+Insight clave — La Contabilidad de Costos como motor
+La Contabilidad de Costos NO es una tercera disciplina separada: es el motor de información
+que alimenta a la Contabilidad Administrativa. Sin datos precisos de costos, las decisiones
+gerenciales se toman a ciegas. Con datos precisos de costos, el Control Diagnóstico de
+Simons puede funcionar — midiendo las Variables Críticas de Funcionamiento que determinan
+el éxito estratégico de la organización.
+
+2.2 El Cuarto Lente: El Marco IR
+Los tres niveles clásicos comparten un punto ciego: capturan con precisión el capital financiero
+y físico (o manufacturado), pero dejan invisible la mayor parte del valor que una empresa
+genera y destruye. El Marco IR es el cuarto lente que completa el mapa:
+Lente
+
+Capitales que captura con mayor precisión
+
+Limitación principal
+
+Contabilidad
+Financiera
+
+Capital Financiero (activos, pasivos, ingresos,
+gastos)
+
+Invisible a los otros cuatro
+capitales
+
+Contabilidad
+Administrativa
+
+Capital Financiero + parcialmente
+Manufacturado e Intelectual
+
+Depende de qué decida
+medir cada empresa
+
+Contabilidad de
+Costos
+
+Capital Financiero + Manufacturado (costos de
+producción detallados)
+
+Diseñada originalmente para
+manufactura
+
+Marco IR + ASG
+
+Los 6 Capitales: Financiero · Manufacturado ·
+Intelectual · Humano · Social-Relacional ·
+Natural
+
+Medición compleja;
+estándares en evolución
+
+Pregunta de reflexión: ¿en cuáles lentes vive el costo de las 921,163 toneladas de CO₂ que
+emitió Disney en FY2024? La respuesta: en el cuarto lente, a menos que Disney deba comprar
+créditos de carbono — ahí entra al primero. El costo real sobre el capital natural solo es visible
+en el reporte de sostenibilidad. Esa brecha es el territorio que el Marco IR, el TCFD y las NIIF
+S1/S2 están construidos para cerrar.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 3 | 17
+
+3. Clasificaciones de Costos: Herramientas de Decisión
+El principio rector de esta sección:
+
+"Costos diferentes para propósitos diferentes"
+Este principio tiene implicaciones profundas: no existe una sola forma correcta de clasificar un
+costo. Un mismo costo puede ser fijo Y directo Y controlable Y relevante — simultáneamente.
+La clasificación correcta es la que mejor sirve a la decisión que se está tomando. El Control
+Diagnóstico de Simons requiere identificar qué tipo de costo necesitamos medir para las
+Variables Críticas de Funcionamiento de nuestra organización.
+
+3.1 Primera Dimensión: Comportamiento frente al Volumen
+¿Cómo cambia el costo total cuando cambia el nivel de actividad? Es la pregunta más
+fundamental para el Análisis CVU (Sesión 5).
+Tipo
+
+Comportamiento
+total
+
+Comportamiento
+unitario
+
+Ejemplo Disney FY2024
+
+Fijo
+
+Constante dentro
+del rango relevante.
+No cambia con el
+volumen.
+
+Decrece al
+aumentar el
+volumen (dilución
+del costo fijo).
+
+Derechos deportivos ESPN
+(~$8B/año): igual con 50M o 100M
+suscriptores.
+
+Variable
+
+Cambia
+proporcionalmente
+con el nivel de
+actividad. Relación
+lineal.
+
+Constante por
+unidad de
+producción o
+servicio.
+
+Alimentos y bebidas en parques:
+crece directamente con el número
+de visitantes.
+
+Semivariable/Mixto
+
+Base fija más un
+componente
+variable que crece
+con la actividad.
+
+Decrece en la
+parte fija;
+componente
+variable por unidad
+es constante.
+
+Labor operativa de parques:
+mínimo fijo 24/7 + personal
+adicional variable con afluencia.
+
+Escalonado
+
+Fijo dentro de
+rangos de actividad;
+da un salto discreto
+al cambiar de rango.
+
+Escalonado en
+espejo inverso.
+
+Nuevo crucero Disney Wish:
+genera un salto fijo de costos de
+personal, seguro y operación.
+
+Concepto esencial: Rango Relevante
+La clasificación fijo/variable es válida SOLO dentro del rango relevante de actividad normal.
+Fuera de ese rango, los costos fijos pueden dar saltos escalonados y los variables pueden
+tener mínimos inevitables.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 4 | 17
+
+Ejemplo Disney: los costos de infraestructura de Walt Disney World son fijos para el rango
+de 55–65 millones de visitantes anuales. Si la demanda creciera a 80 millones, se necesitaría
+expansión física — el costo daría un salto escalonado hacia un nuevo nivel fijo.
+
+3.2 Segunda Dimensión: Trazabilidad al Objeto de Costo
+¿Con qué facilidad y a qué costo podemos identificar un gasto con un objeto de costo
+específico?
+
+COSTO DIRECTO
+
+COSTO INDIRECTO
+
+Identificable de forma directa y
+económicamente viable con el objeto de
+costo. No requiere bases de asignación.
+
+No identificable directamente. Requiere
+asignación mediante una base de prorrateo
+(horas-máquina, ingresos, metros cuadrados).
+
+Ejemplos Disney:
+
+Ejemplos Disney:
+
+• Producción de 'Moana 2' → directo a ese título.
+• Labor de cast members en Magic Kingdom →
+directo al parque FL.
+• Emisiones Scope 1 de generadores → directas
+a cada instalación.
+
+• IT corporativo → ¿cómo asignar entre parques
+y películas?
+• Sueldo CEO ($51.2M) → indirecto para todos
+los negocios.
+• Emisiones Scope 3 de proveedores (>10.8M
+ton) → indirectas.
+
+Distinción crítica: Directo ≠ Controlable
+Son dimensiones completamente independientes. Un costo puede ser DIRECTO a un objeto
+de costo sin ser CONTROLABLE por su responsable.
+Ejemplo: el precio de la electricidad es DIRECTO al parque de Florida (perfectamente
+identificable con esa instalación) pero NO CONTROLABLE por el gerente del parque
+(quien no puede negociar los precios del mercado eléctrico de Florida).
+Confundir estas dos dimensiones lleva a sistemas de evaluación injustos — exactamente
+lo que el diseño correcto del Control Diagnóstico de Simons busca evitar.
+
+3.3 Tercera Dimensión: Autoridad sobre el Costo
+¿Quién puede influir en el nivel de este costo? Esta dimensión es la base de los Centros de
+Responsabilidad en el Control Diagnóstico de Simons.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 5 | 17
+
+•
+
+•
+
+Costo Controlable: el responsable puede influir significativamente en su nivel dentro de
+su período de gestión. Ejemplo Disney: el gerente de F&B de un parque controla
+desperdicio, mix de proveedores, diseño de menú y tamaño de porciones.
+Costo No Controlable: el responsable no puede influir en el corto plazo — por contratos
+previos, decisiones corporativas o condiciones de mercado. Ejemplo Disney: los
+derechos de franquicias Marvel o Star Wars ya firmados son no controlables para el
+gerente de un parque.
+
+Principio del Control Diagnóstico: evaluar el desempeño de un gerente SOLO sobre costos que
+puede controlar. Responsabilizar a alguien por costos fuera de su alcance destruye la
+motivación y distorsiona la señal sobre dónde están los problemas reales.
+Aplicación a los costos ASG de Disney
+La dimensión de controlabilidad es especialmente reveladora para los costos ambientales:
+Emisiones Scope 1 (921,163 ton CO₂, FY2024): CONTROLABLES.
+Disney puede invertir en renovables, cambiar procesos, electrificar su flotilla.
+Meta: -46.2% para 2030. Ya logró -38% de avance.
+Emisiones Scope 3 (>10.8M ton CO₂, FY2023): LIMITADAMENTE CONTROLABLES.
+Dependen de miles de proveedores y licenciatarios. Disney solo puede influirlos.
+Meta: -27.5% para 2030 — más conservadora porque el control es menor.
+Lección de diseño: el nivel de controlabilidad real debe calibrar el nivel de ambición
+de las metas. Metas inalcanzables por falta de control destruyen el sistema.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 6 | 17
+
+3.4 Cuarta Dimensión: Relevancia para la Decisión
+¿Este costo cambia dependiendo de qué alternativa elegimos? Solo los costos que DIFIEREN
+entre alternativas son relevantes para la decisión.
+Tipo
+
+Definición
+
+Ejemplo Disney
+
+Costo Relevante
+
+Costo futuro que difiere entre
+alternativas. El único tipo que
+debe incluirse en el análisis
+de decisiones.
+
+Al decidir si lanzar Disney+ en un nuevo país:
+costo de localización del contenido y marketing
+local — ambos varían por país.
+
+Costo Irrelevante
+
+No cambia entre alternativas.
+No debe incluirse en el
+análisis.
+
+Al comparar dos sistemas de energía
+renovable para el parque de París: los costos
+operativos del parque que son idénticos en
+ambas opciones.
+
+Costo Hundido
+
+Costo histórico ya incurrido e
+irrecuperable. SIEMPRE
+irrelevante para decisiones
+futuras, sin importar su
+magnitud.
+
+La inversión de ~$2,000M en Star Wars:
+Galactic Starcruiser era hundida al decidir si
+cerrarlo en mayo 2023. La decisión de cierre
+fue correcta.
+
+Costo de
+Oportunidad
+
+Beneficio sacrificado al elegir
+una opción sobre la siguiente
+mejor alternativa. No aparece
+en estados financieros, pero
+es real y relevante.
+
+Si Disney usa capital en construir un parque en
+India, el costo de oportunidad es el retorno que
+ese capital generaría en DTC (Disney+).
+
+Lección del Sunk Cost — Star Wars: Galactic Starcruiser
+En mayo de 2023, Disney cerró su hotel de experiencia inmersiva Star Wars: Galactic
+Starcruiser en Walt Disney World tras solo 14 meses de operación. La inversión fue ~$2,000M.
+La decisión fue correcta desde la perspectiva de costos relevantes: esos $2,000M ya eran
+un costo hundido — completamente irrelevante para la decisión de continuar o cerrar.
+La única pregunta relevante era: ¿los ingresos futuros esperados cubrían los costos
+operativos continuos? La respuesta fue no.
+Sunk Cost Fallacy: los gerentes que dicen 'ya invertimos tanto, hay que continuar'
+están dejando que costos irrelevantes (hundidos) dominen decisiones futuras.
+Es uno de los sesgos cognitivos más costosos en la gestión empresarial.
+Dato FY2024: Disney registró $331M en deterioro de activos de retail — otro ejemplo
+de reconocer costos hundidos y actuar correctamente sobre ellos.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 7 | 17
+
+3.5 Quinta Dimensión: Momento de Reconocimiento
+A) Costo de Producto vs. Costo de Período
+En empresas de servicios — que es el contexto de la mayoría de los alumnos de este curso —
+esta distinción determina cuándo un costo impacta el Estado de Resultados.
+COSTO DE PRODUCTO
+
+COSTO DE PERÍODO
+
+Asociado directamente con la creación del
+servicio o producto. Se reconoce como gasto
+cuando se vende — no cuando se incurre.
+
+Se gasta en el período en que ocurre,
+independientemente del nivel de producción o
+ventas.
+
+Ejemplo Disney:
+
+Ejemplo Disney:
+
+Costos de producción de 'Inside Out 2': se
+capitalizan como activo intangible y se amortizan
+conforme la película genera ingresos en
+theatrical, Disney+ y VOD.
+
+Marketing de lanzamiento de una película: se
+gasta en el período de lanzamiento. Salarios del
+equipo corporativo: se gastan cuando se pagan.
+
+B) Costo Histórico vs. Predeterminado
+• Costo Histórico (Real): el costo que realmente ocurrió. Base de la Contabilidad
+Financiera. Solo disponible cuando el período ya cerró.
+• Costo Predeterminado Estimado: calculado antes de que ocurra, con base en
+experiencia y juicio profesional. Base de la planeación presupuestal.
+• Costo Predeterminado Estándar: calculado técnicamente bajo condiciones de eficiencia
+óptima. Base del análisis de variaciones del Control Diagnóstico — el mecanismo
+central para detectar desviaciones (Sesiones 7–9).
+
+Elaborado por: Orlando Garciacano C.
+
+Página 8 | 17
+
+3.6 Síntesis: Las Cinco Dimensiones Aplicadas Simultáneamente
+El mismo costo produce clasificaciones distintas según la pregunta de gestión que se responde.
+Esta tabla aplica las cinco dimensiones a costos reales de Disney FY2024:
+Costo Disney
+
+Comport.
+
+Trazabilidad
+
+Controlabilidad
+
+Relevancia
+
+Reconocimiento
+
+Derechos
+deportivos
+ESPN
+(~$8B/año)
+
+Fijo
+
+Directo a
+ESPN
+
+No controlable
+CP
+
+Irrelevante
+para ops.
+diarias
+
+Período (por
+temporada)
+
+Alimentos y
+bebidas en
+parques
+
+Variable
+
+Directo al
+parque
+
+Controlable
+
+Relevante
+para pricing
+de menú
+
+Período
+(operativo)
+
+Producción de
+película
+(Inside Out 2)
+
+Variable por
+proyecto
+
+Directo al
+título
+
+Controlable
+(presupuesto)
+
+Sunk cost
+una vez
+iniciada
+
+Producto
+(capitalizado)
+
+Sueldo CEO
+($51.2M)
+
+Fijo
+
+Indirecto
+(todo)
+
+Solo el Consejo
+
+Irrelevante
+para ops.
+
+Período
+
+Emisiones
+Scope 1
+(921,163 ton
+CO₂)
+
+Semivariable
+
+Directo por
+instalación
+
+Controlable
+
+Relevante:
+renovables
+vs. créditos
+
+Fuera del P&L
+(parcial)
+
+Créditos de
+carbono
+comprados
+
+Variable con
+emisiones
+
+Directo
+(corporativo)
+
+Controlable
+
+Relevante si
+hay
+alternativas
+
+Período
+
+Mensaje central
+La misma tonelada de CO₂ — o el mismo millón de dólares — puede clasificarse de cinco
+maneras distintas dependiendo de la pregunta de gestión que se responde.
+No existe una clasificación 'correcta' en abstracto.
+La clasificación correcta es la que sirve a la DECISIÓN ESPECÍFICA que se tiene enfrente.
+Esto es el fundamento del Control Diagnóstico de Simons: no medir todo,
+sino medir LO CORRECTO para LAS DECISIONES CORRECTAS.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 9 | 17
+
+4. El Caso Disney: Del Objeto de Costo Clásico al
+Ampliado
+The Walt Disney Company es el caso de estudio ideal para esta sesión porque en una sola
+empresa encontramos la totalidad de los conceptos de clasificación — y su extensión natural
+hacia los costos ASG. Con tres segmentos radicalmente distintos, operaciones en todos los
+continentes y reportes de sostenibilidad rigurosos, Disney es el laboratorio perfecto para el
+pensamiento integrado de costos.
+
+4.1 Tres Segmentos, Tres Estructuras de Costos
+Segmento
+
+Ingresos
+FY2024
+
+Costo dominante
+
+Comportamiento
+predominante
+
+Entertainment
+
+$41,186M
+(+1%)
+
+Amortización de producción
+capitalizada + derechos de licencias
+
+Variable por título; fijo en
+derechos de largo plazo
+
+Sports (ESPN)
+
+$17,619M
+(+3%)
+
+Derechos deportivos: NFL, NBA,
+MLB, UFC, College Football
+
+Predominantemente
+FIJO — mayor punto de
+equilibrio de Disney
+
+Experiences
+
+$34,151M
+(+5%)
+
+Labor operativa + infraestructura +
+COGS de parques y cruceros
+
+Mixto: fijos de
+infraestructura +
+variables de operación
+diaria
+
+4.2 Los Cinco Niveles de Objetos de Costo
+La decisión de qué objeto de costo analizar es una decisión de gestión — no una definición
+técnica. Disney gestiona simultáneamente cinco niveles, cada uno respondiendo a una
+pregunta diferente:
+Nivel 1 — Por segmento corporativo
+Entertainment · Sports · Experiences · Corporativo
+Pregunta: ¿Dónde asignamos el capital estratégico entre los grandes negocios de Disney?
+
+Nivel 2 — Por geografía (dentro de Experiences)
+Domestic Parks $23,596M · International Parks $6,183M · Consumer Products $4,372M
+Pregunta: ¿Qué mercados geográficos generan mejor retorno? ¿Dónde abrimos el siguiente
+parque?
+
+Elaborado por: Orlando Garciacano C.
+
+Página 10 | 17
+
+Nivel 3 — Por parque individual
+Walt Disney World (FL) · Disneyland (CA) · París · Hong Kong · Shanghai · Tokyo
+(licencia)
+Pregunta: ¿Cómo evaluamos el desempeño del gerente general de cada parque?
+¿Cuál es más eficiente en costo operativo por visitante?
+
+Nivel 4 — Por actividad dentro del parque
+Admisiones · Alimentos y bebidas · Merchandise · Resort/Hotel · Atracciones específicas
+Pregunta: ¿Cuál es el mix de ingresos y costos óptimo dentro de cada parque?
+
+Nivel 5 — Por métrica ASG (el objeto de costo ampliado)
+Emisiones CO₂ por operación · Energía por instalación · Agua por parque · Residuos por tipo
+Pregunta: ¿Cómo gestionamos el riesgo regulatorio, el costo de cumplimiento futuro
+y el impacto sobre el Capital Natural de cada operación?
+Este nivel NO aparece en el Estado de Resultados tradicional, pero el Marco IR,
+el TCFD y las NIIF S1/S2 están construidos para hacerlo visible y gestionable
+con la misma disciplina que los primeros cuatro niveles.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 11 | 17
+
+4.3 Los Costos ASG Clasificados — Datos Reales FY2024
+Métrica ASG
+
+Dato FY2024
+
+Comportamiento
+
+Controlabilidad
+
+Relevancia para
+decisión
+
+Emisiones Scope
+1+2 market-based
+
+1,493,816 ton
+CO₂e (38%
+reducción lograda
+vs. meta 46.2%)
+
+Semivariable
+
+Controlable —
+meta formal con
+seguimiento
+
+Inversión en
+renovables vs.
+créditos de carbono
+
+Emisiones Scope
+3 (cadena de
+valor)
+
+>10,849,252 ton
+CO₂e (FY2023,
+7x mayor que
+Scope 1+2)
+
+Variable —
+depende de
+proveedores
+
+Limitado:
+influencia, no
+control directo
+
+Estrategia de
+cadena de
+suministro
+
+Energía total
+consumida
+
+6,288,349 MWh /
+49% zero carbon
+
+Semivariable
+
+Controlable —
+meta 100% zero
+carbon 2030
+
+Eficiencia operativa;
+inversión en
+infraestructura
+
+Agua consumida
+
+8.98 B galones
+(↓4.6% vs
+FY2023 con
+mayor actividad)
+
+Variable con
+visitantes
+
+Controlable por
+instalación
+
+Riesgo hídrico en
+nuevas ubicaciones
+
+Residuos
+operativos
+
+252,165 ton /
+62% desviados
+de relleno
+
+Variable con
+operación
+
+Controlable —
+sistema activo
+de desvío
+
+Costo de
+disposición;
+compliance local
+
+Disney
+Conservation Fund
+
+$7.6M en FY2024
+/ $132M+ desde
+1995
+
+Fijo por decisión
+directiva
+
+Solo alta
+dirección
+
+Capital Natural y
+reputación de
+marca
+
+Reflexión central: la brecha entre el costo contabilizado y el costo real
+Disney paga la TARIFA del agua que consume — ese costo aparece en el P&L como gasto
+operativo (infrastructure costs del segmento Experiences).
+Pero el COSTO REAL del agua — el impacto sobre cuencas hídricas, el valor del recurso
+para las comunidades locales, la presión sobre ecosistemas en zonas de estrés hídrico —
+NO aparece en ningún estado financiero. Solo aparece en el reporte de sostenibilidad.
+Esta brecha existe para todas las métricas del Nivel 5: las emisiones, los residuos,
+la biodiversidad afectada, el impacto en el capital humano.
+El Marco IR, el TCFD y las NIIF S1/S2 existen exactamente para cerrar esta brecha.
+Y el trabajo final te pedirá analizar cuáles brechas existen en tu propia empresa.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 12 | 17
+
+5. Perspectiva Histórica: La Evolución del Costo
+Ampliado
+La definición de qué constituye un costo en la gestión empresarial ha evolucionado — y seguirá
+evolucionando. Esta evolución es el contexto que explica por qué este curso integra costos
+financieros con pensamiento integrado y sostenibilidad:
+Época
+
+¿Qué se medía como
+costo?
+
+Herramienta central
+
+Limitación identificada
+
+Antes de
+1980
+
+Solo costos directos de
+manufactura: MP + MOD +
+GIF. La gestión = control
+de la fábrica.
+
+Estado de Costo de
+Producción
+
+Ignora servicios, overhead
+creciente e intangibles
+valiosos.
+
+1980–2000
+
+Costos de actividades con
+asignación precisa de
+overhead mediante
+inductores causales.
+
+Activity-Based Costing
+— ABC
+
+Retrospectivo; no captura
+capitales no financieros.
+
+2000–2015
+
+Perspectivas financiera,
+cliente, proceso interno y
+aprendizaje. Inicio formal
+de métricas no financieras.
+
+Balanced Scorecard
+(Kaplan/Norton)
+
+Métricas en silos; no
+integradas con reporte
+externo.
+
+2015–hoy
+
+Los 6 capitales del Marco
+IR: todo lo que crea o
+destruye valor para todos
+los grupos de interés.
+
+Marco IR + SASB +
+TCFD + NIIF S1/S2
+
+Estándares en evolución;
+medición compleja pero ya
+exigible.
+
+Las Sesiones 5 a 9 construyen las herramientas de esta evolución — CVU, ABC, presupuestos,
+variaciones — y en cada una veremos cómo se aplican tanto a los costos financieros
+tradicionales como a los costos ASG del Marco IR.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 13 | 17
+
+6. Conexión con los Levers of Control de Simons
+Esta sesión activa la tercera palanca del curso. La tabla maestra actualizada:
+Palanca Simons
+
+Elemento IR
+
+Herramienta de Costos
+
+Sesiones
+
+Sistema de Creencias
+
+Propósito · Gobernanza ·
+Modelo de negocio
+
+Marco IR · Presupuesto
+estratégico
+
+1–3
+
+Sistemas de Límites
+
+Riesgos · Materialidad ·
+Grupos de interés
+
+GRI/SASB · Costos de riesgo
+y cumplimiento
+
+2–3
+
+Control Diagnóstico
+◀ AQUÍ
+
+Desempeño · KPIs
+financieros y ASG
+
+CVU · ABC · Presupuestos ·
+Variaciones
+
+4–9
+
+Control Interactivo
+
+Estrategia · Asignación
+de Recursos ·
+Perspectiva
+
+Costos relevantes LP · NIIF
+S1/S2
+
+10–12
+
+¿Por qué la clasificación de costos es la primera herramienta del Control
+Diagnóstico?
+Simons define el Control Diagnóstico como el sistema que monitorea las Variables Críticas
+de Funcionamiento (VCF) — las 3–5 variables que, si fallan, ponen en riesgo el éxito
+estratégico. Pero antes de monitorear hay que decidir QUÉ medir. Las clasificaciones
+de costos son exactamente ese diseño:
+Dimensión 1 (Comportamiento): define cómo los costos reaccionan al volumen → base del
+CVU.
+Dimensión 2 (Trazabilidad): define qué es asignable directamente → base del ABC.
+Dimensión 3 (Controlabilidad): define quién es evaluado por qué → base del presupuesto
+flexible.
+Dimensión 4 (Relevancia): define qué incluir en las decisiones → base de las decisiones LP.
+Dimensión 5 (Reconocimiento): define cuándo impacta los resultados → base del análisis
+temporal.
+La clasificación correcta de costos ES el diseño del sistema de información
+para el Control Diagnóstico. Sin ella, el sistema mide lo incorrecto.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 14 | 17
+
+7. Glosario de Términos Clave
+Término
+
+Definición
+
+Contabilidad Financiera
+
+Sistema de registro e información para usuarios externos. Normas
+IFRS/NIF obligatorias. Horizonte histórico. Reporta la empresa como un
+todo.
+
+Contabilidad
+Administrativa
+
+Sistema de información para usuarios internos. Sin norma obligatoria.
+Orientada a decisiones y control. Horizonte presente y futuro.
+
+Contabilidad de Costos
+
+Motor de la Contabilidad Administrativa: mide, acumula y analiza costos
+de producción o prestación de servicios con el nivel de detalle que cada
+decisión requiere.
+
+Objeto de Costo
+
+Cualquier elemento para el que se desea medir el costo por separado.
+Es una decisión de gestión — no una definición técnica fija.
+
+Rango Relevante
+
+Rango de actividad en el que las relaciones de costo fijo/variable son
+válidas. Fuera de él, el comportamiento puede cambiar.
+
+Costo Fijo
+
+Constante en total dentro del rango relevante. Decrece por unidad al
+aumentar el volumen (dilución del fijo).
+
+Costo Variable
+
+Proporcional al nivel de actividad. Constante por unidad.
+
+Costo Semivariable
+
+Base fija más componente variable. La forma más frecuente en
+empresas de servicios.
+
+Costo Directo
+
+Identificable económicamente con un objeto de costo específico. No
+requiere prorrateo.
+
+Costo Indirecto
+
+No identificable directamente. Requiere asignación mediante base de
+prorrateo.
+
+Costo Controlable
+
+El responsable puede influir significativamente en su nivel. Base del
+diseño justo de Centros de Responsabilidad.
+
+Costo Relevante
+
+Costo futuro que difiere entre alternativas. Único tipo válido en el análisis
+de decisiones.
+
+Costo Hundido (Sunk
+Cost)
+
+Costo histórico irrecuperable. SIEMPRE irrelevante para decisiones
+futuras. Su influencia indebida es la Sunk Cost Fallacy.
+
+Costo de Oportunidad
+
+Beneficio de la mejor alternativa sacrificada. Real y relevante para
+decisiones aunque no aparezca en los estados financieros.
+
+Costo de Producto
+
+Se reconoce como gasto cuando el producto se vende o el servicio se
+presta.
+
+Costo de Período
+
+Se gasta en el período en que ocurre, independientemente del volumen.
+
+Costo Predeterminado
+Estándar
+
+Calculado bajo condiciones de eficiencia óptima. Base del análisis de
+variaciones del Control Diagnóstico (Sesiones 7–9).
+
+Elaborado por: Orlando Garciacano C.
+
+Página 15 | 17
+
+VCF — Variable Crítica de
+Funcionamiento
+
+Las 3–5 variables que, si fallan, ponen en riesgo el éxito estratégico
+(concepto de Simons). La clasificación de costos define cuáles VCF son
+medibles.
+
+Costo Ampliado
+
+Concepto que incluye los costos de los 6 capitales del Marco IR, no solo
+los financieros tradicionales.
+
+Emisiones Scope 1/2/3
+
+Scope 1: emisiones directas propias (controlables). Scope 2: por energía
+comprada (controlables mediante decisiones de compra). Scope 3:
+cadena de valor (limitadamente controlables).
+
+8. Conexión con el Trabajo Final
+Preguntas para reflexionar antes de la Sesión 5
+1. ¿Cuáles son los principales objetos de costo que utiliza tu empresa para gestionar
+su desempeño? ¿En qué nivel de los cinco los analiza?
+2. ¿Tu empresa tiene costos ASG identificados y clasificados en las cinco dimensiones?
+Si no, ¿en cuál clasificación debería comenzar?
+3. ¿Cuáles son las Variables Críticas de Funcionamiento de tu empresa?
+¿Alguna está vinculada a sostenibilidad?
+4. Identifica un costo de tu empresa que debería medirse pero actualmente no se mide.
+¿A qué capital del Marco IR pertenece?
+5. Toma un costo ASG de tu empresa y clasifícalo en las cinco dimensiones.
+¿Qué decisión de gestión te permite tomar mejor esa clasificación?
+Estas preguntas son el núcleo del análisis que el trabajo final pedirá desarrollar.
+
+Elaborado por: Orlando Garciacano C.
+
+Página 16 | 17
+
+9. Bibliografía y Recursos
+9.1 Fuentes Primarias del Caso Disney
+•
+•
+
+The Walt Disney Company. (2024). Annual Report FY2024.
+https://thewaltdisneycompany.com/investor-relations/
+The Walt Disney Company. (2024). 2024 Sustainability & Social Impact Report.
+https://thewaltdisneycompany.com/impact/
+
+9.2 Textos de Referencia
+•
+•
+•
+•
+•
+
+Horngren, C.T., Datar, S.M. & Rajan, M.V. (2015). Cost Accounting: A Managerial
+Emphasis (15th ed.). Pearson. — Capítulos 1 y 2.
+Garrison, R.H., Noreen, E.W. & Brewer, P.C. (2021). Managerial Accounting (17th ed.).
+McGraw-Hill. — Capítulo 1.
+Simons, R. (1995). Levers of Control. Harvard Business School Press. — Capítulo 4.
+IFRS Foundation. (2021). International Integrated Reporting Framework. — Sección 2:
+The Capitals. https://www.ifrs.org/
+SASB. (2023). SASB Standards: Media & Entertainment.
+https://sasb.ifrs.org/standards/navigator/
+
+9.3 Herramientas Interactivas de la Sesión
+•
+•
+
+Clasificador Interactivo de Costos Disney — 10 costos reales en 5 dimensiones
+(Clasificador_Costos_Disney_Sesion4.html)
+Mapa de Objetos de Costo Disney — arquitectura en 5 niveles con costos ASG
+(Mapa_Objetos_Costo_Disney_Sesion4.html)
+
+Elaborado por: Orlando Garciacano C.
+
+Página 17 | 17
+
+

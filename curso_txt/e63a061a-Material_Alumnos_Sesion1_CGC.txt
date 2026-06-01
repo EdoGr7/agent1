@@ -1,0 +1,748 @@
+CONTROL Y GESTIÓN DE COSTOS
+CON 34122 • Maestría • ITAM
+
+MATERIAL DE REFERENCIA
+Sesión 1: Introducción al Pensamiento y Reporte Integrados
+Orlando Garciacano C. | Abril–Junio 2026
+
+"La gestión de costos del siglo XXI no se limita al capital financiero.
+Gestionar bien una organización significa proteger y crear valor en los 6 capitales."
+
+1. Objetivos de Aprendizaje
+
+Al concluir esta sesión, usted será capaz de:
+•
+
+Explicar la visión del IIRC y su rol dentro de la arquitectura global de reportes financieros.
+
+•
+
+Describir las 7 Directrices y los 8 Elementos de Contenido del Marco de Reporte Integrado
+<IR>.
+
+•
+
+Identificar y caracterizar los 6 capitales del Pensamiento Integrado.
+
+•
+
+Relacionar el modelo de creación de valor del IIRC con la gestión de costos estratégica.
+
+•
+
+Conectar el Marco <IR> con las 4 Palancas de Control de Robert Simons (Harvard).
+
+•
+
+Aplicar el modelo conceptual a la empresa u organización donde trabaja.
+
+2. Contexto: ¿Por qué Pensamiento Integrado en Control de
+Costos?
+
+Durante décadas, la gestión de costos se enfocó exclusivamente en el capital financiero: ¿cuánto
+cuesta producir X unidad?, ¿cuál es el punto de equilibrio?, ¿cómo reduzco gastos?. Este enfoque,
+aunque necesario, es incompleto.
+Las organizaciones modernas enfrentan una realidad más compleja:
+•
+
+Los inversores institucionales, reguladores y clientes exigen transparencia sobre el desempeño
+ambiental, social y de gobernanza (ASG).
+
+•
+
+Los riesgos más costosos hoy no son financieros — son reputacionales, regulatorios, climáticos
+y sociales.
+
+•
+
+El talento, la marca, las relaciones con comunidades y el capital natural son activos que
+generan o destruyen valor, aunque no aparezcan en el estado de costos.
+
+El Pensamiento Integrado responde a esta complejidad: es una forma de gestionar y comunicar el
+valor de la organización considerando todos los capitales que utiliza, no solo el financiero.
+Pregunta Detonadora de la Sesión
+¿Cómo se conectan Riesgos, Costos, Gobernanza, Control, Materialidad, Impactos,
+Grupos de Interés, Cadena de Valor, Transparencia y Accountability...
+para crear VALOR?
+
+3. El International Integrated Reporting Council (IIRC)
+
+3.1 Quién es el IIRC
+El IIRC (International Integrated Reporting Council) es el organismo creador del Marco de Reporte
+Integrado <IR>. En 2021 se fusionó con la SASB Foundation para crear el Value Reporting
+Foundation, que a su vez fue absorbida por la IFRS Foundation en 2022. Esto significa que el Marco
+<IR> es ahora parte de la misma estructura que emite las Normas Internacionales de Información
+Financiera (NIIF/IFRS).
+Visión del IIRC
+"Un mundo donde la colocación de capital y el comportamiento corporativo están alineados con
+las metas amplias de la estabilidad financiera y desarrollo sustentable, a través del ciclo de
+reporte integrado y pensamiento integrado."
+Misión: Establecer el reporting y pensamiento integrado dentro de la práctica de negocios
+principal como la norma en los sectores público y privado.
+
+3.2 Las 7 Directrices del Marco <IR>
+Las directrices son principios que guían CÓMO debe elaborarse un informe integrado:
+Directriz
+
+Aplicación en Gestión de Costos
+
+1. Enfoque estratégico y
+orientación futura
+
+Los costos se gestionan con visión de largo plazo. La inversión en
+sostenibilidad hoy puede reducir costos regulatorios y reputacionales
+mañana.
+
+2. Conectividad de la
+información
+
+Los costos financieros y los costos ASG no son silos separados; se
+impactan mutuamente.
+
+3. Relaciones con
+grupos de interés
+
+Comunidades, empleados, reguladores y proveedores generan y
+absorben costos que deben gestionarse.
+
+4. Materialidad
+
+No todos los costos importan igual. Identificar los que realmente crean o
+erosionan valor es la esencia del control estratégico de costos.
+
+5. Concisión
+
+Los reportes de gestión deben ser precisos y orientados a decisiones, no
+exhaustivos por el solo hecho de serlo.
+
+6. Fiabilidad y
+exhaustividad
+
+La información de costos debe ser verificable, tanto la financiera como la
+ASG.
+
+7. Consistente y
+comparable
+
+Permite benchmarking, control diagnóstico y aprendizaje organizacional
+a través del tiempo.
+
+3.3 Los 8 Elementos de Contenido
+Los elementos de contenido definen QUÉ debe incluir un informe integrado:
+#
+
+Elemento de Contenido
+
+Pregunta central que responde
+
+1
+
+Organización y entorno externo
+
+¿Qué hace la organización y en qué
+contexto opera?
+
+2
+
+Gobierno corporativo
+
+¿Cómo apoya la estructura de gobierno la
+creación de valor?
+
+3
+
+Modelo de negocio
+
+¿Cómo crea, preserva y erosiona valor la
+organización?
+
+4
+
+Riesgos y oportunidades
+
+¿Qué afecta positiva o negativamente la
+capacidad de crear valor?
+
+5
+
+Estrategia y asignación de recursos
+
+¿A dónde quiere ir la organización y cómo
+planea llegar?
+
+6
+
+Desempeño
+
+¿En qué medida logró sus objetivos
+estratégicos el período?
+
+7
+
+Perspectiva
+
+¿Qué desafíos e incertidumbres enfrenta la
+organización?
+
+8
+
+Bases de presentación
+
+¿Cómo determina la organización qué
+incluir en el informe?
+
+4. Los 6 Capitales del Pensamiento Integrado
+
+El Pensamiento Integrado reconoce que las organizaciones crean (o erosionan) valor utilizando y
+afectando 6 tipos de capital. Estos capitales son tanto insumos (lo que la empresa utiliza) como
+resultados (lo que devuelve o deteriora al final del período).
+El Modelo de Creación de Valor: Lectura del Diagrama Central
+ENTORNO EXTERNO: Todo ocurre dentro de un contexto (regulatorio, competitivo, climático,
+social).
+
+INSUMOS (izquierda): Los 6 capitales que la organización utiliza para operar.
+
+MODELO DE NEGOCIO (centro): Gobernanza + Actividades + Estrategia = Transformación de
+insumos.
+
+SALIDAS: Productos, servicios, residuos, impactos directos de las actividades.
+
+RESULTADOS (consecuencias): Efectos positivos y negativos en el corto, mediano y largo
+plazo.
+
+CAPITALES MODIFICADOS (derecha): El stock de cada capital al cierre, aumentado,
+preservado o erosionado.
+
+Dirección de la flecha: CREACIÓN, PRESERVACIÓN O EROSIÓN DE VALOR.
+
+Capital
+
+Definición y ejemplos concretos
+
+Financiero
+
+El conjunto de fondos disponibles para la organización. Incluye: financiamiento
+externo (deuda, capital), fondos generados por operaciones e inversiones. Base
+de los sistemas de costeo financiero.
+
+Físico
+
+Objetos físicos manufacturados disponibles para producción de bienes o
+servicios: edificios, equipos, infraestructura (carreteras, puertos, plantas). Se
+diferencia del capital natural en que es creado por el ser humano.
+
+Intelectual
+
+Intangibles basados en conocimiento: propiedad intelectual (patentes, derechos
+de autor, software), capital organizacional (sistemas, procedimientos,
+protocolos, metodologías). Alto valor en economías de conocimiento.
+
+Humano
+
+Competencias, capacidades y motivación de las personas: alineación con la
+estrategia, capacidad de innovar, valores éticos, lealtad. El costo de la rotación,
+el reclutamiento y la capacitación son parte de su gestión.
+
+Social y
+Relacional
+
+Relaciones con comunidades, grupos de interés, redes: normas compartidas,
+confianza, reputación, licencia social para operar, marca. Los costos
+reputacionales son a menudo los más difíciles de recuperar.
+
+Natural
+
+Recursos y procesos medioambientales: aire, agua, tierra, minerales, bosques,
+biodiversidad. La gestión de costos ambientales (emisiones, agua, residuos) se
+aplica directamente a este capital.
+
+Para reflexionar: El Iceberg de los Costos
+En el estado de costos tradicional solo vemos la punta del iceberg: el Capital Financiero.
+
+Por debajo de la superficie existen costos reales vinculados a los otros 5 capitales:
+— Costo del agua y la energía consumida (Capital Natural)
+— Costo de la rotación de personal y el burnout (Capital Humano)
+— Costo de los pleitos con comunidades y multas regulatorias (Capital Social)
+— Costo del mantenimiento diferido de infraestructura (Capital Físico)
+— Costo de la obsolescencia tecnológica y pérdida de know-how (Capital Intelectual)
+
+El Pensamiento Integrado hace visible todo el iceberg.
+
+5. Resultados Esperados del Pensamiento Integrado
+
+Adoptar el Pensamiento Integrado y el Marco <IR> genera beneficios tangibles y medibles para la
+organización:
+Resultado esperado
+
+Explicación y mecanismo
+
+Mejores condiciones de
+financiamiento
+
+Los inversionistas de largo plazo (fondos de pensiones, ESG funds)
+ofrecen mejores tasas a empresas con gobierno corporativo e
+información integrada robusta. Bonos verdes y financiamiento
+sostenible.
+
+Nuevos productos
+relacionados con
+sostenibilidad
+
+Identificar oportunidades de negocio vinculadas a la transición
+energética, economía circular, servicios sociales. El Pensamiento
+Integrado hace visible el espacio de innovación.
+
+Reducción de riesgos
+operacionales y financieros
+
+La gestión proactiva de los 6 capitales permite identificar pasivos
+contingentes (multas, litigios, escasez de recursos) antes de que se
+materialicen.
+
+Fortalecimiento de marca y
+reputación
+
+La transparencia y accountability incrementan la confianza de
+clientes, empleados y reguladores. Reputación robusta = menor
+costo de capital y mayor retención de talento.
+
+Influencia y liderazgo en el
+sector
+
+Las empresas que lideran en Pensamiento Integrado definen los
+estándares del sector y tienen mayor voz ante reguladores y
+gremios.
+
+Acceso a nuevos mercados
+y clientes
+
+Cadenas de suministro globales, clientes institucionales y
+licitaciones gubernamentales exigen cada vez más desempeño ASG
+verificable.
+
+6. Las 4 Palancas de Control de Robert Simons (Harvard)
+
+Robert Simons, profesor de la Harvard Business School, desarrolló el marco de los 'Levers of Control'
+(Palancas de Control) para explicar cómo los directivos utilizan los sistemas de control para
+implementar y gestionar la estrategia corporativa. Este marco es el hilo conductor metodológico del
+curso y su complemento natural al Marco <IR>.
+¿Por qué estudiar Simons en un curso de Costos?
+Los costos no existen en el vacío. Siempre son consecuencia de decisiones estratégicas.
+Las Palancas de Control nos dicen CÓMO los directivos usan la información de costos
+para gestionar la estrategia — lo que convierte a los costos en herramientas de control,
+no solo en registros contables.
+
+6.1 Los Cuatro Sistemas de Control
+Palanca
+
+Función principal
+
+Pregunta que
+responde
+
+Ejemplos concretos
+
+1. Sistema de
+Creencias (Sesión
+1)
+
+Obtener compromiso
+con el propósito
+general. Comunicar los
+valores centrales.
+
+¿Para qué existimos?
+¿Qué es valioso para
+nosotros?
+
+Declaraciones de misión y
+valores. Códigos de ética.
+Marco de Pensamiento
+Integrado como declaración de
+valores. Compromisos ASG.
+
+2. Sistemas de
+Límites (Sesiones
+2-3)
+
+Definir el territorio de
+acción. Establecer los
+riesgos inaceptables.
+
+¿Qué NO debemos
+hacer? ¿Cuáles son los
+límites?
+
+Código de conducta. Políticas
+de riesgo. Materialidad ASG.
+Estándares GRI, SASB, TCFD.
+Listas de actividades prohibidas.
+
+3. Control
+Diagnóstico
+(Sesiones 4-9)
+
+Monitorear el progreso
+hacia los objetivos.
+Variables críticas de
+funcionamiento.
+
+¿Lo estamos logrando?
+¿Qué métricas seguir?
+
+Presupuestos y variaciones.
+Costeo ABC. Análisis CVU.
+KPIs financieros y ASG.
+Tableros de control de
+desempeño.
+
+4. Control
+Interactivo
+(Sesiones 10-12)
+
+Gestionar las
+incertidumbres
+estratégicas. Adaptarse
+al entorno cambiante.
+
+¿Hacia dónde vamos?
+¿Cómo nos
+adaptamos?
+
+Revisiones estratégicas
+periódicas. Análisis de
+escenarios. Costos relevantes
+para decisiones de largo plazo.
+Inversiones en innovación.
+
+6.2 La Correlación entre Simons y el Marco <IR>: El Mapa del Curso
+La tabla siguiente es el mapa conceptual que unificará todas las sesiones del curso. Cada bloque
+temático de costos corresponde a una palanca de Simons y a uno o más elementos del Marco <IR>.
+Insight Central del Curso
+El Marco <IR> es el QUÉ: lo que la organización gestiona y reporta.
+Las Palancas de Simons son el CÓMO: los mecanismos de control para gestionar
+estratégicamente.
+Un Sistema de Creencias robusto (Simons) define cuáles de los 6 Capitales son estratégicos
+(IR).
+Los Sistemas de Límites (Simons) establecen los riesgos inaceptables en cada capital (IR).
+El Control Diagnóstico (Simons) mide el desempeño en todos los capitales (IR).
+El Control Interactivo (Simons) orienta la estrategia y la asignación de recursos entre capitales
+(IR).
+
+Marco <IR> — Elemento
+
+Palanca de Simons Relacionada
+
+Propósito, Misión y Visión
+
+Sistema de Creencias — Define el compromiso con el
+propósito general.
+
+Gobernanza
+
+Sistema de Creencias + Sistemas de Límites — Estructura y
+valores que guían las decisiones.
+
+Modelo de Negocio
+
+Sistema de Creencias — Cómo la empresa crea valor según
+sus valores fundamentales.
+
+Riesgos y Oportunidades
+
+Sistemas de Límites — Define el territorio de acción y los
+riesgos a evitar.
+
+Materialidad
+
+Sistemas de Límites — Establece qué es relevante y qué no
+para la toma de decisiones.
+
+Desempeño (KPIs)
+
+Control Diagnóstico — Variables críticas de funcionamiento y
+métricas de seguimiento.
+
+Estrategia y Asignación de
+Recursos
+
+Control Interactivo — Adaptación dinámica al entorno
+cambiante.
+
+Perspectiva (futuro)
+
+Control Interactivo — Gestión de incertidumbres estratégicas
+de largo plazo.
+
+6.3 El Sistema de Creencias en la Sesión 1
+Esta primera sesión se enfoca en la palanca más fundamental: el Sistema de Creencias. Antes de
+hablar de costos, presupuestos o métricas, es necesario responder: ¿Qué cree su organización que es
+valioso?
+El Sistema de Creencias responde esto a través de:
+•
+
+La declaración de misión, visión y propósito.
+
+•
+
+Los valores corporativos formalmente articulados.
+
+•
+
+La cultura organizacional real (no el cartel en la pared, sino el comportamiento cotidiano).
+
+•
+
+Las decisiones de asignación de recursos — que reflejan valores reales, no declarados.
+
+Pregunta de Reflexión Aplicada
+¿La declaración de misión de su empresa menciona los 6 capitales, aunque sea implícitamente?
+¿Los valores corporativos se reflejan en cómo se asignan los costos y los presupuestos?
+¿El Pensamiento Integrado es parte del Sistema de Creencias de su organización,
+o es solo cumplimiento regulatorio (Sistema de Límites)?
+
+7. Casos de Referencia: Informes Integrados en la Práctica
+
+Durante la sesión se presentaron cuatro casos reales de empresas que aplican el Marco <IR>. A
+continuación, una síntesis de los puntos clave de cada caso:
+
+7.1 Grupo BMV — Informe Anual Integrado 2025 (México)
+El Grupo Bolsa Mexicana de Valores es uno de los casos mexicanos más relevantes de adopción del
+Marco <IR>. Su informe integra el desempeño operativo y financiero del mercado de capitales
+mexicano con sus capitales no financieros.
+•
+
+Caso de particular relevancia: el profesor participó directamente en su elaboración.
+
+•
+
+El informe incluye mapas y diagramas de creación de valor que siguen el modelo del IIRC.
+
+•
+
+Demuestra que el Marco <IR> aplica a empresas de infraestructura de mercados financieros.
+
+7.2 Citibanamex — Informe Integrado 2023 (México)
+Citibanamex. Su modelo de creación de valor muestra explícitamente los 6 capitales como insumos y
+resultados.
+•
+
+Modelo de negocio integrado: banca personal, empresarial, tesorería, comercio exterior, banca
+digital.
+
+•
+
+Los resultados se expresan en cada capital: empleos generados, capacitación, transacciones
+digitales, huella de carbono.
+
+•
+
+140 años de historia reflejados en un informe que conecta legado institucional con
+sostenibilidad futura.
+
+7.3 ABN AMRO — Integrated Annual Report 2022 (Países Bajos)
+ABN AMRO es uno de los referentes globales en Reporte Integrado. Su modelo cuantifica con
+precisión cada uno de los 6 capitales.
+•
+
+Capital Financiero: EUR 22.4B en equity, EUR 130B en depósitos, EUR 509M en impuestos.
+
+•
+
+Capital Humano: 20,038 empleados, EUR 2.5B en salarios y beneficios.
+
+•
+
+Capital Natural: 31% de reducción de huella de carbono en operaciones propias (Scope 1).
+
+•
+
+Referencia de clase mundial para entender el nivel de detalle posible en un informe integrado.
+
+7.4 Grupo Nutresa — Informe Integrado 2022 (Colombia)
+Nutresa es el referente latinoamericano de pensamiento integrado en el sector de manufactura y
+alimentos.
+•
+
+6 unidades de negocio: Agropecuario, Manufactura, Comercialización, Retail, Logística,
+Alianzas estratégicas.
+
+•
+
+Presencia en 14 países, 46,721 colaboradores, alineación con los ODS de la ONU.
+
+•
+
+Demuestra que el modelo aplica a empresas complejas con múltiples unidades de negocio y
+geografías.
+
+•
+
+Caso especialmente útil para alumnos en sectores de manufactura, bienes de consumo o retail.
+
+8. Glosario de Conceptos Clave
+
+Término
+
+Definición
+
+Marco <IR>
+
+El Marco Internacional de Reporte Integrado publicado por el IIRC (ahora
+IFRS Foundation). Define principios y contenido para que las
+organizaciones reporten cómo crean valor en el tiempo.
+
+Pensamiento
+Integrado
+
+La consideración activa de las relaciones entre las diversas unidades
+operativas y funcionales de una organización y los capitales que usa y
+afecta. Es la práctica interna; el <IR> es la comunicación externa.
+
+6 Capitales
+
+Los 6 tipos de capital que las organizaciones utilizan: Financiero, Físico,
+Intelectual, Humano, Social y Relacional, Natural.
+
+Creación de Valor
+
+Aumento del stock de capitales que la organización preserva o crea en el
+corto, mediano y largo plazo para sus grupos de interés y la sociedad.
+
+Materialidad
+
+Información es material si su omisión o presentación errónea podría
+razonablemente influir en las evaluaciones y decisiones que los
+proveedores de capital financiero toman sobre la organización.
+
+Levers of Control
+
+Marco de Robert Simons que describe 4 sistemas de control que los
+directivos usan para implementar la estrategia: Sistema de Creencias,
+Sistemas de Límites, Control Diagnóstico y Control Interactivo.
+
+Sistema de Creencias
+
+El conjunto explícito de definiciones organizacionales que los gerentes
+senior comunican formalmente y refuerzan sistemáticamente para proveer
+valores básicos, propósito y dirección.
+
+Control Diagnóstico
+
+Sistemas de información formales que los directivos usan para monitorear
+los resultados organizacionales y corregir desviaciones de los estándares
+de desempeño preestablecidos.
+
+Control Interactivo
+
+Sistemas de información formales que los directivos usan para involucrarse
+personalmente en las actividades de decisión de los subordinados.
+Orientado a la gestión de incertidumbres estratégicas.
+
+ASG / ESG
+
+Ambiental, Social y Gobernanza / Environmental, Social and Governance.
+Marco de criterios para evaluar el desempeño no financiero de una
+organización.
+
+Output vs Outcome
+
+Output: el resultado directo de una actividad (ej. 1,000 unidades
+producidas). Outcome: el impacto o consecuencia de ese output en los
+capitales (ej. reducción de emisiones, empleos generados, satisfacción del
+cliente).
+
+9. Conexión con el Examen/Trabajo Final
+
+El trabajo final del curso pide aplicar el Marco de Pensamiento Integrado a su propia empresa. La
+sesión de hoy sienta las bases conceptuales para las 3 partes del trabajo:
+Componente del Trabajo
+Final (Rúbrica)
+
+Base que provee la Sesión 1
+
+Análisis de la Situación Actual
+(descripción del entorno
+operativo y gestión actual de
+costos ASG)
+
+El Modelo de Creación de Valor del IIRC es el mapa para describir
+cómo su empresa gestiona sus 6 capitales hoy. Los 8 Elementos
+de Contenido estructuran este análisis.
+
+Aplicación del Pensamiento
+Integrado (propuestas de
+integración de información
+financiera y no financiera)
+
+Las 7 Directrices del Marco <IR> son el criterio para evaluar qué
+tan integrada está la información actualmente y qué mejorar.
+
+Propuestas de Mejora basadas
+en Levers of Control
+
+Las 4 Palancas de Simons son el marco para diseñar las
+propuestas: ¿es un problema de creencias, de límites, de
+diagnóstico o de adaptación estratégica?
+
+Recomendación para el Trabajo Final
+Comience hoy identificando la empresa que analizará en su trabajo final.
+En esta primera sesión puede ya responder:
+1. ¿Cuáles de los 6 capitales gestiona explícitamente su empresa?
+2. ¿Cuáles ignora o subgestiona?
+3. ¿En qué Palanca de Simons se encuentra la gestión de sostenibilidad de su empresa?
+
+Las respuestas a estas 3 preguntas son el esqueleto del análisis de situación actual.
+
+10. Bibliografía y Recursos
+
+Bibliografía Básica del Curso
+•
+
+El Marco Internacional <IR> Enero 2021. IFRS Foundation. Disponible en:
+integratedreporting.ifrs.org/resource/international-ir-framework/
+
+•
+
+Simons, Robert. Levers of Control: How Managers Use Innovative Control Systems to Drive
+Strategic Renewal. Harvard Business School Press. ISBN: 9780875845593
+
+•
+
+Blocher, Stout, Juras, Smith. Cost Management: A Strategic Emphasis. 9a Edición. McGrawHill. ISBN: 9781265714550
+
+Materiales Disponibles en el Proyecto (Canvas)
+•
+
+IRFramework2022_Español.pdf — Marco <IR> completo en español
+
+•
+
+IFRSIRTransition_to_Integrated_Reporting_240516.pdf — Documento de transición al marco
+
+•
+
+Informe_Anual_Integrado_Grupo_BMV_2025.pdf — Caso mexicano de referencia
+
+Recursos Adicionales de Consulta
+•
+
+IFRS Sustainability Disclosure Standards S1 y S2 — Marco regulatorio internacional
+(ifrs.org/sustainability)
+
+•
+
+GRI Universal Standards 2021 — globalreporting.org
+
+•
+
+SASB Standards — sasb.org
+
+•
+
+Levers of Control – HBS Overview: online.hbs.edu/blog/post/levers-of-control
+
+Control y Gestión de Costos — CON 34122 — ITAM Maestría | Sesión 1 | Material de Referencia para Alumnos
+Elaborado por: Orlando Garciacano C.
+
+

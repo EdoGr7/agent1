@@ -1,0 +1,869 @@
+CONTROL Y GESTIÓN DE COSTOS
+CON 34122 • Maestría • ITAM
+
+MATERIAL DE REFERENCIA
+Sesión 2: Principios de Sostenibilidad y Marcos de Referencia
+Orlando Garciacano C. | Abril–Junio 2026
+
+"No se puede gestionar lo que no se mide,
+y no se puede medir lo que no se define. Los marcos y estándares ESG son la definición."
+
+1. Objetivos de Aprendizaje
+
+Al concluir esta sesión, usted será capaz de:
+•
+
+Explicar la evolución del concepto de sostenibilidad desde Brundtland (1987) hasta los marcos
+ESG actuales.
+
+•
+
+Distinguir entre Marcos de Referencia (cómo reportar) y Estándares (qué reportar).
+
+•
+
+Describir la arquitectura del sistema GRI 2023 y sus tres series de estándares.
+
+•
+
+Aplicar el concepto de Doble Materialidad para identificar qué perspectiva (SASB vs. GRI)
+aplica a cada decisión de gestión.
+
+•
+
+Navegar el SASB Materiality Finder para identificar los factores ASG relevantes para su
+industria.
+
+•
+
+Conectar los marcos y estándares de sostenibilidad con la palanca de Sistemas de Límites de
+Simons.
+
+2. De la Sostenibilidad al ESG: Una Evolución de 37 Años
+
+La sostenibilidad corporativa no nació en un laboratorio estratégico — surgió de una crisis ambiental
+global y evolucionó gradualmente hasta convertirse en un factor determinante de la gestión de riesgos
+y la creación de valor.
+
+2.1 El Punto de Partida: Brundtland 1987
+Definición Fundacional de Sostenibilidad (WCED / Informe Brundtland, 1987)
+"Desarrollo que satisface las necesidades de las generaciones actuales
+sin comprometer la capacidad de las generaciones futuras
+para satisfacer sus propias necesidades."
+
+Tres pilares en equilibrio: Crecimiento Económico • Protección Ambiental • Igualdad Social
+
+En 1987 las Naciones Unidas encargaron a Gro Harlem Brundtland (ex-primera ministra de Noruega)
+un reporte sobre el deterioro del ambiente humano y los recursos naturales. El resultado, 'Our
+Common Future', fue la primera vez que el término sostenibilidad se usó formalmente en el contexto
+del desarrollo global.
+
+2.2 La Línea de Tiempo Clave
+Año
+
+Hito
+
+1987
+
+Informe Brundtland — primera definición formal de Desarrollo Sostenible.
+
+2000
+
+UN Global Compact — Pacto Global de la ONU. 10 principios para empresas. Kofi
+Annan.
+
+2000
+
+Objetivos del Milenio — primer acuerdo global de la ONU con metas cuantificables.
+
+2015
+
+ODS — 17 Objetivos de Desarrollo Sostenible, 169 metas, 232 indicadores. Horizonte
+2030.
+
+2019
+
+WEF Stakeholder Capitalism — el capitalismo incluyente como estándar empresarial.
+Principios de Banca Responsable.
+
+2021
+
+IFRS Foundation absorbe Value Reporting Foundation (SASB + Integrated Reporting).
+Nace el ISSB.
+
+2023
+
+Consolidación del ecosistema ESG en IFRS Sustainability: IR + SASB + CDSB + TCFD.
+
+2024
+
+IFRS S1/S2 en vigor. CSRD europea obligatoria. SEC (USA) aprueba requerimientos
+climáticos.
+
+2.3 El Embudo: Cómo se Convierte en Gestión Empresarial
+La sostenibilidad no llega directamente a la empresa como concepto abstracto — se convierte en
+gestión a través de una cadena:
+Nivel del Embudo
+
+Implicación para la empresa
+
+Desarrollo Sostenible
+
+El marco filosófico y político global. Define el contexto externo en el
+que opera la empresa.
+
+Empresas Socialmente
+Responsables
+
+El compromiso voluntario. La empresa decide alinear sus prácticas con
+principios de responsabilidad social.
+
+ESG (Ambiental, Social,
+Gobernanza)
+
+El lenguaje operativo. Los factores medibles que inversores,
+reguladores y clientes usan para evaluar el desempeño no financiero.
+
+Gestión de Riesgos
+
+La materialización práctica. Los factores ESG relevantes se convierten
+en riesgos que deben identificarse, cuantificarse y gestionarse.
+
+Creación de Valor a Largo
+Plazo
+
+El resultado estratégico. La gestión efectiva de los factores ESG
+genera valor sostenible y reduce el costo de capital.
+
+Pregunta de Reflexión
+¿En cuál nivel del embudo se encuentra hoy la gestión de sostenibilidad de su empresa?
+¿Está en el nivel de 'Empresa Socialmente Responsable' (compromisos declarados) o ya llegó al
+nivel de 'Gestión de Riesgos' (temas materiales identificados, medidos y gestionados
+activamente)?
+
+3. ESG — Ambiental, Social y Gobernanza
+
+ESG significa usar factores, indicadores y métricas ambientales, sociales y de gobernanza para
+evaluar organizaciones en cuanto a su avance en sostenibilidad. Una vez que se obtiene información
+suficiente en estas métricas, puede integrarse en procesos de inversión y gestión.
+
+3.1 Las Tres Dimensiones
+Dimensión
+
+Componentes
+
+Ejemplos de costos relacionados
+
+Ambiental
+(E)
+
+Cambio climático, emisiones de GEI, calidad
+del aire, manejo de energía, agua y aguas
+residuales, desechos y materiales tóxicos,
+biodiversidad.
+
+Costo de carbono, multas ambientales,
+costo de eficiencia energética, pasivos por
+remediación, primas de seguro climático.
+
+Social (S)
+
+Derechos humanos, estándares laborales,
+cadena de suministro, integración con
+comunidad local, licencia social para operar,
+seguridad de datos, bienestar del
+consumidor.
+
+Costo de rotación laboral, litigios laborales,
+costo de gestión de cadena de suministro,
+boicots de consumidores, pérdida de
+licencia social.
+
+Gobernanza
+(G)
+
+Derechos y responsabilidades entre grupos
+de interés, impuestos, anticorrupción, ética
+empresarial, gestión de riesgos sistémicos.
+
+Multas regulatorias, costo de cumplimiento,
+prima de riesgo por gobierno corporativo
+débil, pérdida de contratos
+gubernamentales.
+
+3.2 Shareholders vs. Stakeholders: El Cambio de Paradigma
+El Foro Económico Mundial (WEF) planteó en 2019 que las empresas del siglo XXI no pueden operar
+solo optimizando ganancias a corto plazo para sus accionistas. El Capitalismo Incluyente (Stakeholder
+Capitalism) propone crear valor a largo plazo para todos los grupos de interés.
+Con la tecnología y las comunicaciones del siglo XXI, ya no solo los dueños influyen en las decisiones
+de las empresas — también influyen empleados, clientes, proveedores, comunidades locales y
+reguladores. Por eso la transparencia y revelación del desempeño sostenible se vuelven parte integral
+del negocio.
+El argumento de negocios (Business Case)
+Los principales fondos de inversión globales (BlackRock, Vanguard, State Street) hoy incorporan
+factores ESG en sus decisiones de inversión porque consideran que tienen impacto en el
+desempeño financiero de largo plazo de las organizaciones.
+
+Esto significa que una empresa con gestión ESG deficiente enfrenta:
+• Mayor costo de capital (peor acceso a financiamiento)
+• Mayor volatilidad (más riesgo para inversores)
+• Menor acceso a mercados internacionales y cadenas de suministro globales
+
+4. Marcos de Referencia y Estándares ESG
+
+El ecosistema de divulgación ESG puede parecer complejo al principio. La clave está en entender la
+distinción fundamental entre dos tipos de instrumentos:
+La Distinción Fundamental
+MARCOS DE REFERENCIA: Principios que guían CÓMO estructurar y presentar información
+ESG.
+Responden: ¿Cómo debería diseñarse el reporte?
+Ejemplos: Marco <IR>, TCFD, CDSB
+
+ESTÁNDARES: Lineamientos específicos sobre QUÉ información revelar para cada tópico ESG.
+Responden: ¿Qué métricas e indicadores debo incluir?
+Ejemplos: GRI, SASB, CDP
+
+Analogía: Los marcos son como los planos arquitectónicos (estructura y principios).
+Los estándares son como las especificaciones técnicas de materiales (requisitos concretos).
+
+4.1 La Gran Consolidación: Hacia IFRS Sustainability
+Hasta 2020 el ecosistema ESG estaba fragmentado: GRI, SASB, TCFD, CDSB, IR y CDP operaban de
+manera independiente. A partir de 2021 comenzó una consolidación acelerada:
+Hito
+
+Descripción
+
+Nov 2021: Nace el ISSB
+
+COP26 anuncia la creación del International Sustainability Standards
+Board dentro de la IFRS Foundation. Objetivo: estándares globales de
+sostenibilidad análogos a las NIIF.
+
+Ago 2022: IFRS absorbe
+SASB
+
+La IFRS Foundation asume responsabilidad de los estándares SASB.
+El enfoque sectorial de SASB se integra al sistema IFRS.
+
+Mar 2022: IFRS + GRI
+colaboran
+
+Acuerdo de colaboración para coordinar: IFRS aplica materialidad
+financiera; GRI aplica materialidad de impacto. Son complementarios,
+no rivales.
+
+Ene 2024: IFRS
+Sustainability
+
+Plataforma unificada consolida: Integrated Reporting + SASB
+Standards + CDSB + TCFD = base global para divulgación de
+sostenibilidad enfocada en inversores.
+
+Mensaje clave: el ecosistema ESG se está simplificando hacia una arquitectura regulatoria global
+coherente. En 5-10 años tendrá el mismo nivel de adopción e institucionalización que las NIIF
+financieras.
+
+5. Doble Materialidad — El Concepto Central
+
+La Doble Materialidad es el concepto más importante para entender por qué existen diferentes marcos
+y estándares, y cuál usar en cada contexto de gestión.
+Tipo de Materialidad
+
+Materialidad Financiera
+
+Materialidad de Impacto
+
+Pregunta central
+
+¿Cómo afectan los factores ESG a la
+empresa?
+
+¿Cómo afecta la empresa al mundo?
+
+Perspectiva
+
+Outside-in: el entorno impacta a la
+empresa
+
+Inside-out: la empresa impacta al
+entorno
+
+Audiencia principal
+
+Inversores y proveedores de capital
+financiero
+
+Todos los grupos de interés
+(stakeholders)
+
+Estándares que la
+usan
+
+SASB, TCFD, IFRS S1/S2
+
+GRI
+
+Regulación que la
+exige
+
+SEC (USA), BMV (tendencia),
+mercados financieros
+
+CSRD (Europa) exige ambas — Doble
+Materialidad completa
+
+Ejemplo (Bienes
+Raíces)
+
+Impactos climáticos sobre portafolio de
+propiedades
+
+Manejo de agua y energía, desechos
+en oficinas centrales
+
+¿Por qué importa la Doble Materialidad para la gestión de costos?
+La Materialidad Financiera determina qué costos y riesgos ESG deben gestionarse
+porque impactan directamente el desempeño financiero de la empresa.
+(SASB/IFRS S1-S2: herramienta para inversores y directores financieros)
+
+La Materialidad de Impacto determina qué costos sociales y ambientales genera la empresa
+aunque no aparezcan en el estado de resultados — pero que pueden materializarse
+en el futuro como regulaciones, litigios, pérdida de licencia social o cambios de mercado.
+(GRI: herramienta para gestión de largo plazo y grupos de interés amplios)
+
+Una empresa que solo gestiona materialidad financiera puede ser sorprendida por impactos
+
+que no detectó a tiempo. La Doble Materialidad reduce esa brecha.
+
+6. Global Reporting Initiative (GRI)
+
+GRI es el estándar de divulgación de sostenibilidad más utilizado en el mundo. Su misión es hacer de
+la transparencia sobre impactos una práctica común en todas las organizaciones. Aplica a empresas
+de cualquier tamaño, sector o forma jurídica.
+Misión GRI
+"GRI visualiza un futuro sostenible habilitado por la transparencia y el diálogo abierto sobre
+los impactos. Como proveedor de los estándares de divulgación de sustentabilidad más
+utilizados en el mundo, somos un catalizador de ese cambio."
+
+6.1 La Arquitectura del Sistema GRI 2023 — Sistema Modular
+Componente
+
+Descripción
+
+Aplicación
+
+Estándares Universales
+(GRI 1, 2, 3)
+
+Se aplican a TODAS las organizaciones
+sin excepción.
+
+Todas las organizaciones que
+reportan con GRI aplican los tres.
+
+Estándares Sectoriales
+(GRI 11-18)
+
+Específicos por sector industrial.
+
+Se usan los que correspondan a la
+industria de la organización.
+
+Estándares Temáticos
+(Series 200/300/400)
+
+31 estándares sobre temas económicos,
+ambientales y sociales.
+
+Se seleccionan según los temas
+materiales determinados por la
+organización.
+
+6.2 Los Tres Estándares Universales
+GRI 1: Fundamentos 2021. Presenta el propósito y el sistema de los Estándares GRI. Define los
+requerimientos y principios que la organización debe cumplir para elaborar informes conforme a GRI.
+Reemplaza las opciones 'core' y 'comprehensive' anteriores.
+GRI 2: Contenidos Generales 2021. Incluye contenidos que la organización utiliza para presentar
+información sobre sus prácticas de elaboración de informes y detalles organizativos: actividades,
+gobernanza, políticas, cadena de valor, empleados.
+GRI 3: Temas Materiales 2021. Ofrece guía paso a paso para determinar los temas materiales.
+Incorpora el concepto de debida diligencia. El proceso tiene 4 pasos: Entender contexto → Identificar
+impactos → Evaluar importancia → Priorizar para informes.
+
+6.3 Conceptos Clave del GRI 1
+
+Concepto
+
+Definición operativa
+
+Impacto
+
+Efecto que una organización tiene o podría tener sobre la economía, el
+medio ambiente y las personas. Puede ser real o potencial, positivo o
+negativo, de corto o largo plazo, intencional o no, reversible o
+irreversible.
+
+Temas Materiales
+
+Los temas que representan los impactos más significativos de la
+organización sobre la economía, el medio ambiente y las personas,
+incluidos los derechos humanos.
+
+Debida Diligencia
+
+Proceso mediante el cual una organización identifica, previene, mitiga
+y justifica su forma de gestionar sus impactos significativos. Incluye
+prevención de impactos potenciales y remediación de impactos reales.
+
+Grupos de Interés
+
+Individuos o grupos con intereses que se ven afectados o podrían
+verse afectados por las actividades de la organización: socios
+comerciales, sociedad civil, consumidores, empleados, gobiernos,
+comunidades locales, sindicatos, inversionistas.
+
+6.4 Estándares Temáticos — Series 200, 300 y 400
+Los 31 estándares temáticos cubren los impactos más comunes en tres grandes áreas:
+Serie
+
+Estándares seleccionados
+
+Relevancia directa para costos
+
+Serie 200
+Económicos
+
+GRI 201: Desempeño Económico GRI 205:
+Anticorrupción GRI 207: Fiscalidad
+
+Impactos económicos indirectos, costos de
+cumplimiento, riesgos de soborno y
+corrupción, posición fiscal.
+
+Serie 300
+Ambientales
+
+GRI 302: Energía GRI 303: Agua y efluentes
+GRI 305: Emisiones GRI 306: Residuos
+
+Costos energéticos, costos hídricos,
+emisiones GEI (costo de carbono), costos
+de manejo de residuos, pasivos
+ambientales.
+
+Serie 400
+Sociales
+
+GRI 401: Empleo GRI 403: Salud y
+Seguridad GRI 404: Formación y educación
+
+Costos laborales, rotación, accidentes,
+capacitación, derechos humanos en cadena
+de suministro.
+
+Cómo leer un Estándar Temático GRI — Ejemplo GRI 302 (Energía)
+Cada estándar temático tiene 3 componentes:
+1. REQUERIMIENTOS (obligatorios): La información que DEBE reportarse.
+Ejemplo GRI 302-4: La reducción de consumo energético lograda, en julios,
+por tipo de energía (combustible, electricidad, calefacción, refrigeración).
+
+2. RECOMENDACIONES (no obligatorias): Acciones que se fomentan pero no exigen.
+
+3. DIRECTRICES: Antecedentes, explicaciones, metodologías y ejemplos.
+
+Para gestionar costos: los requerimientos de cada estándar son exactamente los datos que
+debe capturar su sistema de costeo para poder reportar con GRI.
+
+Recurso oficial:
+Descargar los Estándares GRI (globalreporting.org)
+
+7. IFRS Sustainability — La Base Regulatoria Global
+
+La IFRS Foundation, el organismo que emite las Normas Internacionales de Información Financiera
+(NIIF/IFRS), creó en 2021 el ISSB (International Sustainability Standards Board) para hacer lo mismo
+con la información de sostenibilidad.
+Organismo
+
+Rol y productos
+
+IASB (International
+Accounting Standards
+Board)
+
+Emite las NIIF (Normas Internacionales de Información Financiera).
+Producto: Estados Financieros.
+
+ISSB (International
+Sustainability Standards
+Board)
+
+Emite normas de divulgación sobre sostenibilidad. Producto:
+Divulgación sobre Sostenibilidad. Audiencia: Inversores.
+
+IFRS Sustainability
+(plataforma consolidada)
+
+Combina IR + SASB + CDSB + TCFD. Base global para divulgación
+sostenible enfocada en inversores. Complementada por
+requerimientos jurisdiccionales y otros marcos.
+
+7.1 IFRS S1 y IFRS S2 — Las Dos Normas Clave
+IFRS S1 — Requerimientos Generales: Define los requerimientos generales para divulgación de
+información financiera relacionada con sostenibilidad. Es la base conceptual del sistema ISSB.
+Aplicable a partir de enero 2024.
+IFRS S2 — Divulgaciones Relacionadas con el Clima: Requiere divulgaciones específicas sobre
+riesgos y oportunidades relacionados con el clima. Basada en las recomendaciones del TCFD. Incluye:
+gobernanza climática, gestión de riesgos climáticos, métricas y metas, escenarios climáticos.
+Relevancia para empresas mexicanas
+México (BMV): La Bolsa Mexicana de Valores está alineando sus guías de reporte
+hacia IFRS S1/S2. Las emisoras listadas estarán sujetas a estos estándares.
+
+UE (CSRD): La Directiva Europea de Reporte de Sostenibilidad Corporativa es obligatoria
+para empresas que operan en Europa — incluyendo subsidiarias mexicanas de grupos
+europeos,
+o proveedores de cadenas de suministro europeas.
+
+USA (SEC): La SEC aprobó en 2024 requerimientos de divulgación climática para empresas
+listadas.
+
+Horizonte para empresas mexicanas con presencia global: 3-5 años para adopción obligatoria.
+
+Explorar IFRS Sustainability — ISSB (ifrs.org)
+
+8. SASB — Sustainability Accounting Standards Board
+
+SASB (ahora parte de IFRS Foundation) es el estándar que más directamente conecta la
+sostenibilidad con la gestión de costos estratégica. Su enfoque es la materialidad FINANCIERA — los
+factores ASG que tienen impacto en el desempeño financiero de una empresa específica en su
+industria.
+
+8.1 SICS® — Clasificación Industrial por Sostenibilidad
+A diferencia de clasificaciones como NAICS o GICS (basadas en características financieras), el SICS®
+(Sustainable Industry Classification System) agrupa empresas según sus PERFILES DE
+SOSTENIBILIDAD — los riesgos y oportunidades ASG que enfrentan en común.
+11 sectores, 77 industrias. Los riesgos y oportunidades ASG varían significativamente entre industrias
+— por eso los estándares SASB son específicos por sector.
+¿Por qué la clasificación por sostenibilidad importa para la gestión de costos?
+Dos empresas en el mismo sector financiero (ej. NAICS: Banca) pueden tener perfiles de
+riesgo ASG muy diferentes: una banca hipotecaria tiene riesgo climático físico en su cartera;
+una banca de inversión tiene riesgo de ética y comportamiento en sus operaciones.
+
+SICS® refleja esta diferencia, lo que hace que los estándares SASB sean más precisos
+para identificar los costos y riesgos realmente relevantes para cada empresa.
+
+8.2 Los 26 Factores ASG en 5 Dimensiones
+Dimensión SASB
+
+Factores ASG incluidos
+
+Capital Ambiental
+
+1. Emisiones de efecto invernadero 2. Calidad del aire 3. Manejo de
+energía 4. Manejo de agua y aguas residuales 5. Desechos y materiales
+tóxicos 6. Biodiversidad e impactos ecológicos
+
+Capital Social
+
+1. Derechos humanos y relaciones con comunidades 2. Privacidad del
+consumidor 3. Seguridad de datos 4. Acceso y asequibilidad 5. Calidad y
+seguridad de los productos 6. Bienestar del consumidor 7. Prácticas de
+venta y etiquetado
+
+Capital Humano
+
+1. Prácticas laborales 2. Salud y seguridad en fuerza laboral 3. Diversidad
+e inclusión
+
+Modelo de Negocio e
+Innovación
+
+1. Diseño y ciclo de vida 2. Resiliencia del modelo de negocio 3. Gestión
+de cadena de suministro 4. Abastecimiento de materias primas 5.
+Impactos físicos del cambio climático
+
+Liderazgo y
+Gobernanza
+
+1. Ética empresarial 2. Comportamiento competitivo 3. Gestión del
+entorno legal y regulatorio 4. Gestión de riesgos de incidentes críticos 5.
+Gestión de riesgos sistémicos
+
+8.3 Cómo Usar el SASB Materiality Finder
+El SASB Materiality Finder (materiality.ifrs.org) es una herramienta digital gratuita que permite:
+1. Seleccionar la industria SASB que corresponde a su empresa (según clasificación SICS®).
+2. Ver cuáles de los 26 factores ASG son materiales para esa industria (financieramente
+relevantes).
+3. Ver los Temas de Divulgación (Disclosure Topics) específicos para su sector.
+4. Comparar el perfil de materialidad de diferentes industrias.
+5. Descargar los estándares SASB específicos para su industria.
+SASB / IFRS Materiality Finder (materiality.ifrs.org)
+
+8.4 Los Tres Niveles de Divulgación SASB
+Para cada tema de divulgación, SASB distingue tres niveles de calidad informativa creciente:
+Nivel
+
+Descripción y valor informativo
+
+1. Machote (Boilerplate)
+
+Narrativa genérica sobre el riesgo. Cualquier empresa del sector
+podría copiarla. Bajo valor informativo para inversores. Ejemplo: 'Las
+regulaciones climáticas pueden afectar nuestras operaciones.'
+
+2. Narrativa Adaptada
+
+Historia específica de la empresa: sus metas concretas, logros
+particulares, iniciativas propias. Valor informativo medio-alto. Ejemplo:
+'Nuestro objetivo es reducir el consumo energético un 2% para 2026
+respecto a 2024.'
+
+3. Métricas (cuantitativas)
+
+Datos verificables y comparables. Máximo valor informativo. Permiten
+benchmarking entre empresas del mismo sector. Ejemplo: '411,079 TM
+CO2e en 2022; reducción del 15% en intensidad desde 2015.'
+
+Conexión Directa con la Gestión de Costos
+Las métricas SASB (Nivel 3) son exactamente los KPIs que debe medir el
+Sistema de Control Diagnóstico de Simons para los factores ASG materiales.
+
+Para reportar una métrica SASB, la empresa necesita:
+• Un sistema de medición que capture el dato (ej. contador de energía por planta)
+• Un proceso de costeo que asocie el gasto al indicador (ej. costo por kWh por línea de
+producto)
+• Un control interno que asegure la fiabilidad del dato (auditable)
+
+Esto convierte a SASB en una hoja de ruta para diseñar sistemas de costeo ASG.
+
+9. Conexión con los Levers of Control de Simons
+
+La sesión 2 corresponde a la segunda palanca: los Sistemas de Límites. Los marcos y estándares
+ESG son los instrumentos a través de los cuales la organización define y comunica su territorio de
+acción sostenible.
+Sistemas de Límites (Simons) y los Marcos ESG
+Los Sistemas de Límites responden: ¿QUÉ NO DEBE HACER la organización?
+• ¿Cuáles son los comportamientos inaceptables?
+• ¿Cuáles son los riesgos que debemos evitar a toda costa?
+• ¿Cuáles son los mínimos de desempeño que nos comprometemos a cumplir?
+
+Los marcos y estándares ESG responden estas preguntas a nivel societal e institucional:
+• GRI define qué impactos la organización DEBE gestionar (temas materiales de impacto)
+• SASB define qué riesgos financieros ASG la organización NO PUEDE ignorar
+• TCFD / IFRS S2 define los límites regulatorios en materia climática
+• El Pacto Global define los límites éticos mínimos (10 principios)
+
+Adoptar estos marcos no es simplemente cumplimiento: es diseñar los Sistemas de Límites
+de la organización para operar con licencia social y acceso a capital de largo plazo.
+
+Marco / Estándar
+
+Palanca Simons que activa
+
+Pacto Global (10
+principios)
+
+Sistema de Límites: comportamientos éticos mínimos inaceptables.
+
+ODS (17 objetivos)
+
+Sistema de Creencias + Sistemas de Límites: propósito aspiracional +
+metas de impacto.
+
+GRI (temas materiales de
+impacto)
+
+Sistemas de Límites: define los impactos que la organización no puede
+ignorar.
+
+SASB (materialidad
+financiera)
+
+Sistemas de Límites + Control Diagnóstico: riesgos ASG a gestionar +
+KPIs a monitorear.
+
+TCFD / IFRS S2
+
+Sistemas de Límites: riesgos climáticos regulatoriamente inaceptables
+de ignorar.
+
+IFRS S1
+
+Control Diagnóstico: base para reportar el desempeño general de
+sostenibilidad.
+
+Pregunta de Reflexión para el Trabajo Final
+¿Cuáles son los Sistemas de Límites formales de sostenibilidad de su empresa?
+(Ej: códigos de conducta, políticas ambientales, compromisos de derechos humanos)
+
+¿Estos límites están informados por estándares reconocidos (GRI, SASB, TCFD)?
+¿O son ad-hoc, sin referencia a marcos internacionales?
+
+¿Existe alineación entre los compromisos declarados (Sistema de Creencias, Sesión 1)
+y los límites operativos reales (Sistemas de Límites, Sesión 2)?
+La brecha entre ambos es una fuente de riesgo reputacional.
+
+10. Glosario de Conceptos Clave — Sesión 2
+
+Término
+
+Definición
+
+Desarrollo Sostenible
+
+Desarrollo que satisface las necesidades de las generaciones actuales
+sin comprometer la capacidad de las generaciones futuras
+(Brundtland, 1987). Tres pilares: económico, ambiental y social.
+
+ESG
+
+Environmental, Social and Governance (Ambiental, Social y
+Gobernanza). Marco de factores no financieros para evaluar el
+desempeño sostenible de organizaciones.
+
+Pacto Global
+
+Iniciativa de la ONU (2000) con 10 principios para empresas en:
+Derechos Humanos, Estándares Laborales, Medio Ambiente y
+Anticorrupción. 24,600+ participantes en 167 países (2024).
+
+ODS
+
+Objetivos de Desarrollo Sostenible. 17 objetivos globales acordados
+por la ONU en 2015, con horizonte al 2030. 169 metas y 232
+indicadores.
+
+Marco de Referencia
+
+Instrumento que guía CÓMO estructurar y presentar información ESG.
+Ejemplos: Marco <IR>, TCFD.
+
+Estándar
+
+Instrumento que especifica QUÉ información revelar para cada tópico
+ESG. Ejemplos: GRI, SASB.
+
+Doble Materialidad
+
+Concepto que combina materialidad financiera (cómo el entorno
+impacta a la empresa) con materialidad de impacto (cómo la empresa
+impacta al entorno). Exigida por la CSRD europea.
+
+Materialidad Financiera
+
+Información sobre temas ESG que puede tener impacto en el
+desempeño financiero de la empresa. Perspectiva de inversores. Base
+de SASB e IFRS S1/S2.
+
+Materialidad de Impacto
+
+Información sobre cómo la empresa impacta al medioambiente y la
+sociedad. Perspectiva de todos los grupos de interés. Base de GRI.
+
+SICS®
+
+Sustainable Industry Classification System. Sistema de SASB que
+clasifica empresas según perfiles de sostenibilidad, no por
+características financieras. 11 sectores, 77 industrias.
+
+Debida Diligencia (GRI)
+
+Proceso para identificar, prevenir, mitigar y justificar la gestión de
+impactos significativos sobre la economía, el medio ambiente y las
+personas.
+
+ISSB
+
+International Sustainability Standards Board. Organismo de la IFRS
+Foundation que emite normas de divulgación sobre sostenibilidad
+(IFRS S1, IFRS S2).
+
+Stakeholder Capitalism
+
+Capitalismo Incluyente. Modelo empresarial propuesto por el WEF que
+busca crear valor a largo plazo para todos los grupos de interés, no
+solo para los accionistas.
+
+11. Conexión con el Examen / Trabajo Final
+
+La sesión 2 provee herramientas específicas para dos componentes del trabajo final:
+Componente del Trabajo
+Final
+
+Cómo aplica la Sesión 2
+
+Análisis de la Situación
+Actual (entorno operativo
+y gestión actual de costos
+ASG)
+
+Use el SASB Materiality Finder para identificar cuáles factores ASG
+son materiales para la industria de su empresa. Determine si su
+empresa los mide y gestiona actualmente.
+
+Aplicación del
+Pensamiento Integrado
+(propuestas de
+integración financiera y no
+financiera)
+
+Los estándares GRI temáticos (series 200/300/400) definen qué
+información integrar. Los 26 factores SASB determinan qué temas
+tienen impacto financiero real.
+
+Propuestas de Mejora
+basadas en Levers of
+Control
+
+Los marcos y estándares ESG son la base para proponer Sistemas de
+Límites formales en su empresa. ¿Qué marco adoptaría y por qué?
+
+Tarea preparatoria para sesiones 3-9
+ANTES de la próxima sesión, explore el SASB Materiality Finder para su empresa:
+1. Identifique la industria SICS® que corresponde a su empresa.
+2. Descargue el estándar SASB de su industria.
+3. Identifique los 3 temas más materiales financieramente para su empresa.
+4. ¿Su empresa mide y reporta alguno de estos temas actualmente?
+
+Esta exploración será el punto de partida para el análisis de costos ASG del trabajo final.
+
+12. Recursos y Bibliografía
+
+Recursos Digitales
+GRI Standards — Centro de Descarga (globalreporting.org)
+SASB / IFRS Materiality Finder (materiality.ifrs.org)
+IFRS Sustainability — ISSB Standards (ifrs.org)
+
+UN Global Compact (unglobalcompact.org)
+ODS / SDGs — Naciones Unidas (sdgs.un.org)
+
+Bibliografía Básica del Curso
+•
+
+El Marco Internacional <IR> Enero 2021. IFRS Foundation. integratedreporting.ifrs.org
+
+•
+
+GRI 1: Foundation 2021; GRI 2: General Disclosures 2021; GRI 3: Material Topics 2021.
+globalreporting.org
+
+•
+
+IFRS S1 General Requirements / IFRS S2 Climate-related Disclosures. 2023. ifrs.org
+
+•
+
+Simons, Robert. Levers of Control: How Managers Use Innovative Control Systems to Drive
+Strategic Renewal. Harvard Business School Press.
+
+•
+
+WEF: Embracing the New Age of Materiality: Harnessing the Pace of Change in ESG. World
+Economic Forum.
+
+•
+
+Brundtland, G.H. Our Common Future (The Brundtland Report). WCED, 1987.
+
+Control y Gestión de Costos — CON 34122 — ITAM Maestría | Sesión 2 | Material de Referencia para Alumnos
+
+

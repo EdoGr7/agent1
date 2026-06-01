@@ -1,0 +1,693 @@
+CONTROL Y GESTIÓN DE COSTOS
+CON 34122 • Maestría • ITAM
+
+MATERIAL DE REFERENCIA
+Sesión 3: Estrategia, Control y Sostenibilidad
+Los Levers of Control de Simons como puente entre Pensamiento Integrado y Costos
+Orlando Garciacano C. | Abril–Junio 2026
+
+"Todo lo que no se mide no se gestiona. Pero todo lo que se mide mal
+se gestiona peor que si no se midiera nada." — Adaptado de Simons, 1995
+
+1. Objetivos de Aprendizaje
+
+Al concluir esta sesión usted será capaz de:
+•
+
+Explicar el dilema central de Simons (control vs. libertad) y por qué no es posible resolver la
+tensión eligiendo un extremo.
+
+•
+
+Describir las 4 palancas de control con sus funciones, herramientas, carácter (positivo/negativo)
+y tensiones que gestionan.
+
+•
+
+Distinguir Control Diagnóstico de Control Interactivo — el matiz más importante del marco de
+Simons.
+
+•
+
+Identificar las 4 palancas en los informes integrados de Grupo BMV 2025 y Standard Bank
+Group 2025.
+
+•
+
+Conectar las palancas con el Marco <IR> y con las herramientas de costos que estudiarán en
+las sesiones 4-9.
+
+•
+
+Diagnosticar cuál palanca es la más débil en su propia organización.
+
+2. El Dilema Central de Simons
+
+Robert Simons, profesor de la Harvard Business School, publicó 'Levers of Control' en 1995 partiendo
+de una observación simple pero profunda: los directivos enfrentan una paradoja irreducible.
+El Dilema de Simons
+Las organizaciones necesitan CONTROL para garantizar eficiencia, orden y cumplimiento.
+Pero también necesitan LIBERTAD para que los empleados innoven, tomen iniciativa
+y respondan a oportunidades que ningún plan anticipó.
+
+Demasiado control → burocracia, parálisis, fuga de talento, incapacidad de adaptarse.
+Demasiada libertad → caos, despilfarro, comportamientos dañinos, pérdida de estrategia.
+
+La solución de Simons: no elegir entre control y libertad.
+En cambio, usar CUATRO sistemas simultáneamente que crean una tensión dinámica y
+productiva.
+
+Esta tensión es especialmente relevante en el contexto de la sostenibilidad corporativa: ¿cómo dar
+libertad a los equipos para innovar en sostenibilidad sin perder el control sobre los riesgos ASG que
+pueden comprometer la estrategia? Las 4 palancas responden exactamente esta pregunta.
+
+3. Las 4 Palancas de Control — Descripción Completa
+
+3.1 Palanca 1 — Sistema de Creencias
+Elemento
+
+Descripción
+
+Función
+
+Comunicar y reforzar valores fundamentales, misión, propósito.
+Inspirar compromiso con el propósito organizacional.
+
+Tensión que gestiona
+
+Oportunidades ilimitadas vs. atención limitada. ¿Hacia dónde canalizar
+energía y recursos?
+
+Herramientas típicas
+
+Declaración de misión y visión. Valores corporativos. Credos.
+Propósito organizacional. Compromisos de sostenibilidad.
+
+Carácter
+
+POSITIVO — amplifica energía, orienta hacia oportunidades, inspira
+iniciativa.
+
+Pregunta que responde
+
+¿Para qué existe esta organización? ¿Qué es valioso para nosotros?
+
+Conexión con <IR>
+
+Propósito, Misión, Visión. Los 6 Capitales como expresión de lo que la
+organización valora.
+
+Conexión con costos
+
+Define QUÉ capitales son estratégicos → determina la asignación de
+presupuesto.
+
+Lo que el Sistema de Creencias NO es
+No es colgar la misión en la pared.
+No es un ejercicio de imagen corporativa.
+No es un documento que se revisa cada 5 años.
+
+SÍ es un sistema ACTIVO que los líderes senior comunican y refuerzan personalmente y
+constantemente.
+SÍ es la base sobre la cual los empleados toman decisiones cuando enfrentan situaciones
+ambiguas.
+
+Prueba diagnóstica: ¿Sus colegas pueden citar los valores de la empresa sin mirar el cartel?
+¿Toman decisiones basadas en esos valores sin esperar instrucciones explícitas?
+
+Si la respuesta es no, el Sistema de Creencias es decorativo.
+
+3.2 Palanca 2 — Sistemas de Límites
+Elemento
+
+Descripción
+
+Función
+
+Establecer el territorio prohibido. Definir qué comportamientos y
+riesgos son inaceptables. Proteger activos y reputación.
+
+Tensión que gestiona
+
+Libertad de acción vs. riesgo de comportamiento dañino, fraudulento o
+fuera de estrategia.
+
+Herramientas típicas
+
+Códigos de conducta. Políticas de riesgo. Límites de autorización de
+gasto. Marcos regulatorios adoptados (GRI, SASB, TCFD, Pacto
+Global).
+
+Carácter
+
+NEGATIVO — restringe comportamientos, define lo que NO se puede
+hacer.
+
+Pregunta que responde
+
+¿Qué está absolutamente prohibido? ¿Cuáles son los riesgos
+inaceptables?
+
+Conexión con <IR>
+
+Riesgos y Oportunidades. Materialidad. Relaciones con grupos de
+interés.
+
+Conexión con costos
+
+Define costos de cumplimiento obligatorios y costos contingentes que
+deben provisionarse.
+
+Insight clave: Los marcos ASG son Sistemas de Límites institucionalizados
+Cuando una empresa adopta GRI, SASB o TCFD, está tomando una decisión de diseño
+de sus Sistemas de Límites en materia de sostenibilidad.
+
+Antes de adoptar GRI: podía ignorar el impacto de su consumo de agua, sus emisiones,
+su rotación de personal, sus prácticas de cadena de suministro.
+Después de adoptar GRI: esos temas son MATERIALES — deben medirse, gestionarse y
+reportarse.
+
+El costo de ese compromiso es real: sistemas de medición, auditores de sostenibilidad,
+cambios operativos. Pero el costo de NO adoptarlo (reputación, regulación, acceso a capital)
+es típicamente mayor.
+
+Por eso el Pacto Global, con sus 10 principios, es el Sistema de Límites ético fundamental
+
+de cualquier empresa que opera en economía global.
+
+3.3 Palanca 3 — Sistemas de Control Diagnóstico
+Elemento
+
+Descripción
+
+Función
+
+Monitorear el progreso hacia objetivos estratégicos. Corregir
+desviaciones. Asegurar que los recursos se usan eficientemente.
+
+Tensión que gestiona
+
+Múltiples demandas sobre la atención gerencial vs. pocas variables
+que realmente determinan el éxito.
+
+Herramientas típicas
+
+Presupuestos y variaciones. KPIs. Tableros de desempeño. Costeo
+ABC. Análisis CVU. Auditorías. KPIs GRI/SASB.
+
+Carácter
+
+NEGATIVO — corrige desviaciones, mantiene la organización en el
+camino planeado.
+
+Pregunta que responde
+
+¿Lo estamos logrando? ¿Estamos en el camino correcto? ¿Dónde hay
+desviación?
+
+Conexión con <IR>
+
+Desempeño. Variables Críticas de Funcionamiento. Métricas
+financieras y no financieras.
+
+Conexión con costos
+
+CVU, presupuestos, costeo ABC, variaciones — TODAS son
+herramientas de Control Diagnóstico.
+
+El concepto clave: Variables Críticas de Funcionamiento (VCF)
+Simons dice: NO intente medir todo. Identifique las 3-5 variables que,
+si fallan, ponen en riesgo el éxito de la estrategia. Esas son sus VCF.
+
+Ejemplos por tipo de organización:
+Bolsa de Valores: Volumen operado, uptime de sistemas, número de emisoras, capitalización
+Banco pan-africano: Calidad de cartera (credit loss ratio), CET1, ROE, clientes activos
+Manufactura: Costo por unidad, tiempo de ciclo, defectos por millón
+Empresa de servicios: Retención de clientes, NPS, costo de servicio por cliente
+
+Punto crítico: las métricas GRI/SASB son VCF del capital ASG de la empresa.
+Si una empresa reporta GRI 305-1 (emisiones GEI), esa métrica debería estar en el tablero
+de control de la dirección al mismo nivel que el EBITDA o el margen operativo.
+Si no está, el Sistema de Creencias y los Sistemas de Límites no tienen medición.
+
+Control Diagnóstico vs. Control Interactivo — La distinción más importante del libro
+CONTROL DIAGNÓSTICO: el líder revisa solo por excepción.
+'Si la morosidad supera 3%, me avisan. Si no, el sistema funciona solo.'
+El líder no necesita intervenir regularmente.
+
+CONTROL INTERACTIVO: el líder se involucra personalmente y regularmente,
+aunque todo esté bien, porque es el termómetro de sus incertidumbres estratégicas.
+'El CEO de SBG revisa personalmente las tendencias de clientes en cada región cada mes'
+No porque haya crisis, sino porque es lo que le indica si su apuesta estratégica está
+funcionando.
+
+La confusión entre ambos es la causa más común de que las revisiones estratégicas
+se conviertan en reuniones de seguimiento operativo — y viceversa.
+
+3.4 Palanca 4 — Sistemas de Control Interactivo
+Elemento
+
+Descripción
+
+Función
+
+Gestionar incertidumbres estratégicas. Estimular el aprendizaje
+organizacional. Adaptar la estrategia al entorno cambiante.
+
+Tensión que gestiona
+
+Certeza del pasado vs. incertidumbre del futuro. Eficiencia operativa
+vs. innovación estratégica.
+
+Herramientas típicas
+
+Reuniones de revisión estratégica donde el CEO pregunta
+activamente. Planificación de escenarios. Procesos de materialidad.
+Análisis de tendencias emergentes.
+
+Carácter
+
+POSITIVO — amplifica aprendizaje, genera debate, orienta hacia el
+futuro.
+
+Pregunta que responde
+
+¿Hacia dónde vamos? ¿Qué está cambiando en el entorno? ¿Cómo
+adaptamos la estrategia?
+
+Conexión con <IR>
+
+Estrategia y Asignación de Recursos. Perspectiva. Incertidumbres
+emergentes.
+
+Conexión con costos
+
+Costos relevantes para decisiones estratégicas de largo plazo. Análisis
+de trade-offs entre capitales.
+
+4. La Tensión Creativa — Cómo Funcionan las 4 Palancas Juntas
+
+El insight más profundo de Simons es que las 4 palancas no son alternativas ni opcionales. Son
+obligatorias y complementarias. La salud estratégica de una organización depende de la calidad de la
+tensión entre ellas.
+PALANCAS POSITIVAS
+
+PALANCAS NEGATIVAS
+
+Sistema de Creencias
+Amplifica energía hacia oportunidades y
+propósito. Inspira sin prescribir.
+Control Interactivo
+Amplifica aprendizaje y adaptación. Gestiona lo
+incierto y emergente.
+
+Sistemas de Límites
+Restringe el territorio. Define riesgos
+inaceptables. Protege activos y reputación.
+Control Diagnóstico
+Corrige desviaciones. Mantiene el rumbo. Hace
+eficiente el camino planeado.
+
+Expanden el espacio de posibilidades
+
+Contraen el espacio de comportamientos
+
+El Equilibrio Dinámico que busca Simons
+Si sólo usa palancas POSITIVAS (creencias + interactivo): energía sin dirección, innovación sin
+control,
+riesgo de comportamientos irresponsables y despilfarro.
+
+Si sólo usa palancas NEGATIVAS (límites + diagnóstico): cumplimiento sin innovación,
+eficiencia sin renovación, organización que optimiza el presente pero no construye el futuro.
+
+El arte directivo está en calibrar la tensión según el contexto:
+• Empresa en crisis → más palancas negativas (control para estabilizar)
+• Empresa en expansión → más palancas positivas (energía para crecer)
+• Empresa en transformación → máxima tensión entre todas (innovar y controlar
+simultáneamente)
+
+5. Las 4 Palancas en Dos Informes Integrados Reales
+
+Los informes integrados son la mejor radiografía pública de las 4 palancas de una organización. A
+continuación se mapean las evidencias más claras en los dos informes estudiados en clase.
+
+5.1 Grupo BMV 2025 — 'Evolución con Propósito'
+Contexto del Grupo BMV 2025
+Infraestructura crítica del mercado de capitales mexicano. 9 líneas de negocio.
+EBITDA: $2,512 MDP (margen 56%) | Capitalización de mercado de emisoras: $10.09 billones
+Mercado de Capitales: 8 de cada 10 pesos operados en BMV
+Marcos aplicados: <IR>, GRI, SASB (sector Bolsas), IFRS S1/S2, ODS, Pacto Global
+
+Palanca Simons
+
+Evidencia en el Informe BMV 2025
+
+Sistema de Creencias
+
+Propósito: ser la infraestructura crítica del mercado de capitales
+mexicano que impulsa el desarrollo económico. Título del informe:
+'Evolución con Propósito'. MéxiCO2 (plataforma de carbono) como
+extensión del propósito hacia la economía verde. Compromisos con
+ODS y Pacto Global integrados en la narrativa, no como anexo.
+
+Sistemas de Límites
+
+Sistema de Gestión de Riesgos basado en COSO-ERM y Principios
+PFMI. 7 categorías de riesgo prioritario: estratégico, operativo,
+tecnológico, ciberseguridad, continuidad, regulatorio, reputacional.
+Riesgos emergentes: disrupción tecnológica y cambios ambientales.
+Adopción de GRI, SASB (FN-EX) e IFRS S1/S2 como compromisos de
+revelación ASG.
+
+Control Diagnóstico
+
+KPIs financieros: EBITDA $2,512M (56%), dividendo $2.05/acción,
+ingresos por línea de negocio. KPIs operativos: volumen operado
+(+10%), uptime sistemas, 354 emisoras listadas. KPIs ASG: GRI 3021, 305-1, 403-2, 404-1, 413-1, SASB FN-EX-410a.4. KPIs talento:
+clima organizacional 79%, compromiso 89%.
+
+Control Interactivo
+
+Proceso anual de materialidad (aprobado por el Consejo). Riesgos
+emergentes como incertidumbres estratégicas. Inversión de $259 MDP
+en Evolución Digital (apuesta estratégica deliberada). Decisión
+deliberada de aceptar utilidad neta −2% para invertir en capacidades
+futuras. MéxiCO2 como respuesta estratégica a tendencia climática
+global.
+
+5.2 Standard Bank Group 2025 — 'Africa is our home, we drive her growth'
+Contexto del SBG 2025
+
+Banco más grande de África: activos USD 175B, Tier 1 capital USD 13B (13% del Top 100)
+ROE: 19.3% | HEPS: +12% | Clientes: 19.6 millones en 21 países | Empleados: 54,244
+Sustainable Finance Movilizado: R100B en 2025 / R277B acumulado desde 2022
+Costo-Ingreso: 50.2% | Share price: R290.40 (CAGR 18% desde 2020)
+
+Palanca Simons
+
+Evidencia en el Informe SBG 2025
+
+Sistema de Creencias
+
+Propósito operativo y permanente: 'Africa is our home, we drive her
+growth' — aparece en cada sección del informe, no solo en portada.
+Valores no negociables: Deeply Committed, Boldly Pioneering, Trusted
+Stewards, Guided by Empathy, Unfailingly Honourable. 4 áreas de
+impacto como expresión del propósito: inclusión financiera, empleo,
+clima, infraestructura. El propósito determina en qué países opera y
+qué clientes sirve.
+
+Sistemas de Límites
+
+6 Temas Materiales como límites operativos: M1
+Conducta/Regulación/Ética, M2 Personas/Cultura, M3 Confianza
+Digital, M4 Cambio Climático, M5 Salud Financiera/Inclusión, M6
+Fraude/Crimen Financiero. 2025 Climate Policy: define límites de
+financiamiento por tipo de cliente/sector. ESMS: evalúa cada crédito
+importante contra criterios ASG antes de aprobarlo. Remoción de lista
+gris FATF: resultado de fortalecer los Sistemas de Límites de
+AML/CFT.
+
+Control Diagnóstico
+
+6 Value Drivers con métricas específicas: Client focus (NPS PPB SA:
+77), Employee engagement, Risk & Conduct (CET1: 13.8%, LCR:
+141.6%), Operational excellence, Financial outcome (ROE: 19.3%,
+HEPS: +12%), Positive impact (R100B sustainable finance). Meta de
+costo-ingreso <50% para 2028. Todos integrados en tablero único del
+CEO y Consejo.
+
+Control Interactivo
+
+4 Megatendencias africanas monitoreadas como incertidumbres
+estratégicas. Análisis anual de doble materialidad aprobado por el
+Consejo. Visitas presidenciales a subsidiarias en cada país. Apertura
+de oficina en Egipto en 2025: decisión emergente de Control
+Interactivo. Revisión de targets 2028 con nuevos escenarios
+geopolíticos y tecnológicos.
+
+6. Mapa Integral del Curso: Levers ↔ Marco <IR> ↔ Costos
+
+Esta tabla sintetiza el hilo conductor de las 12 sesiones del curso. Cada sesión es la profundización de
+un elemento de este mapa. Guárdela como referencia permanente.
+Palanca Simons
+
+Elemento Marco <IR>
+
+Herramientas de Costos
+(Sesiones 4-12)
+
+En los Informes de
+Clase
+
+Sistema de
+Creencias (Ses. 1 +
+3)
+
+Propósito, Misión, Visión
+Gobernanza Modelo de
+negocio
+
+Marco <IR> y Pensamiento
+Integrado. Presupuesto
+estratégico como expresión de
+prioridades. Asignación de
+recursos entre los 6 capitales.
+
+BMV: 'Evolución con
+Propósito' / MéxiCO2
+SBG: 'Africa is our
+home' Define QUÉ es
+estratégicamente
+valioso.
+
+Sistemas de
+Límites (Ses. 2 + 3)
+
+Riesgos y Oportunidades
+Materialidad Grupos de
+Interés
+
+GRI / SASB / TCFD como
+límites ASG. Costeo de
+riesgos y contingencias (Ses.
+7). Presupuesto de
+cumplimiento regulatorio.
+
+BMV: COSO-ERM, 7
+categorías de riesgo
+SBG: ESMS, Climate
+Policy, 6 temas
+materiales Define qué
+riesgos son
+inaceptables.
+
+Control
+Diagnóstico (Ses.
+4-9)
+
+Desempeño Variables
+Críticas KPIs financieros
+y ASG
+
+Conceptos básicos de costos
+(Ses. 4). Sistemas de
+acumulación (Ses. 5). Análisis
+CVU y punto de equilibrio
+(Ses. 6). Costos relevantes
+para decisiones (Ses. 7).
+Costeo ABC (Ses. 9).
+Presupuestos y variaciones
+(Ses. 9).
+
+BMV: EBITDA 56%,
+métricas GRI/SASB
+SBG: ROE 19.3%,
+NPS, CET1 Hace el
+trabajo — monitorea
+las VCF.
+
+Control Interactivo
+(Ses. 10-12)
+
+Estrategia y Asignación
+de Recursos Perspectiva
+
+Normas IFRS S1/S2 (Ses. 10).
+Integración financierosostenibilidad (Ses. 11).
+Proyecto final con las 4
+palancas (Ses. 12).
+
+BMV: $259M en
+Evolución Digital,
+materialidad SBG:
+Megatendencias
+africanas, revisión
+2028 Adapta la
+estrategia a la
+incertidumbre.
+
+7. Diagnóstico Personal: Las 4 Palancas en Mi Empresa
+
+El siguiente ejercicio es la base del trabajo final. Complete cada celda honestamente con lo que usted
+observa en su organización — no lo que debería ser, sino lo que es.
+
+Palanca
+
+¿Cómo se manifiesta HOY en mi empresa?
+
+Sistema de
+Creencias
+
+¿El propósito guía decisiones reales o es decorativo?
+¿Los empleados lo conocen y lo usan?
+
+Sistemas de
+Límites
+
+¿Cuáles son los riesgos ASG explícitamente
+gestionados? ¿Qué marcos han adoptado?
+
+Control
+Diagnóstico
+
+¿Qué 3-5 métricas (incluyendo ASG) monitorea la
+dirección como variables críticas?
+
+Control
+Interactivo
+
+¿Cuándo debaten los directivos sobre incertidumbres
+estratégicas? ¿Cuál es el proceso de materialidad?
+
+¿Qué le falta / qué
+debería mejorar?
+
+La brecha que encuentre en este diagnóstico = el núcleo de su Propuesta de Mejora
+del Trabajo Final
+Si la palanca más débil es el Sistema de Creencias: su propuesta debe incluir cómo fortalecer
+el propósito para que guíe decisiones reales de costos y recursos.
+
+Si la palanca más débil son los Sistemas de Límites: su propuesta debe incluir qué marcos ASG
+adoptar y qué riesgos gestionar explícitamente.
+
+Si la palanca más débil es el Control Diagnóstico: su propuesta debe incluir qué métricas ASG
+añadir al tablero de control de la dirección (las herramientas de sesiones 4-9 les ayudarán).
+
+Si la palanca más débil es el Control Interactivo: su propuesta debe incluir cómo instaurar
+un proceso de revisión estratégica que incluya incertidumbres de sostenibilidad.
+
+8. Glosario de Conceptos Clave — Sesión 3
+
+Término
+
+Definición
+
+Levers of Control
+
+Marco de Robert Simons (Harvard, 1995) que describe 4 sistemas de
+control que los directivos usan simultáneamente para implementar la
+estrategia y gestionar la tensión entre control y libertad.
+
+Sistema de Creencias
+
+Sistema de control positivo que comunica y refuerza valores, misión y
+propósito. Amplifica energía hacia oportunidades. Responde: ¿para
+qué existimos?
+
+Sistemas de Límites
+
+Sistema de control negativo que define comportamientos y riesgos
+inaceptables. Restringe el territorio de acción. Responde: ¿qué está
+absolutamente prohibido?
+
+Control Diagnóstico
+
+Sistema de control negativo que monitorea el progreso hacia objetivos
+estratégicos mediante Variables Críticas de Funcionamiento. El líder
+revisa por excepción. Responde: ¿lo estamos logrando?
+
+Control Interactivo
+
+Sistema de control positivo donde el líder se involucra personalmente
+en las incertidumbres estratégicas. Estimula aprendizaje y adaptación.
+Responde: ¿hacia dónde vamos y cómo nos adaptamos?
+
+Variables Críticas de
+Funcionamiento
+
+Las 3-5 métricas que, si fallan, ponen en riesgo el éxito de la
+estrategia. Son el corazón del Control Diagnóstico. Incluyen tanto
+métricas financieras como ASG.
+
+Incertidumbres
+Estratégicas
+
+Las variables del entorno que el líder no puede predecir ni controlar
+pero que pueden alterar la estrategia si no se gestionan. Son el
+corazón del Control Interactivo.
+
+Tensión Dinámica
+
+El equilibrio productivo entre las palancas positivas (expanden) y
+negativas (contraen). La salud estratégica de una organización
+depende de la calidad de esta tensión.
+
+Doble Materialidad
+
+Concepto que combina la perspectiva de cómo el entorno impacta a la
+empresa (materialidad financiera, usada en Control Diagnóstico) con
+cómo la empresa impacta al entorno (materialidad de impacto, usada
+en Sistemas de Límites).
+
+Pensamiento Integrado
+
+La práctica de gestionar y comunicar el valor de la organización
+considerando todos los capitales (<IR>), conectada con las 4 palancas
+de Simons: el Sistema de Creencias define los capitales prioritarios;
+los Sistemas de Límites los protegen; el Control Diagnóstico los mide;
+el Control Interactivo los adapta.
+
+9. Bibliografía y Recursos
+
+Referencia Principal de la Sesión
+•
+
+Simons, Robert. Levers of Control: How Managers Use Innovative Control Systems to Drive
+Strategic Renewal. Harvard Business School Press, 1995. ISBN: 9780875845593.
+
+•
+
+Información adicional: https://online.hbs.edu/blog/post/levers-of-control
+
+Informes Integrados Estudiados en Clase
+•
+
+Informe Anual Integrado Grupo BMV 2025. 'Evolución con Propósito'. Grupo Bolsa Mexicana de
+Valores. Marcos: <IR>, GRI, SASB, IFRS S1/S2.
+
+•
+
+Standard Bank Group Annual Integrated Report 2025. 'Africa is our home, we drive her growth'.
+SBG Limited, Johannesburgo, Sudáfrica. Marcos: <IR>, King IV, TCFD, GRI.
+
+Bibliografía Básica del Curso
+•
+
+El Marco Internacional <IR> Enero 2021. IFRS Foundation.
+
+•
+
+GRI 1, 2, 3 (2021). Global Reporting Initiative.
+
+•
+
+IFRS S1 / S2 (2023). IFRS Foundation.
+
+•
+
+Blocher, Stout, Juras, Smith. Cost Management: A Strategic Emphasis. 9a Ed. McGraw-Hill.
+
+Control y Gestión de Costos — CON 34122 — ITAM Maestría | Sesión 3 | Material de Referencia para Alumnos
+
+

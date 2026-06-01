@@ -1,0 +1,761 @@
+CONTROL Y GESTIÓN DE COSTOS
+CON 34122 • Maestría • ITAM
+
+MATERIAL DE REFERENCIA
+Sesión 5: Costeo por Órdenes de Trabajo
+Orlando Garciacano | Abril–Junio 2026
+
+"Cada proyecto tiene su historia de costos. El sistema de costeo por órdenes es el sistema que hace esa
+historia legible — para el productor ejecutivo de Disney, para el director de una firma de consultoría, y
+para el gerente de cualquier organización que entrega algo diferenciado a cada cliente."
+
+1. Objetivos de Aprendizaje
+•
+•
+•
+•
+•
+•
+
+Distinguir los sistemas de acumulación de costos y justificar cuándo aplica el costeo por órdenes
+en empresas de servicios.
+Construir una Hoja de Costos completa con MPD, MOD y GIF aplicado.
+Calcular la tasa predeterminada de GIF y aplicarla a órdenes específicas.
+Diagnosticar y registrar la sub-aplicación o sobre-aplicación de GIF.
+Identificar los costos ASG como 'GIF verde' — overhead real que hoy vive fuera del sistema de
+costeo convencional.
+Conectar el sistema de costeo por órdenes con el Control Diagnóstico de Simons.
+
+2. Sistemas de Acumulación de Costos: ¿Órdenes o
+Procesos?
+Pregunta de apertura
+Una producción de Disney como 'Inside Out 2' costó aproximadamente $200M. ¿Cómo sabe Disney
+exactamente cuánto le costó esa película vs. 'Deadpool & Wolverine', que salió el mismo año? ¿Cómo asigna
+los costos del estudio de animación, la electricidad y los sueldos del equipo técnico que trabajó en ambas
+simultáneamente? Esa es la pregunta central del Costeo por Órdenes.
+
+Existen tres tipos principales de sistemas de acumulación de costos:
+Sistema
+
+Cuándo se usa
+
+Ejemplos
+
+Por Órdenes (Job Order)
+
+Productos o servicios diferenciados
+— cada orden es única y justifica
+rastreo individual de costos
+
+Producción cinematográfica,
+construcción, consultoría, eventos,
+cirugías, software a medida
+
+Por Procesos (Process Costing)
+
+Producción homogénea en masa
+— todos los productos son iguales
+y se acumulan por departamento
+
+Refinerías, cemento, harina, papel,
+bebidas, productos químicos en
+masa
+
+Híbrido (Operation Costing)
+
+Producción en series con variantes
+— mismos procesos base pero
+productos con características
+diferentes
+
+Textil (mismo tejido, diferentes
+colores), automotriz (misma
+plataforma, diferentes versiones)
+
+Para empresas de servicios
+El costeo por órdenes aplica directamente en servicios: un banco costea cada crédito otorgado, una consultora
+cada proyecto, un hospital cada paciente, una firma de arquitectura cada edificio. La mecánica es idéntica a
+manufactura — solo cambian los nombres: MPD → insumos directos del servicio; MOD → labor directa del
+proyecto; GIF → overhead del servicio.
+
+3. La Hoja de Costos (Job Cost Sheet)
+La Hoja de Costos es el documento central del costeo por órdenes. Acumula los tres elementos del costo
+para cada orden específica, permitiendo conocer el costo acumulado en cualquier momento de la
+producción.
+Elemento del Costo
+
+¿Qué incluye?
+
+¿Cómo se registra?
+
+Ejemplo Disney — Producción
+Moana 2
+
+Materia Prima
+Directa (MPD)
+
+Insumos físicos
+identificables y
+cuantificables por
+orden
+
+Requisición de
+materiales: qué,
+cuánto, a qué precio
+
+Materiales de animación digital,
+escenografía, vestuario de
+actores reales, accesorios
+identificables al proyecto
+
+Mano de Obra
+Directa (MOD)
+
+Labor del personal que
+trabaja directamente
+en la orden,
+cuantificable por horas
+
+Time tickets o registros
+ERP por proyecto:
+quién, cuántas horas, a
+qué costo
+
+Horas de animadores, directores,
+actores de voz, compositores,
+especialistas en efectos visuales
+asignados a Moana 2
+
+GIF Aplicado
+
+Costos indirectos que
+no pueden asignarse
+directamente — se
+asignan mediante tasa
+predeterminada
+
+Tasa Predeterminada ×
+Base Real de la Orden
+
+Porción de electricidad del
+estudio Pixar, depreciación del
+software de animación, seguros
+del set, salarios de personal
+administrativo del estudio
+
+3.1 Modelo de Hoja de Costos
+HOJA DE COSTOS — Orden de Producción
+
+N° Orden: ______
+
+Descripción del proyecto/orden:
+
+________________________________
+
+Fecha inicio:
+______
+
+MATERIA PRIMA DIRECTA (MPD)
+Descripción
+
+Cantidad/Horas
+
+Monto
+$
+$
+
+MANO DE OBRA DIRECTA (MOD)
+Descripción
+
+Cantidad/Horas
+
+Monto
+$
+$
+
+GIF APLICADO
+Descripción
+
+Base Real × Tasa
+
+Monto
+$
+$
+
+COSTO TOTAL DE LA ORDEN
+
+$___________
+
+4. Los Gastos Indirectos de Fabricación (GIF) y la Tasa
+Predeterminada
+4.1 ¿Por qué no se puede asignar el GIF directamente?
+El GIF incluye todos los costos de producción que no son MPD ni MOD. El problema es que son costos
+COMPARTIDOS entre múltiples órdenes que corren simultáneamente — es imposible o muy costoso
+rastrearlos directamente a cada orden.
+
+Característica del GIF
+
+Consecuencia
+
+Compartido entre múltiples órdenes simultáneas
+
+No se puede asignar directamente sin un mecanismo
+de prorrateo
+
+Tiende a ser fijo (no cambia con unidades producidas)
+
+No varía proporcionalmente — difícil asignar por
+unidad
+
+Conocido solo al final del período
+
+No permite costear en tiempo real sin estimación
+previa
+
+Heterogéneo (incluye electricidad, depreciación,
+seguros, etc.)
+
+Imposible tracear, contar o cuantificar por orden
+individual
+
+La solución: Tasa Predeterminada
+En lugar de esperar a conocer los GIF reales (imposible durante la producción), se establece una tasa
+predeterminada al inicio del período que relaciona los GIF con alguna base de distribución observable y
+medible por orden. Esto permite costear cada orden en tiempo real y ajustar al cierre.
+
+4.2 Cálculo de la Tasa Predeterminada
+El proceso tiene 4 pasos que deben realizarse al INICIO del período (antes de que comience la
+producción):
+
+Paso
+
+Fórmula / Acción
+
+Ejemplo Disney (año FY2025)
+
+1. Estimar
+GIF Total
+
+GIF Total = GIF Fijo + GIF Variable y = a
++ b(x) donde a=GIF fijo, b=tasa variable,
+x=base
+
+GIF Fijo: $180M (depreciación, seguros, renta
+estudios) GIF Variable: $60/h-animador × 600,000 h
+est. GIF Total estimado: $216,000,000
+
+2. Elegir la
+Base de
+Distribución
+
+La variable que mejor explica el
+consumo de GIF. Debe ser medible por
+orden. Opciones: horas-MOD, horasmáquina, costo-MPD
+
+Disney elige: horas-animador (MOD) Son la base
+común a todas las producciones Total estimado:
+600,000 horas-animador para el año
+
+Paso
+
+Fórmula / Acción
+
+Ejemplo Disney (año FY2025)
+
+3. Calcular
+la Tasa
+
+Tasa = GIF Total Estimado ÷ Base
+Estimada
+
+$216,000,000 ÷ 600,000 h = $360 / hora-animador
+
+4. Aplicar
+durante el
+período
+
+GIF Aplicado a la Orden = Tasa × Base
+REAL de la Orden
+
+Moana 2 usó 95,000 h reales: GIF Aplicado = $360 ×
+95,000 = $34,200,000
+
+4.3 La Cuenta T de GIF Control
+La cuenta GIF Control es el corazón del sistema. Registra tanto los GIF reales como los aplicados,
+permitiendo identificar la diferencia al final del período.
+
+GIF CONTROL
+DÉBITO — GIF Reales Incurridos
+
+CRÉDITO — GIF Aplicado a Órdenes
+
+Se CARGA cada GIF real conforme ocurre:
+• Electricidad del estudio
+• Depreciación de software animación
+• Seguros del set
+• Salarios personal indirecto
+
+Se ABONA el GIF Aplicado a cada orden:
+Tasa × Base Real de cada Orden
+El saldo final determina:
+• Saldo deudor → SUB-APLICACIÓN
+• Saldo acreedor → SOBRE-APLICACIÓN
+
+4.4 Sub-Aplicación y Sobre-Aplicación de GIF
+SUB-APLICACIÓN
+
+SOBRE-APLICACIÓN
+
+¿Cuándo?
+
+GIF Real > GIF Aplicado
+
+GIF Real < GIF Aplicado
+
+Saldo en GIF Control
+
+Deudor (débito)
+
+Acreedor (crédito)
+
+Interpretación
+
+Los productos fueron SUBC-OSTEADOS
+— el sistema asignó menos GIF del real
+
+Los productos fueron SOBRECOSTEADOS — el sistema asignó más
+GIF del real
+
+Ajuste contable
+
+CARGO a Costo de Ventas (aumenta el
+costo)
+
+ABONO a Costo de Ventas (reduce el
+costo)
+
+Causa típica
+
+GIF reales más altos de lo estimado, o
+volumen real menor al estimado
+
+GIF reales menores, o volumen real
+mayor al estimado
+
+5. Multi-Tasas de GIF: Cuándo y Por Qué
+La tasa única de GIF asume que todos los departamentos o procesos consumen overhead de la misma
+manera. Cuando eso no es cierto, una multi-tasa (una tasa diferente por departamento o tipo de
+recurso) produce asignaciones más precisas.
+
+Criterio
+
+Tasa Única
+
+Multi-Tasa
+
+Precisión de asignación
+
+Menor — promedia todos los
+departamentos
+
+Mayor — diferencia el overhead
+por área
+
+Complejidad administrativa
+
+Baja — un solo cálculo
+
+Media — un cálculo por
+departamento
+
+Cuándo usar
+
+Departamentos homogéneos con
+overhead similar
+
+Departamentos con drivers de
+costo muy distintos (ej. manual vs.
+automatizado)
+
+Relación con ABC
+
+Antecedente — un driver por
+departamento
+
+ABC (Sesión 8) lleva esto al
+extremo: un driver por actividad
+
+Conexión con la Sesión 8 — Costeo ABC
+El Costeo ABC (Activity-Based Costing) es esencialmente una multi-tasa de GIF llevada a su nivel más granular:
+en lugar de una tasa por departamento, usa una tasa por actividad específica (ej. costo por orden de compra
+emitida, costo por inspección realizada, costo por kilómetro recorrido). El ABC resuelve el problema central del
+GIF: que una sola tasa puede distorsionar el costo de productos que consumen las actividades de manera muy
+diferente.
+
+6. El GIF Verde: Los Costos ASG como Overhead No
+Contabilizado
+Los costos ASG de Disney tienen la misma naturaleza indirecta que el GIF tradicional: no pueden
+asignarse directamente a una orden específica, son compartidos entre múltiples proyectos, y requieren
+una base de distribución para su asignación. La diferencia es que hoy viven en el Sustainability Report,
+no en el sistema de costeo.
+
+Costo ASG Disney FY2024
+
+Naturaleza
+
+¿Entra al GIF
+hoy?
+
+¿Cómo podría entrar?
+
+Energía eléctrica — tarifa
+pagada ($)
+
+Variable — sube
+con actividad
+
+SÍ — ya es GIF
+operativo
+
+Ya está incluido
+
+Créditos de carbono — costo
+de compra ($576,799)
+
+Variable con
+emisiones
+generadas
+
+SÍ — gasto
+financiero real
+
+Ya está incluido
+
+Costo del CO₂ emitido
+(921,163 ton × precio social
+del carbono)
+
+Indirecto,
+compartido por
+todas las
+producciones
+
+NO —
+externalidad
+
+Precio interno del carbono → GIF
+adicional por h-animador
+
+Agua — tarifa pagada (parte
+de infrastructure)
+
+Variable con
+afluencia
+
+SÍ — ya es GIF
+operativo
+
+Ya está incluido
+
+Agua — costo real del
+recurso natural (8.98B gal ×
+costo eco.)
+
+Indirecto a nivel
+empresa
+
+NO —
+externalidad
+
+Tasa de agua por unidad de producción
+
+Prima por energía renovable
+vs. convencional
+
+Diferencial de
+costo por
+decisión
+sostenible
+
+Parcial — solo el
+diferencial no
+siempre se
+separa
+
+GIF verde separado: 'tasa de
+sostenibilidad'
+
+Implicación para el Trabajo Final
+En su análisis de la empresa del trabajo final, identifique: (1) ¿qué costos ASG de su empresa ya entran al
+sistema de costeo? (2) ¿cuáles son externalidades que deberían entrar pero no entran? (3) ¿cómo cambiaría el
+costo de sus productos o servicios si se incorporara un precio interno del carbono o del agua? Esa brecha es la
+contribución más valiosa del pensamiento integrado al sistema de costos.
+
+7. Ejercicios de la Sesión
+Ejercicio 1 — Disney Entertainment (para resolver en clase)
+La División de Entretenimiento de Disney tiene los siguientes datos para FY2025:
+
+Concepto
+
+Monto estimado al inicio del período
+
+GIF Fijo estimado (estudios, depreciación software,
+seguros)
+
+$180,000,000
+
+GIF Variable estimado por hora-animador
+
+$60 por hora-animador
+
+Horas-animador estimadas para el año
+
+600,000 horas
+
+Horas-animador REALES al cierre del año
+
+580,000 horas
+
+GIF REALES incurridos al cierre
+
+$217,000,000
+
+Datos de dos producciones al cierre:
+Orden
+
+Horas-animador reales
+
+MPD
+
+MOD
+
+Orden 101 — Moana 2
+(secuela)
+
+95,000 horas
+
+$45,000,000
+
+$28,500,000
+
+Orden 102 — Proyecto
+Fantasía (nuevo IP)
+
+62,000 horas
+
+$29,000,000
+
+$18,600,000
+
+Calcule:
+•
+•
+•
+•
+•
+
+a) La tasa predeterminada de GIF para FY2025.
+b) La Hoja de Costos completa de las Órdenes 101 y 102 (MPD + MOD + GIF Aplicado = Costo
+Total).
+c) Si hay sub-aplicación o sobre-aplicación de GIF al cierre del período y por qué monto.
+d) El asiento de ajuste correspondiente.
+e) [Reflexión] Si Disney aplicara un precio interno del carbono de $50 por tonelada de CO₂,
+¿cuánto GIF adicional por hora-animador representaría? (Dato: Scope 1+2 = 921,163 ton
+anuales; base estimada = 600,000 h-animador)
+
+Ejercicio 2 — ArchitecturaMX (para resolver en clase)
+ArchitecturaMX es una firma de arquitectura y diseño sostenible con sede en la CDMX. Opera con un
+sistema de costeo por órdenes donde cada proyecto de diseño es una orden independiente.
+
+Concepto
+
+Monto estimado para FY2025
+
+GIF Fijo estimado (renta oficinas, depreciación
+software BIM, seguros, servicios IT)
+
+$2,400,000
+
+GIF Variable estimado por hora-arquitecto senior
+
+$80 por hora
+
+Horas de arquitecto senior estimadas para el año
+
+30,000 horas
+
+Horas de arquitecto senior REALES al cierre
+
+32,500 horas
+
+GIF REALES incurridos al cierre
+
+$5,180,000
+
+Tres proyectos activos durante FY2025:
+Proyecto
+
+Tipo
+
+Horas arq.
+senior reales
+
+Materiales
+directos
+
+Labor directa
+
+Proyecto A — Torre de
+oficinas LEED Platinum
+
+Comercial
+
+8,500 h
+
+$1,200,000
+
+$2,550,000
+
+Proyecto B — Conjunto
+habitacional asequible
+
+Social
+
+4,200 h
+
+$480,000
+
+$1,260,000
+
+Proyecto C — Museo de
+arte contemporáneo
+
+Cultural
+
+6,800 h
+
+$890,000
+
+$2,040,000
+
+Calcule:
+•
+•
+•
+•
+•
+
+a) La tasa predeterminada de GIF de ArchitecturaMX.
+b) La Hoja de Costos completa de los tres proyectos.
+c) El GIF aplicado total vs. el GIF real. ¿Hay sub o sobre-aplicación?
+d) El ajuste contable y su impacto en Costo de Ventas.
+e) [Reflexión ASG] El Proyecto A es una torre LEED Platinum que reduce el consumo de energía
+40% vs. convencional. ¿Cómo podría ArchitecturaMX incorporar el beneficio ambiental del
+proyecto como un 'activo de Capital Natural' en su sistema de costeo? ¿Qué marco usaría para
+sustentarlo?
+
+8. Glosario de Conceptos Clave — Sesión 5
+Término
+
+Definición
+
+Costeo por Órdenes
+
+Sistema donde cada orden/proyecto diferenciado es el objeto de costo. Los
+tres elementos (MPD, MOD, GIF) se acumulan individualmente por orden en
+una Hoja de Costos.
+
+Hoja de Costos
+
+Registro maestro de cada orden que acumula MPD, MOD y GIF aplicado. En
+Simons: VCF del Control Diagnóstico a nivel de proyecto.
+
+GIF (Gastos Indirectos de
+Fabricación)
+
+Todos los costos de producción que no son MPD ni MOD. Compartidos entre
+órdenes — requieren tasa predeterminada para su asignación.
+
+Tasa Predeterminada de GIF
+
+GIF Total Estimado ÷ Base de Distribución Estimada. Se calcula antes del
+período para poder costear en tiempo real.
+
+GIF Aplicado
+
+Tasa Predeterminada × Base Real de la Orden. Lo que se carga a cada orden
+durante el período.
+
+GIF Control
+
+Cuenta T que registra GIF Reales (débito) y GIF Aplicado (crédito). Su saldo es
+la sub o sobre-aplicación.
+
+Sub-Aplicación
+
+GIF Real > GIF Aplicado. Los productos fueron sub-costeados. Ajuste: cargo a
+Costo de Ventas.
+
+Sobre-Aplicación
+
+GIF Real < GIF Aplicado. Los productos fueron sobre-costeados. Ajuste: abono
+a Costo de Ventas.
+
+GIF Verde
+
+Costos ASG (emisiones de carbono, agua, energía) con naturaleza indirecta
+idéntica al GIF tradicional, pero invisibles en la contabilidad convencional.
+Visibles en el Sustainability Report.
+
+Multi-Tasa
+
+Una tasa de GIF diferente por departamento o proceso. Mayor precisión.
+Antecedente del Costeo ABC (Sesión 8).
+
+Base de Distribución (Cost
+Driver)
+
+Variable que explica el consumo de GIF, medible por orden (horas-MOD,
+horas-máquina, etc.). En ABC (S8) se usa un driver por actividad específica.
+
+9. Conexión con el Trabajo Final
+Componente del Trabajo Final
+
+Base que provee la Sesión 5
+
+Análisis del sistema de costeo
+actual de su empresa
+
+¿Usa costeo por órdenes, por procesos o ninguno? ¿Cuáles son los
+equivalentes de MPD, MOD y GIF en su empresa?
+
+Identificación de costos ASG
+relevantes
+
+¿Cuáles costos ASG de su empresa ya entran al sistema de costeo? ¿Cuáles
+son externalidades que deberían entrar como 'GIF verde'?
+
+Propuestas de mejora basadas en
+Levers of Control
+
+¿Cómo mejoraría el Control Diagnóstico de su empresa si las Hojas de
+Costos incluyeran métricas de Capital Natural? ¿Qué señal enviaría a los
+gerentes de proyecto?
+
+10. Bibliografía
+•
+•
+•
+•
+•
+
+Blocher, Stout, Juras, Smith. Cost Management: A Strategic Emphasis. 9a Ed. McGraw-Hill.
+Capítulo 5: Job Costing.
+The Walt Disney Company Annual Report FY2024. Walt Disney Company.
+The Walt Disney Company Sustainability & Social Impact Report FY2024.
+Simons, Robert. Levers of Control: How Managers Use Innovative Control Systems to Drive
+Strategic Renewal. Harvard Business School Press, 1995.
+El Marco Internacional <IR> Enero 2021. IFRS Foundation. integratedreporting.ifrs.org
+Control y Gestión de Costos — CON 34122 — ITAM Maestría | Sesión 5 | Material de Referencia
+
+
